@@ -27,3 +27,128 @@ PHPMyAdmin merupakan alat yang sangat berguna bagi pengembang web dan administra
 ![membuat database](ss/ss2.png)  
 3.	Mengisi 10 data film ke dalam table  
 ![membuat database](ss/ss3.png)  
+4.	Pada file .env kemarin cari baris database, lalu uncomment baris line 33 sampai 39. Kemudian konfigurasi seperti ini  
+![membuat database](ss/ss4.png) 
+5.	Membuat file model Filmmodel.php  
+```php
+<?php
+namespace App\Models;
+
+use CodeIgniter\Model;
+
+class FilmModel extends Model
+{
+    protected $table            = 'film';
+    protected $primaryKey       = 'id';
+    protected $useAutoIncrement = true;
+    protected $allowField       = [];
+
+    public function getAllData()
+    {
+        return $this->findAll();
+    }
+}
+
+
+```  
+•	protected $table = 'film'; : property ini mendeklarasikan tabel database yang digunakan oleh model.  
+•	protected $primaryKey = 'id'; : property ini mendeklarasikan kolom yang digunakan sebagai kunci primer dalam tabel.  
+•	protected $useAutoIncrement = true; : property ini menentukan apakah kunci primer adalah auto-increment atau tidak. Dalam hal ini, id adalah auto-increment.  
+•	protected $allowField = []; : property Ini mendeklarasikan field apa saja yang diperbolehkan untuk diisi ketika melakukan operasi insert atau update. Dalam hal ini, array tersebut kosong, yang berarti tidak ada field yang diizinkan untuk diisi, update, delete.  
+6.	Membuat file controller Film.php  
+```php
+<?php
+namespace App\Controllers;
+
+use App\Controllers\BaseController;
+use App\Models\FilmModel;
+
+class Film extends BaseController
+{
+    protected $film;
+
+    public function __construct()
+    {
+        $this->film = new FilmModel();
+    }
+
+    public function index()
+    {
+        $data['data_film'] = $this->film->getAllData();
+        return view("film/index", $data);
+    }
+}
+```  
+7.	Setelah membuat model dan controller nya sekarang buat file view nya index.php di folder view  
+```html
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Data Film</h1>
+    <table border="1" cellspacing="0" cellpadding="5">
+        <tr>
+            <th>No</th>
+            <th>Cover</th>
+            <th>Nama Film</th>
+            <th>Genre</th>
+            <th>Durasi</th>
+        </tr>
+        <?php $i = 1; ?>
+        <?php foreach ($data_film as $row) : ?>
+            <tr>
+                <td><?= $i++; ?></td>
+                <td><img width="50%" src="/assets/<?= $row['cover'] ?>" alt="" srcset=""></td>
+                <td><?= $row['nama_film'] ?></td>
+                <td><?= $row['genre'] ?></td>
+                <td><?= $row['duration'] ?></td>
+            </tr>
+        <?php endforeach; ?>
+    </table>
+</body>
+
+</html>
+```  
+kemudian akses https://localhost:8080/film/ dibrowser  
+![membuat database](ss/ss5.png)  
+8.	Menampilkan data berdasarkan Id dengan menggunakan fungsi find()  
+•	Tambahkan syntak ini ke dalam model Filmmodel.php  
+![membuat database](ss/ss6.png)  
+•	Kemudian tambahkan syntak ini ke dalam controller untuk dipanggil dengan dd  
+![membuat database](ss/ss7.png)  
+•	Kemudian akses http://localhost:8080/film/findById pada browser  
+![membuat database](ss/ss8.png)  
+9.	Menampilkan data dengan kondisi mencari kolom nama_film  
+•	Tambahkan syntak ini ke dalam model Filmmodel.php  
+![membuat database](ss/ss9.png)  
+•	Kemudian tambahkan syntak ini ke dalam controller untuk dipanggil dengan dd  
+![membuat database](ss/ss10.png)  
+•	Kemudian akses http://localhost:8080/film/findByName pada browser  
+![membuat database](ss/ss11.png)  
+10.	Menampilkan data menggunakan fungsi orderBy  
+•	Tambahkan syntak ini ke dalam model Filmmodel.php  
+![membuat database](ss/ss12.png)  
+•	Kemudian tambahkan syntak ini ke dalam controller untuk dipanggil dengan dd  
+![membuat database](ss/ss13.png)  
+•	Kemudian akses http://localhost:8080/film/findByOrder pada browser  
+![membuat database](ss/ss14.png)  
+11.	Menampilkan data dengan fungsi limit, fungsi ini membatasi jumlah data yang akan ditampilkan  
+•	Tambahkan syntak ini ke dalam model Filmmodel.php  
+![membuat database](ss/ss15.png)  
+•	Kemudian tambahkan syntak ini ke dalam controller untuk dipanggil dengan dd  
+![membuat database](ss/ss16.png) 
+•	Kemudian akses http://localhost:8080/film/findLimit pada browser  
+![membuat database](ss/ss17.png) 
+12.	Menampilkan data dengan fungsi builder, dengan fungsi ini kita dapat menampilkan data hanya untuk kolom tertentu  
+•	Tambahkan syntak ini ke dalam model Filmmodel.php  
+![membuat database](ss/ss18.png) 
+•	Kemudian tambahkan syntak ini ke dalam controller untuk dipanggil dengan dd  
+![membuat database](ss/ss19.png) 
+•	Kemudian akses http://localhost:8080/film/findColumn pada browser  
+![membuat database](ss/ss20.png)  
