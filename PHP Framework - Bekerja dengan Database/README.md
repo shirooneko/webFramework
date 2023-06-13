@@ -142,13 +142,103 @@ kemudian akses https://localhost:8080/film/ dibrowser
 •	Tambahkan syntak ini ke dalam model Filmmodel.php  
 ![membuat database](ss/ss15.png)  
 •	Kemudian tambahkan syntak ini ke dalam controller untuk dipanggil dengan dd  
-![membuat database](ss/ss16.png) 
+![membuat database](ss/ss16.png)  
 •	Kemudian akses http://localhost:8080/film/findLimit pada browser  
-![membuat database](ss/ss17.png) 
+![membuat database](ss/ss17.png)  
 12.	Menampilkan data dengan fungsi builder, dengan fungsi ini kita dapat menampilkan data hanya untuk kolom tertentu  
 •	Tambahkan syntak ini ke dalam model Filmmodel.php  
-![membuat database](ss/ss18.png) 
+![membuat database](ss/ss18.png)  
 •	Kemudian tambahkan syntak ini ke dalam controller untuk dipanggil dengan dd  
-![membuat database](ss/ss19.png) 
+![membuat database](ss/ss19.png)  
 •	Kemudian akses http://localhost:8080/film/findColumn pada browser  
-![membuat database](ss/ss20.png)  
+![membuat database](ss/ss20.png)   
+E. Tugas  
+1.	Buat table genre di database db_film kemudian isi datanya  
+![membuat database](ss/ss21.png)   
+![membuat database](ss/ss22.png)   
+2.	Menampilkan data genre di halaman html, jika untuk di menampilkan data film kita film/all untuk menampilkan data genre aksesnya adalah genre/all  
+•	Buat file model GenreModel.php  
+```<?php
+
+namespace App\Models;
+
+use CodeIgniter\Model;
+
+class GenreModel extends Model
+{
+    protected $table            = 'genre';
+    protected $primaryKey       = 'id_genre';
+    protected $useAutoIncrement = true;
+    protected $allowField       = [];
+
+    //fungsi untuk menampilkan semua data dalam table
+    public function getAllData()
+    {
+        return $this->findAll();
+    }
+}
+```  
+•	Buat file controller Genre.php  
+```<?php
+
+namespace App\Controllers;
+
+use App\Controllers\BaseController;
+
+use App\Models\GenreModel;
+
+class Genre extends BaseController
+{
+    protected $genre;
+
+    public function __construct()
+    {
+        $this->genre = new GenreModel();
+    }
+
+    public function all()
+    {
+        $data['genre'] = $this->genre->getAllData();
+        return view("film/genre", $data);
+    }
+}
+```  
+•	Membuat view di di folder view/genre.php  
+```<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Data Film</h1>
+    <table border="1" cellspacing="0" cellpadding="5">
+        <tr>
+            <th>No</th>
+            <th>Nama genre</th>
+            <th>Dibuat</th>
+            <th>Diupdate</th>
+        </tr>
+        <?php $i = 1; ?>
+        <?php foreach ($genre as $row) : ?>
+            <tr>
+                <td><?= $i++; ?></td>
+                <td><?php echo $row['nama_genre'] ?></td>
+                <td><?php echo $row['created_at'] ?></td>
+                <td><?= $row['updated_at'] ?></td>
+            </tr>
+        <?php endforeach; ?>
+    </table>
+</body>
+
+</html>
+```  
+•	Kemudian akses http://localhost:8080/genre/all di browser  
+![membuat database](ss/ss23.png)   
+3.	Kemudian ubah tabel film pada kolom genre menjadi id_genre, isi datanya sesuai dengan data pada tabel genre  
+![membuat database](ss/ss24.png)   
+4.	saat menjalankan film/all pastikan tidak ada error, artinya codingya harus disesuaikan karena menganti genre manjadi id genre.   
+![membuat database](ss/ss25.png)   
