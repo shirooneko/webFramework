@@ -20,4 +20,10 @@ PHPMyAdmin adalah aplikasi berbasis web yang digunakan untuk mengelola dan menge
 6.	Visualisasi Data dan Manipulasi: PHPMyAdmin menyediakan tampilan tabel yang intuitif dan fitur pencarian yang kuat. Pengguna dapat melihat dan memanipulasi data dalam tabel dengan mudah, termasuk mengurutkan, menyaring, dan mengedit data. Fitur visualisasi ini membantu pengguna dalam menganalisis dan memahami isi basis data.  
 7.	Pemeliharaan dan Optimisasi Basis Data: PHPMyAdmin menyediakan fitur pemeliharaan dan optimisasi basis data. Pengguna dapat memperbaiki tabel yang rusak, mengoptimalkan struktur tabel, menganalisis kinerja query, dan mengatur pengaturan server MySQL. Fitur ini membantu pengguna dalam menjaga kinerja dan keandalan basis data.  
 PHPMyAdmin merupakan alat yang sangat berguna bagi pengembang web dan administrator basis data. Dengan antarmuka yang intuitif dan fitur-fitur yang lengkap, PHPMyAdmin memudahkan pengguna dalam mengelola, mengatur, dan memanipulasi basis data MySQL dengan efisien.  
-## D. Hasil dan Pembahasan
+## D. Hasil dan Pembahasan  
+1.	Membuat database di phpMyAdmin db_film  
+![membuat database](ss/ss1.png)  
+2.	Membuat table Bernama film dengan jumlah 7 colom  
+![membuat database](ss/ss2.png)  
+3.	Mengisi 10 data film ke dalam table  
+![membuat database](ss/ss3.png)  
