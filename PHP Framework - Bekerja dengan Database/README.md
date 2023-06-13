@@ -138,3 +138,17 @@ kemudian akses https://localhost:8080/film/ dibrowser
 ![membuat database](ss/ss13.png)  
 •	Kemudian akses http://localhost:8080/film/findByOrder pada browser  
 ![membuat database](ss/ss14.png)  
+11.	Menampilkan data dengan fungsi limit, fungsi ini membatasi jumlah data yang akan ditampilkan  
+•	Tambahkan syntak ini ke dalam model Filmmodel.php  
+![membuat database](ss/ss15.png)  
+•	Kemudian tambahkan syntak ini ke dalam controller untuk dipanggil dengan dd  
+![membuat database](ss/ss16.png) 
+•	Kemudian akses http://localhost:8080/film/findLimit pada browser  
+![membuat database](ss/ss17.png) 
+12.	Menampilkan data dengan fungsi builder, dengan fungsi ini kita dapat menampilkan data hanya untuk kolom tertentu  
+•	Tambahkan syntak ini ke dalam model Filmmodel.php  
+![membuat database](ss/ss18.png) 
+•	Kemudian tambahkan syntak ini ke dalam controller untuk dipanggil dengan dd  
+![membuat database](ss/ss19.png) 
+•	Kemudian akses http://localhost:8080/film/findColumn pada browser  
+![membuat database](ss/ss20.png)  
