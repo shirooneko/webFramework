@@ -158,7 +158,8 @@ E. Tugas
 ![membuat database](ss/ss22.png)   
 2.	Menampilkan data genre di halaman html, jika untuk di menampilkan data film kita film/all untuk menampilkan data genre aksesnya adalah genre/all  
 •	Buat file model GenreModel.php  
-```<?php
+```php
+<?php
 
 namespace App\Models;
 
@@ -179,7 +180,8 @@ class GenreModel extends Model
 }
 ```  
 •	Buat file controller Genre.php  
-```<?php
+```php
+<?php
 
 namespace App\Controllers;
 
@@ -204,7 +206,8 @@ class Genre extends BaseController
 }
 ```  
 •	Membuat view di di folder view/genre.php  
-```<html lang="en">
+```php
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
