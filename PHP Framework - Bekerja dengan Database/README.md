@@ -10,8 +10,8 @@ Setelah praktikum ini, praktikan diharapkan dapat:
 4.	WPS Office  
 5.	Code  
 ## C. Landasan teori  
-A.	Database mySQL phpmyadmin
-PHPMyAdmin adalah aplikasi berbasis web yang digunakan untuk mengelola dan mengelola basis data MySQL melalui antarmuka grafis yang intuitif. Dibangun dengan menggunakan bahasa pemrograman PHP, PHPMyAdmin menyediakan berbagai fitur yang memudahkan pengguna dalam melakukan tugas administrasi pada basis data.  
+A.	Database mySQL phpmyadmin  
+`PHPMyAdmin adalah aplikasi berbasis web yang digunakan untuk mengelola dan mengelola basis data MySQL melalui antarmuka grafis yang intuitif. Dibangun dengan menggunakan bahasa pemrograman PHP, PHPMyAdmin menyediakan berbagai fitur yang memudahkan pengguna dalam melakukan tugas administrasi pada basis data.  `
 1.	Antarmuka Pengguna yang Intuitif: PHPMyAdmin memiliki antarmuka pengguna yang mudah dipahami dan mudah digunakan. Melalui antarmuka ini, pengguna dapat mengakses dan mengelola basis data MySQL dengan cepat dan efisien. Pengguna dapat menjelajahi struktur tabel, mengedit data, menjalankan query SQL, dan melakukan tugas administrasi lainnya dengan mudah.  
 2.	Manajemen Tabel: Dalam PHPMyAdmin, pengguna dapat membuat, mengubah, dan menghapus tabel dalam basis data MySQL. Pengguna dapat mendefinisikan kolom-kolom tabel, tipe data, konstrain, dan indeks yang diperlukan. Fitur ini memungkinkan pengguna untuk dengan mudah merancang dan mengatur struktur tabel sesuai dengan kebutuhan aplikasi.  
 3.	Eksekusi Query SQL: PHPMyAdmin menyediakan antarmuka untuk mengeksekusi query SQL langsung. Pengguna dapat menulis perintah SQL untuk membuat, mengubah, dan menghapus data dalam tabel. Hal ini memungkinkan pengguna untuk memiliki kontrol penuh atas manipulasi data dan operasi basis data.  
