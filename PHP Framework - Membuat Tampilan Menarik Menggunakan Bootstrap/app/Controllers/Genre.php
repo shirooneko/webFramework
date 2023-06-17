@@ -15,9 +15,9 @@ class Genre extends BaseController
         $this->genre = new GenreModel();
     }
 
-    public function all()
+    public function index()
     {
         $data['genre'] = $this->genre->getAllData();
-        return view("film/genre", $data);
+        return view("genre/index", $data);
     }
 }

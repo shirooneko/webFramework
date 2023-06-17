@@ -21,6 +21,11 @@ class Film extends BaseController
         return view("film/table", $data);
     }
 
+    public function genre(){
+        $data['dataFilm'] = $this->film->getAllDataJoin();
+        return view("film/genre", $data);
+    }
+
     public function all()
     {
         $data['data_film'] = $this->film->getAllDataJoin();

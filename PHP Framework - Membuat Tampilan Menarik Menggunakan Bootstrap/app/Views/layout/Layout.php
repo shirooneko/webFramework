@@ -28,7 +28,7 @@
                         <a class="nav-link" href="/genre">Kategori Film</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="/about">Tentang Kami</a>
+                        <a class="nav-link" href="/aboutMe">Tentang Kami</a>
                     </li>
                 </ul>
             </div>
