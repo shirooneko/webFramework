@@ -1,47 +1,43 @@
-# PHP_Framework-Bekerja_dengan_Database
+# PHP Framework - Membuat Tampilan Menarik Menggunakan Bootstrap
 ## A. Tujuan (Capaian Pembelajaran)
 Setelah praktikum ini, praktikan diharapkan dapat:  
-1.	Mampu menginstal codeigniter  
-2.	Mengenal php framework  
+1.	Mengerti dan mengimplementasikan Bootstrap dalam tampilan web.  
+2.	Merancang tampilan web yang responsif menggunakan Bootstrap. 
 ## B. Peralatan yang digunakan  
-1.	Arch Linux  
-2.	Codeigniter 4  
-3.	Xampp  
-4.	WPS Office  
-5.	Code  
-## C. Landasan teori  
-A.	Database mySQL phpmyadmin
-PHPMyAdmin adalah aplikasi berbasis web yang digunakan untuk mengelola dan mengelola basis data MySQL melalui antarmuka grafis yang intuitif. Dibangun dengan menggunakan bahasa pemrograman PHP, PHPMyAdmin menyediakan berbagai fitur yang memudahkan pengguna dalam melakukan tugas administrasi pada basis data.  
-1.	Antarmuka Pengguna yang Intuitif: PHPMyAdmin memiliki antarmuka pengguna yang mudah dipahami dan mudah digunakan. Melalui antarmuka ini, pengguna dapat mengakses dan mengelola basis data MySQL dengan cepat dan efisien. Pengguna dapat menjelajahi struktur tabel, mengedit data, menjalankan query SQL, dan melakukan tugas administrasi lainnya dengan mudah.  
-2.	Manajemen Tabel: Dalam PHPMyAdmin, pengguna dapat membuat, mengubah, dan menghapus tabel dalam basis data MySQL. Pengguna dapat mendefinisikan kolom-kolom tabel, tipe data, konstrain, dan indeks yang diperlukan. Fitur ini memungkinkan pengguna untuk dengan mudah merancang dan mengatur struktur tabel sesuai dengan kebutuhan aplikasi.  
-3.	Eksekusi Query SQL: PHPMyAdmin menyediakan antarmuka untuk mengeksekusi query SQL langsung. Pengguna dapat menulis perintah SQL untuk membuat, mengubah, dan menghapus data dalam tabel. Hal ini memungkinkan pengguna untuk memiliki kontrol penuh atas manipulasi data dan operasi basis data.  
-4.	Impor dan Ekspor Data: PHPMyAdmin memungkinkan pengguna untuk mengimpor dan mengekspor data dalam berbagai format. Pengguna dapat mengimpor data dari file eksternal ke dalam basis data MySQL, serta mengekspor data dari tabel atau seluruh basis data ke file eksternal. Fitur ini sangat membantu dalam mentransfer data antara basis data, melakukan backup, dan mengintegrasikan dengan alat atau aplikasi lain.  
-5.	Pengelolaan Pengguna dan Hak Akses: PHPMyAdmin memungkinkan pengguna untuk membuat, mengubah, dan menghapus pengguna dalam basis data MySQL. Pengguna juga dapat mengatur hak akses untuk masing-masing pengguna, termasuk hak akses untuk tabel-tabel tertentu. Fitur ini memungkinkan pengguna untuk mengelola keamanan dan kontrol akses basis data.  
-6.	Visualisasi Data dan Manipulasi: PHPMyAdmin menyediakan tampilan tabel yang intuitif dan fitur pencarian yang kuat. Pengguna dapat melihat dan memanipulasi data dalam tabel dengan mudah, termasuk mengurutkan, menyaring, dan mengedit data. Fitur visualisasi ini membantu pengguna dalam menganalisis dan memahami isi basis data.  
-7.	Pemeliharaan dan Optimisasi Basis Data: PHPMyAdmin menyediakan fitur pemeliharaan dan optimisasi basis data. Pengguna dapat memperbaiki tabel yang rusak, mengoptimalkan struktur tabel, menganalisis kinerja query, dan mengatur pengaturan server MySQL. Fitur ini membantu pengguna dalam menjaga kinerja dan keandalan basis data.  
-PHPMyAdmin merupakan alat yang sangat berguna bagi pengembang web dan administrator basis data. Dengan antarmuka yang intuitif dan fitur-fitur yang lengkap, PHPMyAdmin memudahkan pengguna dalam mengelola, mengatur, dan memanipulasi basis data MySQL dengan efisien.  
-## D. Hasil dan Pembahasan  
-1.	Membuat database di phpMyAdmin db_film  
+1.	Web Editor : Visual Studio Code  
+2.	Web Browser : Google Chrome  
+3.	OS PC : Arch Linux  
+4.	XAMPP : versi 8.2  
+5.	CodeIgniter : 4.1.1  
+## C. Hasil dan Pembahasan  
+1.	Pertama ubah terlebih dahulu default route ubah pada file ``Routes`` di folder ```config```  
 ![membuat database](ss/ss1.png)  
-2.	Membuat table Bernama film dengan jumlah 7 colom  
-![membuat database](ss/ss2.png)  
-3.	Mengisi 10 data film ke dalam table  
-![membuat database](ss/ss3.png)  
-4.	Pada file .env kemarin cari baris database, lalu uncomment baris line 33 sampai 39. Kemudian konfigurasi seperti ini  
-![membuat database](ss/ss4.png) 
-5.	Membuat file model Filmmodel.php  
+Setelah kemarin kita sudah membuat table genre dan juga sudah menggantikan colom 
+genre pada table film menjadi `id_genre` selanjutnya kita akan melakukan `join` pada 
+kedua table tersebut  
+2.	Kita buat function `getAllDataJoin` di file model film 
 ```php
 <?php
+
 namespace App\Models;
 
 use CodeIgniter\Model;
 
 class FilmModel extends Model
 {
-    protected $table            = 'film';
-    protected $primaryKey       = 'id';
+    protected $table = 'film';
+    protected $primaryKey = 'id';
     protected $useAutoIncrement = true;
-    protected $allowField       = [];
+    protected $allowedFields = [];
+
+    public function getAllDataJoin()
+    {
+        $query = $this->db->table("film")
+            ->select("film.*, genre.nama_genre")
+            ->join("genre", "genre.id_genre = film.id_genre");
+
+        return $query->get()->getResultArray();
+    }
 
     public function getAllData()
     {
@@ -49,15 +45,18 @@ class FilmModel extends Model
     }
 }
 
-
 ```  
-•	protected $table = 'film'; : property ini mendeklarasikan tabel database yang digunakan oleh model.  
-•	protected $primaryKey = 'id'; : property ini mendeklarasikan kolom yang digunakan sebagai kunci primer dalam tabel.  
-•	protected $useAutoIncrement = true; : property ini menentukan apakah kunci primer adalah auto-increment atau tidak. Dalam hal ini, id adalah auto-increment.  
-•	protected $allowField = []; : property Ini mendeklarasikan field apa saja yang diperbolehkan untuk diisi ketika melakukan operasi insert atau update. Dalam hal ini, array tersebut kosong, yang berarti tidak ada field yang diizinkan untuk diisi, update, delete.  
-6.	Membuat file controller Film.php  
-```php
+Fungsi `getAllDataJoin()` ini bertugas untuk mengambil semua data dari tabel film dan 
+menggabungkannya dengan data dari tabel genre berdasarkan `id_genre`. Jadi, jika kita 
+memiliki film dan genre film dalam database kita, fungsi ini akan mengumpulkan 
+semua informasi tersebut dan menggabungkannya menjadi satu. Hasilnya, kita akan 
+mendapatkan daftar film lengkap dengan genre masing-masing dalam bentuk array.
+
+3.	Setelah itu ubah function method `all` menjadi seperti ini pada file Controller `Film` 
+nya menjadi seperti ini
+ ```php
 <?php
+
 namespace App\Controllers;
 
 use App\Controllers\BaseController;
@@ -74,47 +73,72 @@ class Film extends BaseController
 
     public function index()
     {
-        $data['data_film'] = $this->film->getAllData();
+        $data['dataFilm'] = $this->film->getAllDataJoin();
+        return view("film/table", $data);
+    }
+
+    public function all()
+    {
+        $data['data_film'] = $this->film->getAllDataJoin();
         return view("film/index", $data);
     }
 }
+
 ```  
-7.	Setelah membuat model dan controller nya sekarang buat file view nya index.php di folder view  
+Method `all()` ini bekerja untuk mengumpulkan semua data film beserta genre masing-masing dari database `(melalui fungsi getAllDataJoin())`, lalu menampilkan data tersebut 
+di halaman `film/index`.  
+4.	Setelah melakukan konfigurasi seperti diatas sekarng kita akan menggunakan bootraps 5 untuk mempercantik tampilan dan lebih resposnsive. Pertaman download terlebih dahulu bootsraps 5 nya di  https://getbootstrap.com/docs/5.0/getting-started/download  
+![membuat database](ss/ss4.png)  
+5.	Setelah di download ektrak file nya kemudian copy folder css dan js ke folder `public->assets`. Setelah itu pada file index yang ada di `views` film kita hubungkan ke file css dari bootraps dan javacript nya   
+![membuat database](ss/ss5.png)  
+6.	Setelah itu kita akan membuat `navbar`, kita bias mencarinya di dokumentasi bootsraps 5 dengan cara mengetikan `navbar` kemudian cari navbar sesuai selera, copy code nya kemudian pastekan ke file php `index`  
+![membuat database](ss/ss6.png)  
+Lalu kita edit sesuai selera, untuk pengeditan kita bias membaca lebih lanjut dokumentasi dari bootrsaps  
+berikut adalah source code `index.php`  
 ```html
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LK27</title>
+  <link rel="stylesheet" href="/assets/css/bootstrap.min.css">
 </head>
-
 <body>
-    <h1>Data Film</h1>
-    <table border="1" cellspacing="0" cellpadding="5">
-        <tr>
-            <th>No</th>
-            <th>Cover</th>
-            <th>Nama Film</th>
-            <th>Genre</th>
-            <th>Durasi</th>
-        </tr>
-        <?php $i = 1; ?>
-        <?php foreach ($data_film as $row) : ?>
-            <tr>
-                <td><?= $i++; ?></td>
-                <td><img width="50%" src="/assets/<?= $row['cover'] ?>" alt="" srcset=""></td>
-                <td><?= $row['nama_film'] ?></td>
-                <td><?= $row['genre'] ?></td>
-                <td><?= $row['duration'] ?></td>
-            </tr>
-        <?php endforeach; ?>
-    </table>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">LK27</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="/">Beranda</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/film">Semua Film</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Kategori Film</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Tentang Kami</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <script src="/assets/js/bootstrap.js"></script>
+  <script src="/assets/js/bootstrap.min.js"></script>
 </body>
-
 </html>
 ```  
+Kemudian akses https://localhost:8080 dan ini hasilnya  
+7.	Setelah berhasil membuat navbar selanjutnya kita akan menampilkan data film menggunakan style card yang ada di bootraps. Setelah tanda tutup nav ketikan kode html seperti ini  
+div dengan kelas container yang berfungsi sebagai wadah utama. Di dalam container ini, ada sebuah judul (h1) dengan teks "Daftar Film" yang ditempatkan di tengah (text-center) dan memiliki font weight bold (fw-bold). Judul ini juga memiliki margin atas dan bawah (mt-3 mb-3) untuk memberi jarak dari elemen lain. Selanjutnya, ada div lain dengan kelas row, yang digunakan untuk menampung kolom-kolom dalam layout grid Bootstrap. Di dalam row ini, ada div dengan kelas col-md-4 yang berarti bahwa kolom ini akan mengambil 4 dari 12 kolom tersedia pada layar medium (md) dan lebih besar. 
+Selanjutnya copy kode card dari bootraps  
 kemudian akses https://localhost:8080/film/ dibrowser  
 ![membuat database](ss/ss5.png)  
 8.	Menampilkan data berdasarkan Id dengan menggunakan fungsi find()  
