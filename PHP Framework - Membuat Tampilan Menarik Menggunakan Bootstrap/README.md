@@ -1,8 +1,8 @@
-# PHP_Framework-Bekerja_dengan_Database
+# PHP Framework - Membuat Tampilan Menarik Menggunakan Bootstrap
 ## A. Tujuan (Capaian Pembelajaran)
 Setelah praktikum ini, praktikan diharapkan dapat:  
-1.	Mampu menginstal codeigniter  
-2.	Mengenal php framework  
+1.	Mengerti dan mengimplementasikan Bootstrap dalam tampilan web.  
+2.	Merancang tampilan web yang responsif menggunakan Bootstrap. 
 ## B. Peralatan yang digunakan  
 1.	Arch Linux  
 2.	Codeigniter 4  
