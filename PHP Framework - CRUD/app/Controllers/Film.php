@@ -32,28 +32,7 @@ class Film extends BaseController
         return view("film/index", $data);
     }
 
-    public function findById()
-    {
-        dd($this->film->getDataById(1));
-    }
-
-    public function findByName()
-    {
-        dd($this->film->getDataBy('suzume'));
-    }
-
-    public function findByOrder()
-    {
-        dd($this->film->getOrderBy());
-    }
-
-    public function findLimit()
-    {
-        dd($this->film->getLimit());
-    }
-
-    public function findColumn()
-    {
-        dd($this->film->getFilmGenre());
+    public function add() {
+        return view("film/add");
     }
 }
