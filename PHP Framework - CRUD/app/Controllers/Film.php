@@ -66,7 +66,7 @@ class Film extends BaseController
                 ]
             ],
             'cover' => [
-                'rules' => 'uploaded[cover]|mime_in[cover,image/jpg,image/jpeg,image/png]|max_size[cover,2048]',
+                'rules' => 'uploaded[cover]|mime_in[cover,image/jpg,image/jpeg,image/webp,image/png]|max_size[cover,2048]',
                 'errors' => [
                     'uploaded' => 'Kolom Cover harus berisi File',
                     'mime_in' => 'Tipe file pada kolom harus berupa JPG, JPEG, PNG',
@@ -95,6 +95,7 @@ class Film extends BaseController
             'cover' => $imageName,
         ];
         $this->film->save($data);
+        session()->setFlashdata('success', 'Data berhasil disimpan.');
         return redirect()->to("/film");
     }
 }
