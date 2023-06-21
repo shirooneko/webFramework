@@ -39,7 +39,12 @@
         <?= $this->renderSection('content') ?>
     </div>
 
+    <footer id="sticky-footer" class="bg-dark text-center text-white p-3 mt-5">
+        &copy  <script>document.write(new Date().getFullYear())</script> Muhammad Apriyansyah
+    </footer>
+
     <script src="/assets/js/bootstrap.min.js"></script>
+    <script src="/assets/js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>
