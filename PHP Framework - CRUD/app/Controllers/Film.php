@@ -16,12 +16,14 @@ class Film extends BaseController
         $this->film = new FilmModel();
     }
 
-    public function index(){
+    public function index()
+    {
         $data['dataFilm'] = $this->film->getAllDataJoin();
         return view("film/table", $data);
     }
 
-    public function genre(){
+    public function genre()
+    {
         $data['dataFilm'] = $this->film->getAllDataJoin();
         return view("film/genre", $data);
     }
@@ -32,7 +34,8 @@ class Film extends BaseController
         return view("film/index", $data);
     }
 
-    public function add() {
+    public function add() 
+    {
         return view("film/add");
     }
 }
