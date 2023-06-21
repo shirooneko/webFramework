@@ -19,21 +19,26 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="/">Beranda</a>
+                        <a class="nav-link" href="/">Beranda</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="/film">Semua Film</a>
+                        <a class="nav-link " href="/film">Semua Film</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="/genre">Kategori Film</a>
+                        <a class="nav-link " href="/genre">Kategori Film</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="/aboutMe">Tentang Kami</a>
+                        <a class="nav-link " href="/aboutMe">Tentang Kami</a>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
+
+    <div class="container">
+        <?= $this->renderSection('content') ?>
+    </div>
+
 
     <div class="container">
         <?= $this->renderSection('content') ?>
