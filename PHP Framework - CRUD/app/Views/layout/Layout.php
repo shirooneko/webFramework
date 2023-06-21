@@ -20,16 +20,17 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="/">Beranda</a>
+                        <a class="nav-link <?php if (uri_string() == '') echo 'active'; ?>" aria-current="page" href="/">Beranda</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="/film">Semua Film</a>
+                        <a class="nav-link <?php if (uri_string() == 'film') echo 'active'; ?>" href="/film">Semua Film</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link <?php if (uri_string() == 'genre') echo 'active'; ?>" href="/genre">Kategori Film</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="/genre">Kategori Film</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="/aboutMe">Tentang Kami</a>
+                        <a class="nav-link <?php if (uri_string() == 'aboutMe') echo 'active'; ?>" href="/aboutMe">Tentang Kami</a>
                     </li>
                 </ul>
             </div>
@@ -41,7 +42,9 @@
     </div>
 
     <footer id="sticky-footer" class="bg-dark text-center text-white p-3 mt-5">
-        &copy  <script>document.write(new Date().getFullYear())</script> Muhammad Apriyansyah
+        &copy <script>
+            document.write(new Date().getFullYear())
+        </script> Muhammad Apriyansyah
     </footer>
 
     <script src="/assets/js/bootstrap.min.js"></script>
