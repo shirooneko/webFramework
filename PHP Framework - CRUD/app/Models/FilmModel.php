@@ -9,7 +9,7 @@ class FilmModel extends Model
     protected $table            = 'film';
     protected $primaryKey       = 'id';
     protected $useAutoIncrement = true;
-    protected $allowField       = [];
+    protected $allowedFields      = ['nama_film', 'id_genre', 'duration', 'cover'];
 
     public function getAllDataJoin(){
         $query = $this->db->table("film")
