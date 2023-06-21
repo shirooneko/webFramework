@@ -1,0 +1,184 @@
+ERROR - 2023-06-11 16:46:23 --> Error connecting to the database: mysqli_sql_exception: No such file or directory in /run/media/shirooneko/shiroo disk/MI4B/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:173
+Stack trace:
+#0 /run/media/shirooneko/shiroo disk/MI4B/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(173): mysqli->real_connect()
+#1 /run/media/shirooneko/shiroo disk/MI4B/vendor/codeigniter4/framework/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /run/media/shirooneko/shiroo disk/MI4B/vendor/codeigniter4/framework/system/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 /run/media/shirooneko/shiroo disk/MI4B/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#4 /run/media/shirooneko/shiroo disk/MI4B/vendor/codeigniter4/framework/system/Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 /run/media/shirooneko/shiroo disk/MI4B/vendor/codeigniter4/framework/system/BaseModel.php(618): CodeIgniter\Model->doFindAll()
+#6 /run/media/shirooneko/shiroo disk/MI4B/app/Models/FilmModel.php(51): CodeIgniter\BaseModel->findAll()
+#7 /run/media/shirooneko/shiroo disk/MI4B/app/Controllers/Film.php(25): App\Models\FilmModel->getAllData()
+#8 /run/media/shirooneko/shiroo disk/MI4B/vendor/codeigniter4/framework/system/CodeIgniter.php(934): App\Controllers\Film->all()
+#9 /run/media/shirooneko/shiroo disk/MI4B/vendor/codeigniter4/framework/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#10 /run/media/shirooneko/shiroo disk/MI4B/vendor/codeigniter4/framework/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#11 /run/media/shirooneko/shiroo disk/MI4B/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#12 /run/media/shirooneko/shiroo disk/MI4B/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(47): require_once('...')
+#13 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No such file or directory in /run/media/shirooneko/shiroo disk/MI4B/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:218
+Stack trace:
+#0 /run/media/shirooneko/shiroo disk/MI4B/vendor/codeigniter4/framework/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /run/media/shirooneko/shiroo disk/MI4B/vendor/codeigniter4/framework/system/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 /run/media/shirooneko/shiroo disk/MI4B/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#3 /run/media/shirooneko/shiroo disk/MI4B/vendor/codeigniter4/framework/system/Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#4 /run/media/shirooneko/shiroo disk/MI4B/vendor/codeigniter4/framework/system/BaseModel.php(618): CodeIgniter\Model->doFindAll()
+#5 /run/media/shirooneko/shiroo disk/MI4B/app/Models/FilmModel.php(51): CodeIgniter\BaseModel->findAll()
+#6 /run/media/shirooneko/shiroo disk/MI4B/app/Controllers/Film.php(25): App\Models\FilmModel->getAllData()
+#7 /run/media/shirooneko/shiroo disk/MI4B/vendor/codeigniter4/framework/system/CodeIgniter.php(934): App\Controllers\Film->all()
+#8 /run/media/shirooneko/shiroo disk/MI4B/vendor/codeigniter4/framework/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#9 /run/media/shirooneko/shiroo disk/MI4B/vendor/codeigniter4/framework/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#10 /run/media/shirooneko/shiroo disk/MI4B/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#11 /run/media/shirooneko/shiroo disk/MI4B/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(47): require_once('...')
+#12 {main}
+CRITICAL - 2023-06-11 16:46:23 --> Unable to connect to the database.
+Main connection [MySQLi]: No such file or directory
+in SYSTEMPATH/Database/BaseConnection.php on line 427.
+ 1 SYSTEMPATH/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+ 3 SYSTEMPATH/Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/BaseModel.php(618): CodeIgniter\Model->doFindAll()
+ 5 APPPATH/Models/FilmModel.php(51): CodeIgniter\BaseModel->findAll()
+ 6 APPPATH/Controllers/Film.php(25): App\Models\FilmModel->getAllData()
+ 7 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Film->all()
+ 8 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/run/media/shirooneko/shiroo disk/MI4B/public/index.php')
+ERROR - 2023-06-11 16:47:02 --> Error connecting to the database: mysqli_sql_exception: No such file or directory in /run/media/shirooneko/shiroo disk/MI4B/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:173
+Stack trace:
+#0 /run/media/shirooneko/shiroo disk/MI4B/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(173): mysqli->real_connect()
+#1 /run/media/shirooneko/shiroo disk/MI4B/vendor/codeigniter4/framework/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /run/media/shirooneko/shiroo disk/MI4B/vendor/codeigniter4/framework/system/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 /run/media/shirooneko/shiroo disk/MI4B/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#4 /run/media/shirooneko/shiroo disk/MI4B/vendor/codeigniter4/framework/system/Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 /run/media/shirooneko/shiroo disk/MI4B/vendor/codeigniter4/framework/system/BaseModel.php(618): CodeIgniter\Model->doFindAll()
+#6 /run/media/shirooneko/shiroo disk/MI4B/app/Models/FilmModel.php(51): CodeIgniter\BaseModel->findAll()
+#7 /run/media/shirooneko/shiroo disk/MI4B/app/Controllers/Film.php(25): App\Models\FilmModel->getAllData()
+#8 /run/media/shirooneko/shiroo disk/MI4B/vendor/codeigniter4/framework/system/CodeIgniter.php(934): App\Controllers\Film->all()
+#9 /run/media/shirooneko/shiroo disk/MI4B/vendor/codeigniter4/framework/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#10 /run/media/shirooneko/shiroo disk/MI4B/vendor/codeigniter4/framework/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#11 /run/media/shirooneko/shiroo disk/MI4B/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#12 /run/media/shirooneko/shiroo disk/MI4B/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(47): require_once('...')
+#13 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No such file or directory in /run/media/shirooneko/shiroo disk/MI4B/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:218
+Stack trace:
+#0 /run/media/shirooneko/shiroo disk/MI4B/vendor/codeigniter4/framework/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /run/media/shirooneko/shiroo disk/MI4B/vendor/codeigniter4/framework/system/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 /run/media/shirooneko/shiroo disk/MI4B/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#3 /run/media/shirooneko/shiroo disk/MI4B/vendor/codeigniter4/framework/system/Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#4 /run/media/shirooneko/shiroo disk/MI4B/vendor/codeigniter4/framework/system/BaseModel.php(618): CodeIgniter\Model->doFindAll()
+#5 /run/media/shirooneko/shiroo disk/MI4B/app/Models/FilmModel.php(51): CodeIgniter\BaseModel->findAll()
+#6 /run/media/shirooneko/shiroo disk/MI4B/app/Controllers/Film.php(25): App\Models\FilmModel->getAllData()
+#7 /run/media/shirooneko/shiroo disk/MI4B/vendor/codeigniter4/framework/system/CodeIgniter.php(934): App\Controllers\Film->all()
+#8 /run/media/shirooneko/shiroo disk/MI4B/vendor/codeigniter4/framework/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#9 /run/media/shirooneko/shiroo disk/MI4B/vendor/codeigniter4/framework/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#10 /run/media/shirooneko/shiroo disk/MI4B/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#11 /run/media/shirooneko/shiroo disk/MI4B/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(47): require_once('...')
+#12 {main}
+CRITICAL - 2023-06-11 16:47:02 --> Unable to connect to the database.
+Main connection [MySQLi]: No such file or directory
+in SYSTEMPATH/Database/BaseConnection.php on line 427.
+ 1 SYSTEMPATH/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+ 3 SYSTEMPATH/Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/BaseModel.php(618): CodeIgniter\Model->doFindAll()
+ 5 APPPATH/Models/FilmModel.php(51): CodeIgniter\BaseModel->findAll()
+ 6 APPPATH/Controllers/Film.php(25): App\Models\FilmModel->getAllData()
+ 7 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Film->all()
+ 8 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/run/media/shirooneko/shiroo disk/MI4B/public/index.php')
+ERROR - 2023-06-11 16:47:24 --> Error connecting to the database: mysqli_sql_exception: No such file or directory in /run/media/shirooneko/shiroo disk/MI4B/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:173
+Stack trace:
+#0 /run/media/shirooneko/shiroo disk/MI4B/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(173): mysqli->real_connect()
+#1 /run/media/shirooneko/shiroo disk/MI4B/vendor/codeigniter4/framework/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /run/media/shirooneko/shiroo disk/MI4B/vendor/codeigniter4/framework/system/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 /run/media/shirooneko/shiroo disk/MI4B/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#4 /run/media/shirooneko/shiroo disk/MI4B/vendor/codeigniter4/framework/system/Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 /run/media/shirooneko/shiroo disk/MI4B/vendor/codeigniter4/framework/system/BaseModel.php(618): CodeIgniter\Model->doFindAll()
+#6 /run/media/shirooneko/shiroo disk/MI4B/app/Models/FilmModel.php(51): CodeIgniter\BaseModel->findAll()
+#7 /run/media/shirooneko/shiroo disk/MI4B/app/Controllers/Film.php(25): App\Models\FilmModel->getAllData()
+#8 /run/media/shirooneko/shiroo disk/MI4B/vendor/codeigniter4/framework/system/CodeIgniter.php(934): App\Controllers\Film->all()
+#9 /run/media/shirooneko/shiroo disk/MI4B/vendor/codeigniter4/framework/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#10 /run/media/shirooneko/shiroo disk/MI4B/vendor/codeigniter4/framework/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#11 /run/media/shirooneko/shiroo disk/MI4B/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#12 /run/media/shirooneko/shiroo disk/MI4B/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(47): require_once('...')
+#13 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No such file or directory in /run/media/shirooneko/shiroo disk/MI4B/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:218
+Stack trace:
+#0 /run/media/shirooneko/shiroo disk/MI4B/vendor/codeigniter4/framework/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /run/media/shirooneko/shiroo disk/MI4B/vendor/codeigniter4/framework/system/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 /run/media/shirooneko/shiroo disk/MI4B/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#3 /run/media/shirooneko/shiroo disk/MI4B/vendor/codeigniter4/framework/system/Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#4 /run/media/shirooneko/shiroo disk/MI4B/vendor/codeigniter4/framework/system/BaseModel.php(618): CodeIgniter\Model->doFindAll()
+#5 /run/media/shirooneko/shiroo disk/MI4B/app/Models/FilmModel.php(51): CodeIgniter\BaseModel->findAll()
+#6 /run/media/shirooneko/shiroo disk/MI4B/app/Controllers/Film.php(25): App\Models\FilmModel->getAllData()
+#7 /run/media/shirooneko/shiroo disk/MI4B/vendor/codeigniter4/framework/system/CodeIgniter.php(934): App\Controllers\Film->all()
+#8 /run/media/shirooneko/shiroo disk/MI4B/vendor/codeigniter4/framework/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#9 /run/media/shirooneko/shiroo disk/MI4B/vendor/codeigniter4/framework/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#10 /run/media/shirooneko/shiroo disk/MI4B/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#11 /run/media/shirooneko/shiroo disk/MI4B/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(47): require_once('...')
+#12 {main}
+CRITICAL - 2023-06-11 16:47:24 --> Unable to connect to the database.
+Main connection [MySQLi]: No such file or directory
+in SYSTEMPATH/Database/BaseConnection.php on line 427.
+ 1 SYSTEMPATH/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+ 3 SYSTEMPATH/Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/BaseModel.php(618): CodeIgniter\Model->doFindAll()
+ 5 APPPATH/Models/FilmModel.php(51): CodeIgniter\BaseModel->findAll()
+ 6 APPPATH/Controllers/Film.php(25): App\Models\FilmModel->getAllData()
+ 7 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Film->all()
+ 8 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/run/media/shirooneko/shiroo disk/MI4B/public/index.php')
+ERROR - 2023-06-11 16:48:32 --> Error connecting to the database: mysqli_sql_exception: No such file or directory in /run/media/shirooneko/shiroo disk/MI4B/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:173
+Stack trace:
+#0 /run/media/shirooneko/shiroo disk/MI4B/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(173): mysqli->real_connect()
+#1 /run/media/shirooneko/shiroo disk/MI4B/vendor/codeigniter4/framework/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect()
+#2 /run/media/shirooneko/shiroo disk/MI4B/vendor/codeigniter4/framework/system/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 /run/media/shirooneko/shiroo disk/MI4B/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#4 /run/media/shirooneko/shiroo disk/MI4B/vendor/codeigniter4/framework/system/Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 /run/media/shirooneko/shiroo disk/MI4B/vendor/codeigniter4/framework/system/BaseModel.php(618): CodeIgniter\Model->doFindAll()
+#6 /run/media/shirooneko/shiroo disk/MI4B/app/Models/FilmModel.php(51): CodeIgniter\BaseModel->findAll()
+#7 /run/media/shirooneko/shiroo disk/MI4B/app/Controllers/Film.php(25): App\Models\FilmModel->getAllData()
+#8 /run/media/shirooneko/shiroo disk/MI4B/vendor/codeigniter4/framework/system/CodeIgniter.php(934): App\Controllers\Film->all()
+#9 /run/media/shirooneko/shiroo disk/MI4B/vendor/codeigniter4/framework/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#10 /run/media/shirooneko/shiroo disk/MI4B/vendor/codeigniter4/framework/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#11 /run/media/shirooneko/shiroo disk/MI4B/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#12 /run/media/shirooneko/shiroo disk/MI4B/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(47): require_once('...')
+#13 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No such file or directory in /run/media/shirooneko/shiroo disk/MI4B/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:218
+Stack trace:
+#0 /run/media/shirooneko/shiroo disk/MI4B/vendor/codeigniter4/framework/system/Database/BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect()
+#1 /run/media/shirooneko/shiroo disk/MI4B/vendor/codeigniter4/framework/system/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 /run/media/shirooneko/shiroo disk/MI4B/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+#3 /run/media/shirooneko/shiroo disk/MI4B/vendor/codeigniter4/framework/system/Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#4 /run/media/shirooneko/shiroo disk/MI4B/vendor/codeigniter4/framework/system/BaseModel.php(618): CodeIgniter\Model->doFindAll()
+#5 /run/media/shirooneko/shiroo disk/MI4B/app/Models/FilmModel.php(51): CodeIgniter\BaseModel->findAll()
+#6 /run/media/shirooneko/shiroo disk/MI4B/app/Controllers/Film.php(25): App\Models\FilmModel->getAllData()
+#7 /run/media/shirooneko/shiroo disk/MI4B/vendor/codeigniter4/framework/system/CodeIgniter.php(934): App\Controllers\Film->all()
+#8 /run/media/shirooneko/shiroo disk/MI4B/vendor/codeigniter4/framework/system/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+#9 /run/media/shirooneko/shiroo disk/MI4B/vendor/codeigniter4/framework/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+#10 /run/media/shirooneko/shiroo disk/MI4B/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#11 /run/media/shirooneko/shiroo disk/MI4B/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(47): require_once('...')
+#12 {main}
+CRITICAL - 2023-06-11 16:48:32 --> Unable to connect to the database.
+Main connection [MySQLi]: No such file or directory
+in SYSTEMPATH/Database/BaseConnection.php on line 427.
+ 1 SYSTEMPATH/Database/BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH/Database/BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query()
+ 3 SYSTEMPATH/Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH/BaseModel.php(618): CodeIgniter\Model->doFindAll()
+ 5 APPPATH/Models/FilmModel.php(51): CodeIgniter\BaseModel->findAll()
+ 6 APPPATH/Controllers/Film.php(25): App\Models\FilmModel->getAllData()
+ 7 SYSTEMPATH/CodeIgniter.php(934): App\Controllers\Film->all()
+ 8 SYSTEMPATH/CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/run/media/shirooneko/shiroo disk/MI4B/public/index.php')
