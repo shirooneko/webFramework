@@ -35,8 +35,8 @@
                                 <td><?= $row["nama_genre"] ?></td>
                                 <td><?= $row["duration"] ?></td>
                                 <td>
-                                    <a href="/film/update/<?= $row["id"]; ?>" class="btn btn-success">Update</a>
-                                    <a href="" class="btn btn-danger">Delete</a>
+                                    <a href="film/update/<?= $row["id"] ?>" class="btn btn-success">Update</a>
+                                    <a class="btn btn-danger" onclick="return confirmDelete()">Delete</a>
                                 </td>
                             </tr>
                         <?php endforeach ?>
@@ -46,5 +46,7 @@
         </div>
     </div>
 </div>
+
+
 
 <?= $this->endSection() ?>
