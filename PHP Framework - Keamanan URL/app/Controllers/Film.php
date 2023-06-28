@@ -107,9 +107,10 @@ class Film extends BaseController
     //method untuk mendirect form update data dan menampilkan data berdasarkan id
     public function update($id)
     {
+        $decryptedId = decryptUrl($id);
         $data["genre"] = $this->genre->getAllData();
         $data["errors"] = session('errors');
-        $data["dataFilm"] = $this->film->getDataByID($id);
+        $data["dataFilm"] = $this->film->getDataByID($decryptedId);
         return view("film/edit", $data);
     }
 
@@ -187,8 +188,26 @@ class Film extends BaseController
 
     public function destroy($id)
     {
-        $this->film->delete($id);
-        session()->setFlashdata('success', 'Data berhasil dihapus');
+        $decryptedId = decryptUrl($id);
+        $film = $this->film->find($decryptedId); // Mengambil film berdasarkan id yang telah didekripsi
+
+        if ($film) { // Memastikan film tersebut ada
+            $imageName = $film['cover']; // Mengambil nama file gambar dari objek film. Anda harus mengganti 'image_name' dengan nama field yang sesuai di database Anda.
+            $imagePath = "assets/cover/" . $imageName; // Membuat path lengkap ke gambar
+
+            // Cek apakah file gambar ada di server
+            if (file_exists($imagePath)) {
+                // Hapus file gambar
+                unlink($imagePath);
+            }
+
+            // Hapus film dari database
+            $this->film->delete($decryptedId);
+            session()->setFlashdata('success', 'Data berhasil dihapus');
+        } else {
+            session()->setFlashdata('error', 'Film tidak ditemukan');
+        }
+
         return redirect()->to('/film');
     }
 }

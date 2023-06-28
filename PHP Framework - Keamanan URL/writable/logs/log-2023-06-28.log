@@ -119,3 +119,420 @@ INFO - 2023-06-28 13:56:11 --> Session: Class initialized using 'CodeIgniter\Ses
 INFO - 2023-06-28 13:56:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
 INFO - 2023-06-28 13:56:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
 INFO - 2023-06-28 13:56:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 14:01:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 14:01:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-28 14:01:56 --> Trying to access array offset on value of type null
+in APPPATH\Views\film\edit.php on line 21.
+ 1 APPPATH\Views\film\edit.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'E:\\DONT_OPEN_THIS_FOLDER\\TUGAS-KULIAH\\Semester 4\\web-framewordk\\webFramework\\PHP Framework - Keamanan URL\\app\\Views\\film\\edit.php', 21)
+ 2 SYSTEMPATH\View\View.php(213): include('E:\\DONT_OPEN_THIS_FOLDER\\TUGAS-KULIAH\\Semester 4\\web-framewordk\\webFramework\\PHP Framework - Keamanan URL\\app\\Views\\film\\edit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('film/edit', [], true)
+ 5 APPPATH\Controllers\Film.php(113): view('film/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->update('cg3BTTqRbl+i15PC+Yv32G5LbTd3Uy9PMTFLTDVzUXZROFFXV0E9PQ==')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\DONT_OPEN_THIS_FOLDER\\TUGAS-KULIAH\\Semester 4\\web-framewordk\\webFramework\\PHP Framework - Keamanan URL\\public\\index.php')
+INFO - 2023-06-28 14:02:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 14:03:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 14:03:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-28 14:03:16 --> Trying to access array offset on value of type null
+in APPPATH\Views\film\edit.php on line 21.
+ 1 APPPATH\Views\film\edit.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'E:\\DONT_OPEN_THIS_FOLDER\\TUGAS-KULIAH\\Semester 4\\web-framewordk\\webFramework\\PHP Framework - Keamanan URL\\app\\Views\\film\\edit.php', 21)
+ 2 SYSTEMPATH\View\View.php(213): include('E:\\DONT_OPEN_THIS_FOLDER\\TUGAS-KULIAH\\Semester 4\\web-framewordk\\webFramework\\PHP Framework - Keamanan URL\\app\\Views\\film\\edit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('film/edit', [], true)
+ 5 APPPATH\Controllers\Film.php(114): view('film/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->update('8lR3amepAlt569iXLR2OwGVRRjU5THFIUHFhTlgwRWJvSjRIZ3c9PQ==')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\DONT_OPEN_THIS_FOLDER\\TUGAS-KULIAH\\Semester 4\\web-framewordk\\webFramework\\PHP Framework - Keamanan URL\\public\\index.php')
+INFO - 2023-06-28 14:04:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-28 14:04:03 --> Trying to access array offset on value of type null
+in APPPATH\Views\film\edit.php on line 21.
+ 1 APPPATH\Views\film\edit.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'E:\\DONT_OPEN_THIS_FOLDER\\TUGAS-KULIAH\\Semester 4\\web-framewordk\\webFramework\\PHP Framework - Keamanan URL\\app\\Views\\film\\edit.php', 21)
+ 2 SYSTEMPATH\View\View.php(213): include('E:\\DONT_OPEN_THIS_FOLDER\\TUGAS-KULIAH\\Semester 4\\web-framewordk\\webFramework\\PHP Framework - Keamanan URL\\app\\Views\\film\\edit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('film/edit', [], true)
+ 5 APPPATH\Controllers\Film.php(114): view('film/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->update('8lR3amepAlt569iXLR2OwGVRRjU5THFIUHFhTlgwRWJvSjRIZ3c9PQ==')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\DONT_OPEN_THIS_FOLDER\\TUGAS-KULIAH\\Semester 4\\web-framewordk\\webFramework\\PHP Framework - Keamanan URL\\public\\index.php')
+INFO - 2023-06-28 14:04:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 14:04:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-28 14:04:07 --> openssl_decrypt(): IV passed is only 3 bytes long, cipher expects an IV of precisely 16 bytes, padding with \0
+in APPPATH\Helpers\url_helper.php on line 17.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'openssl_decrypt(): IV passed is only 3 bytes long, cipher expects an IV of precisely 16 bytes, padding with \\0', 'E:\\DONT_OPEN_THIS_FOLDER\\TUGAS-KULIAH\\Semester 4\\web-framewordk\\webFramework\\PHP Framework - Keamanan URL\\app\\Helpers\\url_helper.php', 17)
+ 2 APPPATH\Helpers\url_helper.php(17): openssl_decrypt('', 'AES-256-CBC', Object(SensitiveParameterValue), 0, '¶§3')
+ 3 APPPATH\Controllers\Film.php(110): decryptUrl('tqcz6')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->update('tqcz6', 'djV', 'KZ+J2UTK', 'fW0N0TnF5KzRZRlQrcU9SRHdRa2ZDL3c9PQ==')
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\DONT_OPEN_THIS_FOLDER\\TUGAS-KULIAH\\Semester 4\\web-framewordk\\webFramework\\PHP Framework - Keamanan URL\\public\\index.php')
+CRITICAL - 2023-06-28 14:05:41 --> openssl_decrypt(): IV passed is only 3 bytes long, cipher expects an IV of precisely 16 bytes, padding with \0
+in APPPATH\Helpers\url_helper.php on line 17.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'openssl_decrypt(): IV passed is only 3 bytes long, cipher expects an IV of precisely 16 bytes, padding with \\0', 'E:\\DONT_OPEN_THIS_FOLDER\\TUGAS-KULIAH\\Semester 4\\web-framewordk\\webFramework\\PHP Framework - Keamanan URL\\app\\Helpers\\url_helper.php', 17)
+ 2 APPPATH\Helpers\url_helper.php(17): openssl_decrypt('', 'AES-256-CBC', Object(SensitiveParameterValue), 0, '¶§3')
+ 3 APPPATH\Controllers\Film.php(110): decryptUrl('tqcz6')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->update('tqcz6', 'djV', 'KZ+J2UTK', 'fW0N0TnF5KzRZRlQrcU9SRHdRa2ZDL3c9PQ==')
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\DONT_OPEN_THIS_FOLDER\\TUGAS-KULIAH\\Semester 4\\web-framewordk\\webFramework\\PHP Framework - Keamanan URL\\public\\index.php')
+CRITICAL - 2023-06-28 14:07:15 --> openssl_decrypt(): IV passed is only 3 bytes long, cipher expects an IV of precisely 16 bytes, padding with \0
+in APPPATH\Helpers\url_helper.php on line 17.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'openssl_decrypt(): IV passed is only 3 bytes long, cipher expects an IV of precisely 16 bytes, padding with \\0', 'E:\\DONT_OPEN_THIS_FOLDER\\TUGAS-KULIAH\\Semester 4\\web-framewordk\\webFramework\\PHP Framework - Keamanan URL\\app\\Helpers\\url_helper.php', 17)
+ 2 APPPATH\Helpers\url_helper.php(17): openssl_decrypt('', 'AES-256-CBC', Object(SensitiveParameterValue), 0, '¶§3')
+ 3 APPPATH\Controllers\Film.php(110): decryptUrl('tqcz6')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->update('tqcz6', 'djV', 'KZ+J2UTK', 'fW0N0TnF5KzRZRlQrcU9SRHdRa2ZDL3c9PQ==')
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\DONT_OPEN_THIS_FOLDER\\TUGAS-KULIAH\\Semester 4\\web-framewordk\\webFramework\\PHP Framework - Keamanan URL\\public\\index.php')
+INFO - 2023-06-28 14:07:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-28 14:07:19 --> openssl_decrypt(): IV passed is only 3 bytes long, cipher expects an IV of precisely 16 bytes, padding with \0
+in APPPATH\Helpers\url_helper.php on line 17.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'openssl_decrypt(): IV passed is only 3 bytes long, cipher expects an IV of precisely 16 bytes, padding with \\0', 'E:\\DONT_OPEN_THIS_FOLDER\\TUGAS-KULIAH\\Semester 4\\web-framewordk\\webFramework\\PHP Framework - Keamanan URL\\app\\Helpers\\url_helper.php', 17)
+ 2 APPPATH\Helpers\url_helper.php(17): openssl_decrypt('', 'AES-256-CBC', Object(SensitiveParameterValue), 0, 'òÃî')
+ 3 APPPATH\Controllers\Film.php(110): decryptUrl('8sPu9')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->update('8sPu9', '1H86WpLV4erLamsW1xbnAyN3ZCTTFxYVR5TW9sM1hmZHc9PQ==')
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\DONT_OPEN_THIS_FOLDER\\TUGAS-KULIAH\\Semester 4\\web-framewordk\\webFramework\\PHP Framework - Keamanan URL\\public\\index.php')
+INFO - 2023-06-28 14:07:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 14:07:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 14:07:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 14:07:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 14:07:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-28 14:07:56 --> openssl_decrypt(): IV passed is only 9 bytes long, cipher expects an IV of precisely 16 bytes, padding with \0
+in APPPATH\Helpers\url_helper.php on line 17.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'openssl_decrypt(): IV passed is only 9 bytes long, cipher expects an IV of precisely 16 bytes, padding with \\0', 'E:\\DONT_OPEN_THIS_FOLDER\\TUGAS-KULIAH\\Semester 4\\web-framewordk\\webFramework\\PHP Framework - Keamanan URL\\app\\Helpers\\url_helper.php', 17)
+ 2 APPPATH\Helpers\url_helper.php(17): openssl_decrypt('', 'AES-256-CBC', Object(SensitiveParameterValue), 0, '˜2ˆ¥€:}ÛZ')
+ 3 APPPATH\Controllers\Film.php(191): decryptUrl('mDKIpYA6fdtaq')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->destroy('mDKIpYA6fdtaq', 'gDL9', 'rfCtucVVBT25iUDV6RndyTTNPMUlSTGc9PQ==')
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\DONT_OPEN_THIS_FOLDER\\TUGAS-KULIAH\\Semester 4\\web-framewordk\\webFramework\\PHP Framework - Keamanan URL\\public\\index.php')
+CRITICAL - 2023-06-28 14:10:54 --> openssl_decrypt(): IV passed is only 9 bytes long, cipher expects an IV of precisely 16 bytes, padding with \0
+in APPPATH\Helpers\url_helper.php on line 17.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'openssl_decrypt(): IV passed is only 9 bytes long, cipher expects an IV of precisely 16 bytes, padding with \\0', 'E:\\DONT_OPEN_THIS_FOLDER\\TUGAS-KULIAH\\Semester 4\\web-framewordk\\webFramework\\PHP Framework - Keamanan URL\\app\\Helpers\\url_helper.php', 17)
+ 2 APPPATH\Helpers\url_helper.php(17): openssl_decrypt('', 'AES-256-CBC', Object(SensitiveParameterValue), 0, '˜2ˆ¥€:}ÛZ')
+ 3 APPPATH\Controllers\Film.php(191): decryptUrl('mDKIpYA6fdtaq')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->destroy('mDKIpYA6fdtaq', 'gDL9', 'rfCtucVVBT25iUDV6RndyTTNPMUlSTGc9PQ==')
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\DONT_OPEN_THIS_FOLDER\\TUGAS-KULIAH\\Semester 4\\web-framewordk\\webFramework\\PHP Framework - Keamanan URL\\public\\index.php')
+INFO - 2023-06-28 14:10:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 14:11:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-28 14:11:01 --> openssl_decrypt(): IV passed is only 7 bytes long, cipher expects an IV of precisely 16 bytes, padding with \0
+in APPPATH\Helpers\url_helper.php on line 17.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'openssl_decrypt(): IV passed is only 7 bytes long, cipher expects an IV of precisely 16 bytes, padding with \\0', 'E:\\DONT_OPEN_THIS_FOLDER\\TUGAS-KULIAH\\Semester 4\\web-framewordk\\webFramework\\PHP Framework - Keamanan URL\\app\\Helpers\\url_helper.php', 17)
+ 2 APPPATH\Helpers\url_helper.php(17): openssl_decrypt('', 'AES-256-CBC', Object(SensitiveParameterValue), 0, 'Äl8DÑ´Ò')
+ 3 APPPATH\Controllers\Film.php(110): decryptUrl('xGw4RNG00v')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->update('xGw4RNG00v', 'Eu+Gj1+FGqGRIcmRsRy9mQjVJSmVOTzRCK0t5TkE9PQ==')
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\DONT_OPEN_THIS_FOLDER\\TUGAS-KULIAH\\Semester 4\\web-framewordk\\webFramework\\PHP Framework - Keamanan URL\\public\\index.php')
+INFO - 2023-06-28 14:11:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 14:11:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 14:11:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-28 14:11:47 --> Undefined array key "id"
+in APPPATH\Views\film\edit.php on line 21.
+ 1 APPPATH\Views\film\edit.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'E:\\DONT_OPEN_THIS_FOLDER\\TUGAS-KULIAH\\Semester 4\\web-framewordk\\webFramework\\PHP Framework - Keamanan URL\\app\\Views\\film\\edit.php', 21)
+ 2 SYSTEMPATH\View\View.php(213): include('E:\\DONT_OPEN_THIS_FOLDER\\TUGAS-KULIAH\\Semester 4\\web-framewordk\\webFramework\\PHP Framework - Keamanan URL\\app\\Views\\film\\edit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('film/edit', [], true)
+ 5 APPPATH\Controllers\Film.php(114): view('film/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->update('GTwYnMre+hy21iaZ7pESlVOejNjb3FiemdVdGI2elZRdkduMGc9PQ==')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\DONT_OPEN_THIS_FOLDER\\TUGAS-KULIAH\\Semester 4\\web-framewordk\\webFramework\\PHP Framework - Keamanan URL\\public\\index.php')
+INFO - 2023-06-28 14:12:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-28 14:12:31 --> Undefined array key "id"
+in APPPATH\Views\film\edit.php on line 21.
+ 1 APPPATH\Views\film\edit.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'E:\\DONT_OPEN_THIS_FOLDER\\TUGAS-KULIAH\\Semester 4\\web-framewordk\\webFramework\\PHP Framework - Keamanan URL\\app\\Views\\film\\edit.php', 21)
+ 2 SYSTEMPATH\View\View.php(213): include('E:\\DONT_OPEN_THIS_FOLDER\\TUGAS-KULIAH\\Semester 4\\web-framewordk\\webFramework\\PHP Framework - Keamanan URL\\app\\Views\\film\\edit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('film/edit', [], true)
+ 5 APPPATH\Controllers\Film.php(114): view('film/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->update('GTwYnMre+hy21iaZ7pESlVOejNjb3FiemdVdGI2elZRdkduMGc9PQ==')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\DONT_OPEN_THIS_FOLDER\\TUGAS-KULIAH\\Semester 4\\web-framewordk\\webFramework\\PHP Framework - Keamanan URL\\public\\index.php')
+INFO - 2023-06-28 14:12:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-28 14:12:32 --> Undefined array key "id"
+in APPPATH\Views\film\edit.php on line 21.
+ 1 APPPATH\Views\film\edit.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'E:\\DONT_OPEN_THIS_FOLDER\\TUGAS-KULIAH\\Semester 4\\web-framewordk\\webFramework\\PHP Framework - Keamanan URL\\app\\Views\\film\\edit.php', 21)
+ 2 SYSTEMPATH\View\View.php(213): include('E:\\DONT_OPEN_THIS_FOLDER\\TUGAS-KULIAH\\Semester 4\\web-framewordk\\webFramework\\PHP Framework - Keamanan URL\\app\\Views\\film\\edit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('film/edit', [], true)
+ 5 APPPATH\Controllers\Film.php(114): view('film/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->update('GTwYnMre+hy21iaZ7pESlVOejNjb3FiemdVdGI2elZRdkduMGc9PQ==')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\DONT_OPEN_THIS_FOLDER\\TUGAS-KULIAH\\Semester 4\\web-framewordk\\webFramework\\PHP Framework - Keamanan URL\\public\\index.php')
+INFO - 2023-06-28 14:12:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 14:12:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 14:12:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 14:12:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 14:12:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 14:12:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 14:12:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 14:12:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 14:18:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 14:19:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 14:19:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 14:20:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 14:20:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 14:21:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 14:22:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-28 14:22:10 --> Attempt to read property "cover" on array
+in APPPATH\Controllers\Film.php on line 195.
+ 1 APPPATH\Controllers\Film.php(195): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "cover" on array', 'E:\\DONT_OPEN_THIS_FOLDER\\TUGAS-KULIAH\\Semester 4\\web-framewordk\\webFramework\\PHP Framework - Keamanan URL\\app\\Controllers\\Film.php', 195)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->destroy('suIrPwdEkBczQJE6L0RqsXEvSmt1S1FPWk9Bb1NxQVhkYWZqZGc9PQ==')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\DONT_OPEN_THIS_FOLDER\\TUGAS-KULIAH\\Semester 4\\web-framewordk\\webFramework\\PHP Framework - Keamanan URL\\public\\index.php')
+INFO - 2023-06-28 14:23:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 14:24:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 14:24:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 14:24:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 14:24:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 14:24:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 14:25:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 14:25:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 14:25:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-28 14:25:32 --> openssl_decrypt(): IV passed is only 1 bytes long, cipher expects an IV of precisely 16 bytes, padding with \0
+in APPPATH\Helpers\url_helper.php on line 17.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'openssl_decrypt(): IV passed is only 1 bytes long, cipher expects an IV of precisely 16 bytes, padding with \\0', 'E:\\DONT_OPEN_THIS_FOLDER\\TUGAS-KULIAH\\Semester 4\\web-framewordk\\webFramework\\PHP Framework - Keamanan URL\\app\\Helpers\\url_helper.php', 17)
+ 2 APPPATH\Helpers\url_helper.php(17): openssl_decrypt('', 'AES-256-CBC', Object(SensitiveParameterValue), 0, 'I')
+ 3 APPPATH\Controllers\Film.php(191): decryptUrl('SX')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->destroy('SX', 'DjVc+NytX', 'ExoJgZsJ0gzS2hpTUtGQWZFdzEzdU1JT0wzVFE9PQ==')
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\DONT_OPEN_THIS_FOLDER\\TUGAS-KULIAH\\Semester 4\\web-framewordk\\webFramework\\PHP Framework - Keamanan URL\\public\\index.php')
+INFO - 2023-06-28 14:25:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 14:25:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 14:25:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 14:25:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-28 14:26:01 --> openssl_decrypt(): IV passed is only 7 bytes long, cipher expects an IV of precisely 16 bytes, padding with \0
+in APPPATH\Helpers\url_helper.php on line 17.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'openssl_decrypt(): IV passed is only 7 bytes long, cipher expects an IV of precisely 16 bytes, padding with \\0', 'E:\\DONT_OPEN_THIS_FOLDER\\TUGAS-KULIAH\\Semester 4\\web-framewordk\\webFramework\\PHP Framework - Keamanan URL\\app\\Helpers\\url_helper.php', 17)
+ 2 APPPATH\Helpers\url_helper.php(17): openssl_decrypt('', 'AES-256-CBC', Object(SensitiveParameterValue), 0, '³*ŒÞÚ9')
+ 3 APPPATH\Controllers\Film.php(110): decryptUrl('syqMHN7aOf')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->update('syqMHN7aOf', '71WtYPeb7TFpvb0hCV2pGSEo0cHI0aFk3MTBPZ1E9PQ==')
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\DONT_OPEN_THIS_FOLDER\\TUGAS-KULIAH\\Semester 4\\web-framewordk\\webFramework\\PHP Framework - Keamanan URL\\public\\index.php')
+INFO - 2023-06-28 14:26:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 14:26:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-28 14:26:07 --> Undefined array key "id"
+in APPPATH\Views\film\edit.php on line 21.
+ 1 APPPATH\Views\film\edit.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'E:\\DONT_OPEN_THIS_FOLDER\\TUGAS-KULIAH\\Semester 4\\web-framewordk\\webFramework\\PHP Framework - Keamanan URL\\app\\Views\\film\\edit.php', 21)
+ 2 SYSTEMPATH\View\View.php(213): include('E:\\DONT_OPEN_THIS_FOLDER\\TUGAS-KULIAH\\Semester 4\\web-framewordk\\webFramework\\PHP Framework - Keamanan URL\\app\\Views\\film\\edit.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('film/edit', [], true)
+ 5 APPPATH\Controllers\Film.php(114): view('film/edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->update('A', 'BxTy7zq9SfFk', 'nXkFngDdOQ0FGazNoVlhEYVBIS0dTelBhRXc9PQ==')
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\DONT_OPEN_THIS_FOLDER\\TUGAS-KULIAH\\Semester 4\\web-framewordk\\webFramework\\PHP Framework - Keamanan URL\\public\\index.php')
+INFO - 2023-06-28 14:26:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 14:26:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 14:26:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 14:26:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 14:26:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-28 14:26:34 --> openssl_decrypt(): IV passed is only 6 bytes long, cipher expects an IV of precisely 16 bytes, padding with \0
+in APPPATH\Helpers\url_helper.php on line 17.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'openssl_decrypt(): IV passed is only 6 bytes long, cipher expects an IV of precisely 16 bytes, padding with \\0', 'E:\\DONT_OPEN_THIS_FOLDER\\TUGAS-KULIAH\\Semester 4\\web-framewordk\\webFramework\\PHP Framework - Keamanan URL\\app\\Helpers\\url_helper.php', 17)
+ 2 APPPATH\Helpers\url_helper.php(17): openssl_decrypt('', 'AES-256-CBC', Object(SensitiveParameterValue), 0, 'uÿ·6œ¥')
+ 3 APPPATH\Controllers\Film.php(110): decryptUrl('df+3NpylY')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->update('df+3NpylY', '02xQRIS1XLTU5xMDc3OGE0eTFYbkpFNmhaQmxkZkE9PQ==')
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\DONT_OPEN_THIS_FOLDER\\TUGAS-KULIAH\\Semester 4\\web-framewordk\\webFramework\\PHP Framework - Keamanan URL\\public\\index.php')
+INFO - 2023-06-28 14:26:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 14:26:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 14:26:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 14:30:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 14:30:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 14:30:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 14:30:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-28 14:30:12 --> openssl_decrypt(): IV passed is only 13 bytes long, cipher expects an IV of precisely 16 bytes, padding with \0
+in APPPATH\Helpers\url_helper.php on line 17.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'openssl_decrypt(): IV passed is only 13 bytes long, cipher expects an IV of precisely 16 bytes, padding with \\0', 'E:\\DONT_OPEN_THIS_FOLDER\\TUGAS-KULIAH\\Semester 4\\web-framewordk\\webFramework\\PHP Framework - Keamanan URL\\app\\Helpers\\url_helper.php', 17)
+ 2 APPPATH\Helpers\url_helper.php(17): openssl_decrypt('', 'AES-256-CBC', Object(SensitiveParameterValue), 0, 'Ž¹ð–Y=|WÒ"Š
+')
+ 3 APPPATH\Controllers\Film.php(191): decryptUrl('jrmP8JZZPXxX0iKKCn')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->destroy('jrmP8JZZPXxX0iKKCn', 'ZWmFoNmpOTFFwcGQzZGZtRmRmU0YzRlE9PQ==')
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\DONT_OPEN_THIS_FOLDER\\TUGAS-KULIAH\\Semester 4\\web-framewordk\\webFramework\\PHP Framework - Keamanan URL\\public\\index.php')
+INFO - 2023-06-28 14:30:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 14:30:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-28 14:30:20 --> openssl_decrypt(): IV passed is only 15 bytes long, cipher expects an IV of precisely 16 bytes, padding with \0
+in APPPATH\Helpers\url_helper.php on line 17.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'openssl_decrypt(): IV passed is only 15 bytes long, cipher expects an IV of precisely 16 bytes, padding with \\0', 'E:\\DONT_OPEN_THIS_FOLDER\\TUGAS-KULIAH\\Semester 4\\web-framewordk\\webFramework\\PHP Framework - Keamanan URL\\app\\Helpers\\url_helper.php', 17)
+ 2 APPPATH\Helpers\url_helper.php(17): openssl_decrypt('', 'AES-256-CBC', Object(SensitiveParameterValue), 0, 'úP»!º%ê6²’ø|[')
+ 3 APPPATH\Controllers\Film.php(191): decryptUrl('+pAFULshuiXqNrKS+Hxb')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->destroy('+pAFULshuiXqNrKS+Hxb', 'TE2OW4wVHFWcnRuWVAzdVg0YTNVMlE9PQ==')
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\DONT_OPEN_THIS_FOLDER\\TUGAS-KULIAH\\Semester 4\\web-framewordk\\webFramework\\PHP Framework - Keamanan URL\\public\\index.php')
+INFO - 2023-06-28 14:30:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 14:30:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 14:30:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 14:30:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 14:30:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-28 14:30:31 --> Undefined array key "cover"
+in APPPATH\Controllers\Film.php on line 195.
+ 1 APPPATH\Controllers\Film.php(195): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "cover"', 'E:\\DONT_OPEN_THIS_FOLDER\\TUGAS-KULIAH\\Semester 4\\web-framewordk\\webFramework\\PHP Framework - Keamanan URL\\app\\Controllers\\Film.php', 195)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->destroy('VVLpbriPjmww2AaQpot7XQ0TWFsQkZSMk45LzFSTUdrK2lLL1E9PQ==')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\DONT_OPEN_THIS_FOLDER\\TUGAS-KULIAH\\Semester 4\\web-framewordk\\webFramework\\PHP Framework - Keamanan URL\\public\\index.php')
+INFO - 2023-06-28 14:30:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 14:31:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 14:31:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 14:31:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 14:31:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 14:31:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 14:31:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 14:31:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 14:32:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 14:32:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 14:32:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 14:32:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 14:32:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 14:32:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 14:32:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-28 14:32:46 --> Undefined array key "cover"
+in APPPATH\Controllers\Film.php on line 195.
+ 1 APPPATH\Controllers\Film.php(195): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "cover"', 'E:\\DONT_OPEN_THIS_FOLDER\\TUGAS-KULIAH\\Semester 4\\web-framewordk\\webFramework\\PHP Framework - Keamanan URL\\app\\Controllers\\Film.php', 195)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->destroy('p', 'evDBS5yNQlKLhzQflOFXBYcGNaWHRraDZBRUVhbVd1cWsrSHc9PQ==')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\DONT_OPEN_THIS_FOLDER\\TUGAS-KULIAH\\Semester 4\\web-framewordk\\webFramework\\PHP Framework - Keamanan URL\\public\\index.php')
+INFO - 2023-06-28 14:33:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 14:33:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 14:33:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 14:34:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 14:34:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 14:34:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 14:34:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 14:34:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-06-28 14:35:44 --> mysqli_sql_exception: Unknown column 'film.nama' in 'order clause' in E:\DONT_OPEN_THIS_FOLDER\TUGAS-KULIAH\Semester 4\web-framewordk\webFramework\PHP Framework - Keamanan URL\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 E:\DONT_OPEN_THIS_FOLDER\TUGAS-KULIAH\Semester 4\web-framewordk\webFramework\PHP Framework - Keamanan URL\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `film`.*...', 0)
+#1 E:\DONT_OPEN_THIS_FOLDER\TUGAS-KULIAH\Semester 4\web-framewordk\webFramework\PHP Framework - Keamanan URL\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `film`.*...')
+#2 E:\DONT_OPEN_THIS_FOLDER\TUGAS-KULIAH\Semester 4\web-framewordk\webFramework\PHP Framework - Keamanan URL\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `film`.*...')
+#3 E:\DONT_OPEN_THIS_FOLDER\TUGAS-KULIAH\Semester 4\web-framewordk\webFramework\PHP Framework - Keamanan URL\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `film`.*...', Array, false)
+#4 E:\DONT_OPEN_THIS_FOLDER\TUGAS-KULIAH\Semester 4\web-framewordk\webFramework\PHP Framework - Keamanan URL\app\Models\FilmModel.php(20): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\DONT_OPEN_THIS_FOLDER\TUGAS-KULIAH\Semester 4\web-framewordk\webFramework\PHP Framework - Keamanan URL\app\Controllers\Film.php(25): App\Models\FilmModel->getAllDataJoin()
+#6 E:\DONT_OPEN_THIS_FOLDER\TUGAS-KULIAH\Semester 4\web-framewordk\webFramework\PHP Framework - Keamanan URL\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\Film->index()
+#7 E:\DONT_OPEN_THIS_FOLDER\TUGAS-KULIAH\Semester 4\web-framewordk\webFramework\PHP Framework - Keamanan URL\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+#8 E:\DONT_OPEN_THIS_FOLDER\TUGAS-KULIAH\Semester 4\web-framewordk\webFramework\PHP Framework - Keamanan URL\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\DONT_OPEN_THIS_FOLDER\TUGAS-KULIAH\Semester 4\web-framewordk\webFramework\PHP Framework - Keamanan URL\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 E:\DONT_OPEN_THIS_FOLDER\TUGAS-KULIAH\Semester 4\web-framewordk\webFramework\PHP Framework - Keamanan URL\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('E:\\DONT_OPEN_TH...')
+#11 {main}
+CRITICAL - 2023-06-28 14:35:44 --> Unknown column 'film.nama' in 'order clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT `film`.*, `genre`.`nama_genre`
+FROM `film`
+JOIN `genre` ON `genre`.`id_genre`  = `film`.`id_genre`
+ORDER BY `film`.`nama` ASC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `film`.*, `genre`.`nama_genre`
+FROM `film`
+JOIN `genre` ON `genre`.`id_genre`  = `film`.`id_genre`
+ORDER BY `film`.`nama` ASC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `film`.*, `genre`.`nama_genre`
+FROM `film`
+JOIN `genre` ON `genre`.`id_genre`  = `film`.`id_genre`
+ORDER BY `film`.`nama` ASC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `film`.*, `genre`.`nama_genre`
+FROM `film`
+JOIN `genre` ON `genre`.`id_genre`  = `film`.`id_genre`
+ORDER BY `film`.`nama` ASC', [], false)
+ 5 APPPATH\Models\FilmModel.php(20): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Film.php(25): App\Models\FilmModel->getAllDataJoin()
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->index()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\DONT_OPEN_THIS_FOLDER\\TUGAS-KULIAH\\Semester 4\\web-framewordk\\webFramework\\PHP Framework - Keamanan URL\\public\\index.php')
+INFO - 2023-06-28 14:36:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 14:36:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 14:36:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 14:36:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 14:36:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 14:36:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 14:36:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 14:36:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 14:36:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 14:36:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 14:36:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 14:36:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 14:36:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 14:36:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 14:37:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 14:37:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 14:37:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 14:37:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 14:37:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 14:37:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 14:37:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 14:37:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 14:37:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 14:37:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 14:37:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 14:37:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 14:37:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 14:37:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 14:38:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 14:38:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 14:38:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 14:38:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 14:38:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 14:38:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 14:38:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 14:38:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 14:38:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 14:39:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 14:39:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 14:39:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 14:39:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 14:39:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 14:39:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 14:39:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 14:42:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 14:42:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 14:42:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 14:42:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 14:42:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 14:42:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 14:42:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 14:42:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 14:42:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 14:42:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 14:43:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 14:43:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

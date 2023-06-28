@@ -35,8 +35,8 @@
                                 <td><?= $row["nama_genre"] ?></td>
                                 <td><?= $row["duration"] ?></td>
                                 <td>
-                                    <a href="film/update/<?= $row["id"] ?>" class="btn btn-success">Update</a>
-                                    <a class="btn btn-danger" onclick="confirmDelete('<?= $row["id"] ?>')">Delete</a>
+                                    <a href="film/update/<?= encryptUrl($row["id"]); ?>" class="btn btn-success">Update</a>
+                                    <a class="btn btn-danger" onclick="confirmDelete('<?= encryptUrl($row["id"]); ?>')">Delete</a>
                                 </td>
                             </tr>
                         <?php endforeach ?>
