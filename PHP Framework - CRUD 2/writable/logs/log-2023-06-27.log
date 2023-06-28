@@ -1108,3 +1108,864 @@ INFO - 2023-06-27 16:23:18 --> Session: Class initialized using 'CodeIgniter\Ses
 INFO - 2023-06-27 16:23:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
 INFO - 2023-06-27 16:23:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
 INFO - 2023-06-27 16:23:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-27 16:25:37 --> Undefined variable $film
+in APPPATH\Views\film\table.php on line 62.
+ 1 APPPATH\Views\film\table.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $film', 'E:\\DONT_OPEN_THIS_FOLDER\\TUGAS-KULIAH\\Semester 4\\webFramework\\PHP Framework - CRUD 2\\app\\Views\\film\\table.php', 62)
+ 2 SYSTEMPATH\View\View.php(213): include('E:\\DONT_OPEN_THIS_FOLDER\\TUGAS-KULIAH\\Semester 4\\webFramework\\PHP Framework - CRUD 2\\app\\Views\\film\\table.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('film/table', [], true)
+ 5 APPPATH\Controllers\Film.php(26): view('film/table', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\DONT_OPEN_THIS_FOLDER\\TUGAS-KULIAH\\Semester 4\\webFramework\\PHP Framework - CRUD 2\\public\\index.php')
+CRITICAL - 2023-06-27 16:26:11 --> Undefined array key "id"
+in APPPATH\Views\film\table.php on line 62.
+ 1 APPPATH\Views\film\table.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'E:\\DONT_OPEN_THIS_FOLDER\\TUGAS-KULIAH\\Semester 4\\webFramework\\PHP Framework - CRUD 2\\app\\Views\\film\\table.php', 62)
+ 2 SYSTEMPATH\View\View.php(213): include('E:\\DONT_OPEN_THIS_FOLDER\\TUGAS-KULIAH\\Semester 4\\webFramework\\PHP Framework - CRUD 2\\app\\Views\\film\\table.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('film/table', [], true)
+ 5 APPPATH\Controllers\Film.php(26): view('film/table', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\DONT_OPEN_THIS_FOLDER\\TUGAS-KULIAH\\Semester 4\\webFramework\\PHP Framework - CRUD 2\\public\\index.php')
+CRITICAL - 2023-06-27 16:26:11 --> Undefined array key "id"
+in APPPATH\Views\film\table.php on line 62.
+ 1 APPPATH\Views\film\table.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'E:\\DONT_OPEN_THIS_FOLDER\\TUGAS-KULIAH\\Semester 4\\webFramework\\PHP Framework - CRUD 2\\app\\Views\\film\\table.php', 62)
+ 2 SYSTEMPATH\View\View.php(213): include('E:\\DONT_OPEN_THIS_FOLDER\\TUGAS-KULIAH\\Semester 4\\webFramework\\PHP Framework - CRUD 2\\app\\Views\\film\\table.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('film/table', [], true)
+ 5 APPPATH\Controllers\Film.php(26): view('film/table', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\DONT_OPEN_THIS_FOLDER\\TUGAS-KULIAH\\Semester 4\\webFramework\\PHP Framework - CRUD 2\\public\\index.php')
+CRITICAL - 2023-06-27 16:26:12 --> Undefined array key "id"
+in APPPATH\Views\film\table.php on line 62.
+ 1 APPPATH\Views\film\table.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'E:\\DONT_OPEN_THIS_FOLDER\\TUGAS-KULIAH\\Semester 4\\webFramework\\PHP Framework - CRUD 2\\app\\Views\\film\\table.php', 62)
+ 2 SYSTEMPATH\View\View.php(213): include('E:\\DONT_OPEN_THIS_FOLDER\\TUGAS-KULIAH\\Semester 4\\webFramework\\PHP Framework - CRUD 2\\app\\Views\\film\\table.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('film/table', [], true)
+ 5 APPPATH\Controllers\Film.php(26): view('film/table', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\DONT_OPEN_THIS_FOLDER\\TUGAS-KULIAH\\Semester 4\\webFramework\\PHP Framework - CRUD 2\\public\\index.php')
+CRITICAL - 2023-06-27 16:26:13 --> Undefined array key "id"
+in APPPATH\Views\film\table.php on line 62.
+ 1 APPPATH\Views\film\table.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'E:\\DONT_OPEN_THIS_FOLDER\\TUGAS-KULIAH\\Semester 4\\webFramework\\PHP Framework - CRUD 2\\app\\Views\\film\\table.php', 62)
+ 2 SYSTEMPATH\View\View.php(213): include('E:\\DONT_OPEN_THIS_FOLDER\\TUGAS-KULIAH\\Semester 4\\webFramework\\PHP Framework - CRUD 2\\app\\Views\\film\\table.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('film/table', [], true)
+ 5 APPPATH\Controllers\Film.php(26): view('film/table', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\DONT_OPEN_THIS_FOLDER\\TUGAS-KULIAH\\Semester 4\\webFramework\\PHP Framework - CRUD 2\\public\\index.php')
+CRITICAL - 2023-06-27 16:27:05 --> Undefined array key "id"
+in APPPATH\Views\film\table.php on line 19.
+ 1 APPPATH\Views\film\table.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'E:\\DONT_OPEN_THIS_FOLDER\\TUGAS-KULIAH\\Semester 4\\webFramework\\PHP Framework - CRUD 2\\app\\Views\\film\\table.php', 19)
+ 2 SYSTEMPATH\View\View.php(213): include('E:\\DONT_OPEN_THIS_FOLDER\\TUGAS-KULIAH\\Semester 4\\webFramework\\PHP Framework - CRUD 2\\app\\Views\\film\\table.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('film/table', [], true)
+ 5 APPPATH\Controllers\Film.php(26): view('film/table', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\DONT_OPEN_THIS_FOLDER\\TUGAS-KULIAH\\Semester 4\\webFramework\\PHP Framework - CRUD 2\\public\\index.php')
+CRITICAL - 2023-06-27 16:28:34 --> Undefined array key "id"
+in APPPATH\Views\film\table.php on line 19.
+ 1 APPPATH\Views\film\table.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'E:\\DONT_OPEN_THIS_FOLDER\\TUGAS-KULIAH\\Semester 4\\webFramework\\PHP Framework - CRUD 2\\app\\Views\\film\\table.php', 19)
+ 2 SYSTEMPATH\View\View.php(213): include('E:\\DONT_OPEN_THIS_FOLDER\\TUGAS-KULIAH\\Semester 4\\webFramework\\PHP Framework - CRUD 2\\app\\Views\\film\\table.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('film/table', [], true)
+ 5 APPPATH\Controllers\Film.php(26): view('film/table', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\DONT_OPEN_THIS_FOLDER\\TUGAS-KULIAH\\Semester 4\\webFramework\\PHP Framework - CRUD 2\\public\\index.php')
+CRITICAL - 2023-06-27 16:28:34 --> Undefined array key "id"
+in APPPATH\Views\film\table.php on line 19.
+ 1 APPPATH\Views\film\table.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'E:\\DONT_OPEN_THIS_FOLDER\\TUGAS-KULIAH\\Semester 4\\webFramework\\PHP Framework - CRUD 2\\app\\Views\\film\\table.php', 19)
+ 2 SYSTEMPATH\View\View.php(213): include('E:\\DONT_OPEN_THIS_FOLDER\\TUGAS-KULIAH\\Semester 4\\webFramework\\PHP Framework - CRUD 2\\app\\Views\\film\\table.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('film/table', [], true)
+ 5 APPPATH\Controllers\Film.php(26): view('film/table', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\DONT_OPEN_THIS_FOLDER\\TUGAS-KULIAH\\Semester 4\\webFramework\\PHP Framework - CRUD 2\\public\\index.php')
+CRITICAL - 2023-06-27 16:28:35 --> Undefined array key "id"
+in APPPATH\Views\film\table.php on line 19.
+ 1 APPPATH\Views\film\table.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'E:\\DONT_OPEN_THIS_FOLDER\\TUGAS-KULIAH\\Semester 4\\webFramework\\PHP Framework - CRUD 2\\app\\Views\\film\\table.php', 19)
+ 2 SYSTEMPATH\View\View.php(213): include('E:\\DONT_OPEN_THIS_FOLDER\\TUGAS-KULIAH\\Semester 4\\webFramework\\PHP Framework - CRUD 2\\app\\Views\\film\\table.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('film/table', [], true)
+ 5 APPPATH\Controllers\Film.php(26): view('film/table', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\DONT_OPEN_THIS_FOLDER\\TUGAS-KULIAH\\Semester 4\\webFramework\\PHP Framework - CRUD 2\\public\\index.php')
+CRITICAL - 2023-06-27 16:28:35 --> Undefined array key "id"
+in APPPATH\Views\film\table.php on line 19.
+ 1 APPPATH\Views\film\table.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'E:\\DONT_OPEN_THIS_FOLDER\\TUGAS-KULIAH\\Semester 4\\webFramework\\PHP Framework - CRUD 2\\app\\Views\\film\\table.php', 19)
+ 2 SYSTEMPATH\View\View.php(213): include('E:\\DONT_OPEN_THIS_FOLDER\\TUGAS-KULIAH\\Semester 4\\webFramework\\PHP Framework - CRUD 2\\app\\Views\\film\\table.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('film/table', [], true)
+ 5 APPPATH\Controllers\Film.php(26): view('film/table', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\DONT_OPEN_THIS_FOLDER\\TUGAS-KULIAH\\Semester 4\\webFramework\\PHP Framework - CRUD 2\\public\\index.php')
+CRITICAL - 2023-06-27 16:28:57 --> Undefined array key "id"
+in APPPATH\Views\film\table.php on line 19.
+ 1 APPPATH\Views\film\table.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'E:\\DONT_OPEN_THIS_FOLDER\\TUGAS-KULIAH\\Semester 4\\webFramework\\PHP Framework - CRUD 2\\app\\Views\\film\\table.php', 19)
+ 2 SYSTEMPATH\View\View.php(213): include('E:\\DONT_OPEN_THIS_FOLDER\\TUGAS-KULIAH\\Semester 4\\webFramework\\PHP Framework - CRUD 2\\app\\Views\\film\\table.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('film/table', [], true)
+ 5 APPPATH\Controllers\Film.php(26): view('film/table', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\DONT_OPEN_THIS_FOLDER\\TUGAS-KULIAH\\Semester 4\\webFramework\\PHP Framework - CRUD 2\\public\\index.php')
+CRITICAL - 2023-06-27 16:28:58 --> Undefined array key "id"
+in APPPATH\Views\film\table.php on line 19.
+ 1 APPPATH\Views\film\table.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'E:\\DONT_OPEN_THIS_FOLDER\\TUGAS-KULIAH\\Semester 4\\webFramework\\PHP Framework - CRUD 2\\app\\Views\\film\\table.php', 19)
+ 2 SYSTEMPATH\View\View.php(213): include('E:\\DONT_OPEN_THIS_FOLDER\\TUGAS-KULIAH\\Semester 4\\webFramework\\PHP Framework - CRUD 2\\app\\Views\\film\\table.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('film/table', [], true)
+ 5 APPPATH\Controllers\Film.php(26): view('film/table', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\DONT_OPEN_THIS_FOLDER\\TUGAS-KULIAH\\Semester 4\\webFramework\\PHP Framework - CRUD 2\\public\\index.php')
+CRITICAL - 2023-06-27 16:28:59 --> Undefined array key "id"
+in APPPATH\Views\film\table.php on line 19.
+ 1 APPPATH\Views\film\table.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'E:\\DONT_OPEN_THIS_FOLDER\\TUGAS-KULIAH\\Semester 4\\webFramework\\PHP Framework - CRUD 2\\app\\Views\\film\\table.php', 19)
+ 2 SYSTEMPATH\View\View.php(213): include('E:\\DONT_OPEN_THIS_FOLDER\\TUGAS-KULIAH\\Semester 4\\webFramework\\PHP Framework - CRUD 2\\app\\Views\\film\\table.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('film/table', [], true)
+ 5 APPPATH\Controllers\Film.php(26): view('film/table', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\DONT_OPEN_THIS_FOLDER\\TUGAS-KULIAH\\Semester 4\\webFramework\\PHP Framework - CRUD 2\\public\\index.php')
+CRITICAL - 2023-06-27 16:29:21 --> Undefined array key "id"
+in APPPATH\Views\film\table.php on line 19.
+ 1 APPPATH\Views\film\table.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'E:\\DONT_OPEN_THIS_FOLDER\\TUGAS-KULIAH\\Semester 4\\webFramework\\PHP Framework - CRUD 2\\app\\Views\\film\\table.php', 19)
+ 2 SYSTEMPATH\View\View.php(213): include('E:\\DONT_OPEN_THIS_FOLDER\\TUGAS-KULIAH\\Semester 4\\webFramework\\PHP Framework - CRUD 2\\app\\Views\\film\\table.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('film/table', [], true)
+ 5 APPPATH\Controllers\Film.php(26): view('film/table', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\DONT_OPEN_THIS_FOLDER\\TUGAS-KULIAH\\Semester 4\\webFramework\\PHP Framework - CRUD 2\\public\\index.php')
+CRITICAL - 2023-06-27 16:29:37 --> Undefined array key "id"
+in APPPATH\Views\film\table.php on line 19.
+ 1 APPPATH\Views\film\table.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'E:\\DONT_OPEN_THIS_FOLDER\\TUGAS-KULIAH\\Semester 4\\webFramework\\PHP Framework - CRUD 2\\app\\Views\\film\\table.php', 19)
+ 2 SYSTEMPATH\View\View.php(213): include('E:\\DONT_OPEN_THIS_FOLDER\\TUGAS-KULIAH\\Semester 4\\webFramework\\PHP Framework - CRUD 2\\app\\Views\\film\\table.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('film/table', [], true)
+ 5 APPPATH\Controllers\Film.php(26): view('film/table', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\DONT_OPEN_THIS_FOLDER\\TUGAS-KULIAH\\Semester 4\\webFramework\\PHP Framework - CRUD 2\\public\\index.php')
+CRITICAL - 2023-06-27 16:29:37 --> Undefined array key "id"
+in APPPATH\Views\film\table.php on line 19.
+ 1 APPPATH\Views\film\table.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'E:\\DONT_OPEN_THIS_FOLDER\\TUGAS-KULIAH\\Semester 4\\webFramework\\PHP Framework - CRUD 2\\app\\Views\\film\\table.php', 19)
+ 2 SYSTEMPATH\View\View.php(213): include('E:\\DONT_OPEN_THIS_FOLDER\\TUGAS-KULIAH\\Semester 4\\webFramework\\PHP Framework - CRUD 2\\app\\Views\\film\\table.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('film/table', [], true)
+ 5 APPPATH\Controllers\Film.php(26): view('film/table', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\DONT_OPEN_THIS_FOLDER\\TUGAS-KULIAH\\Semester 4\\webFramework\\PHP Framework - CRUD 2\\public\\index.php')
+CRITICAL - 2023-06-27 16:29:38 --> Undefined array key "id"
+in APPPATH\Views\film\table.php on line 19.
+ 1 APPPATH\Views\film\table.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'E:\\DONT_OPEN_THIS_FOLDER\\TUGAS-KULIAH\\Semester 4\\webFramework\\PHP Framework - CRUD 2\\app\\Views\\film\\table.php', 19)
+ 2 SYSTEMPATH\View\View.php(213): include('E:\\DONT_OPEN_THIS_FOLDER\\TUGAS-KULIAH\\Semester 4\\webFramework\\PHP Framework - CRUD 2\\app\\Views\\film\\table.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('film/table', [], true)
+ 5 APPPATH\Controllers\Film.php(26): view('film/table', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\DONT_OPEN_THIS_FOLDER\\TUGAS-KULIAH\\Semester 4\\webFramework\\PHP Framework - CRUD 2\\public\\index.php')
+INFO - 2023-06-27 16:29:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-27 16:29:43 --> Undefined array key "id"
+in APPPATH\Views\film\table.php on line 19.
+ 1 APPPATH\Views\film\table.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'E:\\DONT_OPEN_THIS_FOLDER\\TUGAS-KULIAH\\Semester 4\\webFramework\\PHP Framework - CRUD 2\\app\\Views\\film\\table.php', 19)
+ 2 SYSTEMPATH\View\View.php(213): include('E:\\DONT_OPEN_THIS_FOLDER\\TUGAS-KULIAH\\Semester 4\\webFramework\\PHP Framework - CRUD 2\\app\\Views\\film\\table.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('film/table', [], true)
+ 5 APPPATH\Controllers\Film.php(26): view('film/table', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\DONT_OPEN_THIS_FOLDER\\TUGAS-KULIAH\\Semester 4\\webFramework\\PHP Framework - CRUD 2\\public\\index.php')
+CRITICAL - 2023-06-27 16:29:54 --> Undefined array key "id"
+in APPPATH\Views\film\table.php on line 19.
+ 1 APPPATH\Views\film\table.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'E:\\DONT_OPEN_THIS_FOLDER\\TUGAS-KULIAH\\Semester 4\\webFramework\\PHP Framework - CRUD 2\\app\\Views\\film\\table.php', 19)
+ 2 SYSTEMPATH\View\View.php(213): include('E:\\DONT_OPEN_THIS_FOLDER\\TUGAS-KULIAH\\Semester 4\\webFramework\\PHP Framework - CRUD 2\\app\\Views\\film\\table.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('film/table', [], true)
+ 5 APPPATH\Controllers\Film.php(26): view('film/table', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\DONT_OPEN_THIS_FOLDER\\TUGAS-KULIAH\\Semester 4\\webFramework\\PHP Framework - CRUD 2\\public\\index.php')
+CRITICAL - 2023-06-27 16:30:35 --> Undefined array key "id"
+in APPPATH\Views\film\table.php on line 19.
+ 1 APPPATH\Views\film\table.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'E:\\DONT_OPEN_THIS_FOLDER\\TUGAS-KULIAH\\Semester 4\\webFramework\\PHP Framework - CRUD 2\\app\\Views\\film\\table.php', 19)
+ 2 SYSTEMPATH\View\View.php(213): include('E:\\DONT_OPEN_THIS_FOLDER\\TUGAS-KULIAH\\Semester 4\\webFramework\\PHP Framework - CRUD 2\\app\\Views\\film\\table.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('film/table', [], true)
+ 5 APPPATH\Controllers\Film.php(26): view('film/table', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\DONT_OPEN_THIS_FOLDER\\TUGAS-KULIAH\\Semester 4\\webFramework\\PHP Framework - CRUD 2\\public\\index.php')
+CRITICAL - 2023-06-27 16:30:36 --> Undefined array key "id"
+in APPPATH\Views\film\table.php on line 19.
+ 1 APPPATH\Views\film\table.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'E:\\DONT_OPEN_THIS_FOLDER\\TUGAS-KULIAH\\Semester 4\\webFramework\\PHP Framework - CRUD 2\\app\\Views\\film\\table.php', 19)
+ 2 SYSTEMPATH\View\View.php(213): include('E:\\DONT_OPEN_THIS_FOLDER\\TUGAS-KULIAH\\Semester 4\\webFramework\\PHP Framework - CRUD 2\\app\\Views\\film\\table.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('film/table', [], true)
+ 5 APPPATH\Controllers\Film.php(26): view('film/table', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\DONT_OPEN_THIS_FOLDER\\TUGAS-KULIAH\\Semester 4\\webFramework\\PHP Framework - CRUD 2\\public\\index.php')
+CRITICAL - 2023-06-27 16:30:37 --> Undefined array key "id"
+in APPPATH\Views\film\table.php on line 19.
+ 1 APPPATH\Views\film\table.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'E:\\DONT_OPEN_THIS_FOLDER\\TUGAS-KULIAH\\Semester 4\\webFramework\\PHP Framework - CRUD 2\\app\\Views\\film\\table.php', 19)
+ 2 SYSTEMPATH\View\View.php(213): include('E:\\DONT_OPEN_THIS_FOLDER\\TUGAS-KULIAH\\Semester 4\\webFramework\\PHP Framework - CRUD 2\\app\\Views\\film\\table.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('film/table', [], true)
+ 5 APPPATH\Controllers\Film.php(26): view('film/table', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\DONT_OPEN_THIS_FOLDER\\TUGAS-KULIAH\\Semester 4\\webFramework\\PHP Framework - CRUD 2\\public\\index.php')
+CRITICAL - 2023-06-27 16:30:37 --> Undefined array key "id"
+in APPPATH\Views\film\table.php on line 19.
+ 1 APPPATH\Views\film\table.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'E:\\DONT_OPEN_THIS_FOLDER\\TUGAS-KULIAH\\Semester 4\\webFramework\\PHP Framework - CRUD 2\\app\\Views\\film\\table.php', 19)
+ 2 SYSTEMPATH\View\View.php(213): include('E:\\DONT_OPEN_THIS_FOLDER\\TUGAS-KULIAH\\Semester 4\\webFramework\\PHP Framework - CRUD 2\\app\\Views\\film\\table.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('film/table', [], true)
+ 5 APPPATH\Controllers\Film.php(26): view('film/table', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\DONT_OPEN_THIS_FOLDER\\TUGAS-KULIAH\\Semester 4\\webFramework\\PHP Framework - CRUD 2\\public\\index.php')
+INFO - 2023-06-27 16:30:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-27 16:30:46 --> Undefined array key "id"
+in APPPATH\Views\film\table.php on line 19.
+ 1 APPPATH\Views\film\table.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'E:\\DONT_OPEN_THIS_FOLDER\\TUGAS-KULIAH\\Semester 4\\webFramework\\PHP Framework - CRUD 2\\app\\Views\\film\\table.php', 19)
+ 2 SYSTEMPATH\View\View.php(213): include('E:\\DONT_OPEN_THIS_FOLDER\\TUGAS-KULIAH\\Semester 4\\webFramework\\PHP Framework - CRUD 2\\app\\Views\\film\\table.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('film/table', [], true)
+ 5 APPPATH\Controllers\Film.php(26): view('film/table', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\DONT_OPEN_THIS_FOLDER\\TUGAS-KULIAH\\Semester 4\\webFramework\\PHP Framework - CRUD 2\\public\\index.php')
+CRITICAL - 2023-06-27 16:31:12 --> Undefined array key "id"
+in APPPATH\Views\film\table.php on line 19.
+ 1 APPPATH\Views\film\table.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'E:\\DONT_OPEN_THIS_FOLDER\\TUGAS-KULIAH\\Semester 4\\webFramework\\PHP Framework - CRUD 2\\app\\Views\\film\\table.php', 19)
+ 2 SYSTEMPATH\View\View.php(213): include('E:\\DONT_OPEN_THIS_FOLDER\\TUGAS-KULIAH\\Semester 4\\webFramework\\PHP Framework - CRUD 2\\app\\Views\\film\\table.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('film/table', [], true)
+ 5 APPPATH\Controllers\Film.php(26): view('film/table', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\DONT_OPEN_THIS_FOLDER\\TUGAS-KULIAH\\Semester 4\\webFramework\\PHP Framework - CRUD 2\\public\\index.php')
+CRITICAL - 2023-06-27 16:31:13 --> Undefined array key "id"
+in APPPATH\Views\film\table.php on line 19.
+ 1 APPPATH\Views\film\table.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'E:\\DONT_OPEN_THIS_FOLDER\\TUGAS-KULIAH\\Semester 4\\webFramework\\PHP Framework - CRUD 2\\app\\Views\\film\\table.php', 19)
+ 2 SYSTEMPATH\View\View.php(213): include('E:\\DONT_OPEN_THIS_FOLDER\\TUGAS-KULIAH\\Semester 4\\webFramework\\PHP Framework - CRUD 2\\app\\Views\\film\\table.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('film/table', [], true)
+ 5 APPPATH\Controllers\Film.php(26): view('film/table', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\DONT_OPEN_THIS_FOLDER\\TUGAS-KULIAH\\Semester 4\\webFramework\\PHP Framework - CRUD 2\\public\\index.php')
+CRITICAL - 2023-06-27 16:31:13 --> Undefined array key "id"
+in APPPATH\Views\film\table.php on line 19.
+ 1 APPPATH\Views\film\table.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'E:\\DONT_OPEN_THIS_FOLDER\\TUGAS-KULIAH\\Semester 4\\webFramework\\PHP Framework - CRUD 2\\app\\Views\\film\\table.php', 19)
+ 2 SYSTEMPATH\View\View.php(213): include('E:\\DONT_OPEN_THIS_FOLDER\\TUGAS-KULIAH\\Semester 4\\webFramework\\PHP Framework - CRUD 2\\app\\Views\\film\\table.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('film/table', [], true)
+ 5 APPPATH\Controllers\Film.php(26): view('film/table', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\DONT_OPEN_THIS_FOLDER\\TUGAS-KULIAH\\Semester 4\\webFramework\\PHP Framework - CRUD 2\\public\\index.php')
+CRITICAL - 2023-06-27 16:31:14 --> Undefined array key "id"
+in APPPATH\Views\film\table.php on line 19.
+ 1 APPPATH\Views\film\table.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'E:\\DONT_OPEN_THIS_FOLDER\\TUGAS-KULIAH\\Semester 4\\webFramework\\PHP Framework - CRUD 2\\app\\Views\\film\\table.php', 19)
+ 2 SYSTEMPATH\View\View.php(213): include('E:\\DONT_OPEN_THIS_FOLDER\\TUGAS-KULIAH\\Semester 4\\webFramework\\PHP Framework - CRUD 2\\app\\Views\\film\\table.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('film/table', [], true)
+ 5 APPPATH\Controllers\Film.php(26): view('film/table', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\DONT_OPEN_THIS_FOLDER\\TUGAS-KULIAH\\Semester 4\\webFramework\\PHP Framework - CRUD 2\\public\\index.php')
+INFO - 2023-06-27 16:31:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-27 16:31:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-27 16:31:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-27 16:31:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-27 16:31:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-27 16:31:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-27 16:31:45 --> Undefined array key "id"
+in APPPATH\Views\film\table.php on line 19.
+ 1 APPPATH\Views\film\table.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'E:\\DONT_OPEN_THIS_FOLDER\\TUGAS-KULIAH\\Semester 4\\webFramework\\PHP Framework - CRUD 2\\app\\Views\\film\\table.php', 19)
+ 2 SYSTEMPATH\View\View.php(213): include('E:\\DONT_OPEN_THIS_FOLDER\\TUGAS-KULIAH\\Semester 4\\webFramework\\PHP Framework - CRUD 2\\app\\Views\\film\\table.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('film/table', [], true)
+ 5 APPPATH\Controllers\Film.php(26): view('film/table', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\DONT_OPEN_THIS_FOLDER\\TUGAS-KULIAH\\Semester 4\\webFramework\\PHP Framework - CRUD 2\\public\\index.php')
+INFO - 2023-06-27 16:32:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-27 16:32:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-27 16:32:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-27 16:33:35 --> Undefined variable $dataFilm
+in APPPATH\Views\film\table.php on line 30.
+ 1 APPPATH\Views\film\table.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $dataFilm', 'E:\\DONT_OPEN_THIS_FOLDER\\TUGAS-KULIAH\\Semester 4\\webFramework\\PHP Framework - CRUD 2\\app\\Views\\film\\table.php', 30)
+ 2 SYSTEMPATH\View\View.php(213): include('E:\\DONT_OPEN_THIS_FOLDER\\TUGAS-KULIAH\\Semester 4\\webFramework\\PHP Framework - CRUD 2\\app\\Views\\film\\table.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('film/table', [], true)
+ 5 APPPATH\Controllers\Film.php(26): view('film/table', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\DONT_OPEN_THIS_FOLDER\\TUGAS-KULIAH\\Semester 4\\webFramework\\PHP Framework - CRUD 2\\public\\index.php')
+INFO - 2023-06-27 16:33:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-27 16:35:13 --> Undefined array key "id"
+in APPPATH\Views\film\table.php on line 19.
+ 1 APPPATH\Views\film\table.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'E:\\DONT_OPEN_THIS_FOLDER\\TUGAS-KULIAH\\Semester 4\\webFramework\\PHP Framework - CRUD 2\\app\\Views\\film\\table.php', 19)
+ 2 SYSTEMPATH\View\View.php(213): include('E:\\DONT_OPEN_THIS_FOLDER\\TUGAS-KULIAH\\Semester 4\\webFramework\\PHP Framework - CRUD 2\\app\\Views\\film\\table.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('film/table', [], true)
+ 5 APPPATH\Controllers\Film.php(26): view('film/table', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\DONT_OPEN_THIS_FOLDER\\TUGAS-KULIAH\\Semester 4\\webFramework\\PHP Framework - CRUD 2\\public\\index.php')
+INFO - 2023-06-27 16:37:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-27 16:37:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-27 16:37:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-27 16:38:22 --> Undefined variable $film
+in APPPATH\Views\film\table.php on line 62.
+ 1 APPPATH\Views\film\table.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $film', 'E:\\DONT_OPEN_THIS_FOLDER\\TUGAS-KULIAH\\Semester 4\\webFramework\\PHP Framework - CRUD 2\\app\\Views\\film\\table.php', 62)
+ 2 SYSTEMPATH\View\View.php(213): include('E:\\DONT_OPEN_THIS_FOLDER\\TUGAS-KULIAH\\Semester 4\\webFramework\\PHP Framework - CRUD 2\\app\\Views\\film\\table.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('film/table', [], true)
+ 5 APPPATH\Controllers\Film.php(26): view('film/table', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\DONT_OPEN_THIS_FOLDER\\TUGAS-KULIAH\\Semester 4\\webFramework\\PHP Framework - CRUD 2\\public\\index.php')
+CRITICAL - 2023-06-27 16:38:32 --> Undefined array key "id"
+in APPPATH\Views\film\table.php on line 62.
+ 1 APPPATH\Views\film\table.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'E:\\DONT_OPEN_THIS_FOLDER\\TUGAS-KULIAH\\Semester 4\\webFramework\\PHP Framework - CRUD 2\\app\\Views\\film\\table.php', 62)
+ 2 SYSTEMPATH\View\View.php(213): include('E:\\DONT_OPEN_THIS_FOLDER\\TUGAS-KULIAH\\Semester 4\\webFramework\\PHP Framework - CRUD 2\\app\\Views\\film\\table.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('film/table', [], true)
+ 5 APPPATH\Controllers\Film.php(26): view('film/table', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\DONT_OPEN_THIS_FOLDER\\TUGAS-KULIAH\\Semester 4\\webFramework\\PHP Framework - CRUD 2\\public\\index.php')
+CRITICAL - 2023-06-27 16:40:12 --> Undefined array key "id"
+in APPPATH\Views\film\table.php on line 62.
+ 1 APPPATH\Views\film\table.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'E:\\DONT_OPEN_THIS_FOLDER\\TUGAS-KULIAH\\Semester 4\\webFramework\\PHP Framework - CRUD 2\\app\\Views\\film\\table.php', 62)
+ 2 SYSTEMPATH\View\View.php(213): include('E:\\DONT_OPEN_THIS_FOLDER\\TUGAS-KULIAH\\Semester 4\\webFramework\\PHP Framework - CRUD 2\\app\\Views\\film\\table.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('film/table', [], true)
+ 5 APPPATH\Controllers\Film.php(26): view('film/table', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\DONT_OPEN_THIS_FOLDER\\TUGAS-KULIAH\\Semester 4\\webFramework\\PHP Framework - CRUD 2\\public\\index.php')
+CRITICAL - 2023-06-27 16:40:13 --> Undefined array key "id"
+in APPPATH\Views\film\table.php on line 62.
+ 1 APPPATH\Views\film\table.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'E:\\DONT_OPEN_THIS_FOLDER\\TUGAS-KULIAH\\Semester 4\\webFramework\\PHP Framework - CRUD 2\\app\\Views\\film\\table.php', 62)
+ 2 SYSTEMPATH\View\View.php(213): include('E:\\DONT_OPEN_THIS_FOLDER\\TUGAS-KULIAH\\Semester 4\\webFramework\\PHP Framework - CRUD 2\\app\\Views\\film\\table.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('film/table', [], true)
+ 5 APPPATH\Controllers\Film.php(26): view('film/table', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\DONT_OPEN_THIS_FOLDER\\TUGAS-KULIAH\\Semester 4\\webFramework\\PHP Framework - CRUD 2\\public\\index.php')
+CRITICAL - 2023-06-27 16:40:13 --> Undefined array key "id"
+in APPPATH\Views\film\table.php on line 62.
+ 1 APPPATH\Views\film\table.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'E:\\DONT_OPEN_THIS_FOLDER\\TUGAS-KULIAH\\Semester 4\\webFramework\\PHP Framework - CRUD 2\\app\\Views\\film\\table.php', 62)
+ 2 SYSTEMPATH\View\View.php(213): include('E:\\DONT_OPEN_THIS_FOLDER\\TUGAS-KULIAH\\Semester 4\\webFramework\\PHP Framework - CRUD 2\\app\\Views\\film\\table.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('film/table', [], true)
+ 5 APPPATH\Controllers\Film.php(26): view('film/table', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\DONT_OPEN_THIS_FOLDER\\TUGAS-KULIAH\\Semester 4\\webFramework\\PHP Framework - CRUD 2\\public\\index.php')
+CRITICAL - 2023-06-27 16:40:13 --> Undefined array key "id"
+in APPPATH\Views\film\table.php on line 62.
+ 1 APPPATH\Views\film\table.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'E:\\DONT_OPEN_THIS_FOLDER\\TUGAS-KULIAH\\Semester 4\\webFramework\\PHP Framework - CRUD 2\\app\\Views\\film\\table.php', 62)
+ 2 SYSTEMPATH\View\View.php(213): include('E:\\DONT_OPEN_THIS_FOLDER\\TUGAS-KULIAH\\Semester 4\\webFramework\\PHP Framework - CRUD 2\\app\\Views\\film\\table.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('film/table', [], true)
+ 5 APPPATH\Controllers\Film.php(26): view('film/table', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\DONT_OPEN_THIS_FOLDER\\TUGAS-KULIAH\\Semester 4\\webFramework\\PHP Framework - CRUD 2\\public\\index.php')
+CRITICAL - 2023-06-27 16:40:14 --> Undefined array key "id"
+in APPPATH\Views\film\table.php on line 62.
+ 1 APPPATH\Views\film\table.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'E:\\DONT_OPEN_THIS_FOLDER\\TUGAS-KULIAH\\Semester 4\\webFramework\\PHP Framework - CRUD 2\\app\\Views\\film\\table.php', 62)
+ 2 SYSTEMPATH\View\View.php(213): include('E:\\DONT_OPEN_THIS_FOLDER\\TUGAS-KULIAH\\Semester 4\\webFramework\\PHP Framework - CRUD 2\\app\\Views\\film\\table.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('film/table', [], true)
+ 5 APPPATH\Controllers\Film.php(26): view('film/table', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\DONT_OPEN_THIS_FOLDER\\TUGAS-KULIAH\\Semester 4\\webFramework\\PHP Framework - CRUD 2\\public\\index.php')
+CRITICAL - 2023-06-27 16:40:14 --> Undefined array key "id"
+in APPPATH\Views\film\table.php on line 62.
+ 1 APPPATH\Views\film\table.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'E:\\DONT_OPEN_THIS_FOLDER\\TUGAS-KULIAH\\Semester 4\\webFramework\\PHP Framework - CRUD 2\\app\\Views\\film\\table.php', 62)
+ 2 SYSTEMPATH\View\View.php(213): include('E:\\DONT_OPEN_THIS_FOLDER\\TUGAS-KULIAH\\Semester 4\\webFramework\\PHP Framework - CRUD 2\\app\\Views\\film\\table.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('film/table', [], true)
+ 5 APPPATH\Controllers\Film.php(26): view('film/table', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\DONT_OPEN_THIS_FOLDER\\TUGAS-KULIAH\\Semester 4\\webFramework\\PHP Framework - CRUD 2\\public\\index.php')
+CRITICAL - 2023-06-27 16:47:23 --> Undefined array key "id"
+in APPPATH\Views\film\table.php on line 62.
+ 1 APPPATH\Views\film\table.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'E:\\DONT_OPEN_THIS_FOLDER\\TUGAS-KULIAH\\Semester 4\\webFramework\\PHP Framework - CRUD 2\\app\\Views\\film\\table.php', 62)
+ 2 SYSTEMPATH\View\View.php(213): include('E:\\DONT_OPEN_THIS_FOLDER\\TUGAS-KULIAH\\Semester 4\\webFramework\\PHP Framework - CRUD 2\\app\\Views\\film\\table.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('film/table', [], true)
+ 5 APPPATH\Controllers\Film.php(26): view('film/table', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\DONT_OPEN_THIS_FOLDER\\TUGAS-KULIAH\\Semester 4\\webFramework\\PHP Framework - CRUD 2\\public\\index.php')
+CRITICAL - 2023-06-27 16:47:45 --> Undefined array key "id"
+in APPPATH\Views\film\table.php on line 62.
+ 1 APPPATH\Views\film\table.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'E:\\DONT_OPEN_THIS_FOLDER\\TUGAS-KULIAH\\Semester 4\\webFramework\\PHP Framework - CRUD 2\\app\\Views\\film\\table.php', 62)
+ 2 SYSTEMPATH\View\View.php(213): include('E:\\DONT_OPEN_THIS_FOLDER\\TUGAS-KULIAH\\Semester 4\\webFramework\\PHP Framework - CRUD 2\\app\\Views\\film\\table.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('film/table', [], true)
+ 5 APPPATH\Controllers\Film.php(26): view('film/table', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\DONT_OPEN_THIS_FOLDER\\TUGAS-KULIAH\\Semester 4\\webFramework\\PHP Framework - CRUD 2\\public\\index.php')
+CRITICAL - 2023-06-27 16:47:59 --> Undefined array key "id_genre"
+in APPPATH\Views\film\table.php on line 62.
+ 1 APPPATH\Views\film\table.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_genre"', 'E:\\DONT_OPEN_THIS_FOLDER\\TUGAS-KULIAH\\Semester 4\\webFramework\\PHP Framework - CRUD 2\\app\\Views\\film\\table.php', 62)
+ 2 SYSTEMPATH\View\View.php(213): include('E:\\DONT_OPEN_THIS_FOLDER\\TUGAS-KULIAH\\Semester 4\\webFramework\\PHP Framework - CRUD 2\\app\\Views\\film\\table.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('film/table', [], true)
+ 5 APPPATH\Controllers\Film.php(26): view('film/table', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\DONT_OPEN_THIS_FOLDER\\TUGAS-KULIAH\\Semester 4\\webFramework\\PHP Framework - CRUD 2\\public\\index.php')
+CRITICAL - 2023-06-27 16:48:00 --> Undefined array key "id_genre"
+in APPPATH\Views\film\table.php on line 62.
+ 1 APPPATH\Views\film\table.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_genre"', 'E:\\DONT_OPEN_THIS_FOLDER\\TUGAS-KULIAH\\Semester 4\\webFramework\\PHP Framework - CRUD 2\\app\\Views\\film\\table.php', 62)
+ 2 SYSTEMPATH\View\View.php(213): include('E:\\DONT_OPEN_THIS_FOLDER\\TUGAS-KULIAH\\Semester 4\\webFramework\\PHP Framework - CRUD 2\\app\\Views\\film\\table.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('film/table', [], true)
+ 5 APPPATH\Controllers\Film.php(26): view('film/table', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\DONT_OPEN_THIS_FOLDER\\TUGAS-KULIAH\\Semester 4\\webFramework\\PHP Framework - CRUD 2\\public\\index.php')
+CRITICAL - 2023-06-27 16:48:01 --> Undefined array key "id_genre"
+in APPPATH\Views\film\table.php on line 62.
+ 1 APPPATH\Views\film\table.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_genre"', 'E:\\DONT_OPEN_THIS_FOLDER\\TUGAS-KULIAH\\Semester 4\\webFramework\\PHP Framework - CRUD 2\\app\\Views\\film\\table.php', 62)
+ 2 SYSTEMPATH\View\View.php(213): include('E:\\DONT_OPEN_THIS_FOLDER\\TUGAS-KULIAH\\Semester 4\\webFramework\\PHP Framework - CRUD 2\\app\\Views\\film\\table.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('film/table', [], true)
+ 5 APPPATH\Controllers\Film.php(26): view('film/table', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\DONT_OPEN_THIS_FOLDER\\TUGAS-KULIAH\\Semester 4\\webFramework\\PHP Framework - CRUD 2\\public\\index.php')
+CRITICAL - 2023-06-27 16:48:01 --> Undefined array key "id_genre"
+in APPPATH\Views\film\table.php on line 62.
+ 1 APPPATH\Views\film\table.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_genre"', 'E:\\DONT_OPEN_THIS_FOLDER\\TUGAS-KULIAH\\Semester 4\\webFramework\\PHP Framework - CRUD 2\\app\\Views\\film\\table.php', 62)
+ 2 SYSTEMPATH\View\View.php(213): include('E:\\DONT_OPEN_THIS_FOLDER\\TUGAS-KULIAH\\Semester 4\\webFramework\\PHP Framework - CRUD 2\\app\\Views\\film\\table.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('film/table', [], true)
+ 5 APPPATH\Controllers\Film.php(26): view('film/table', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\DONT_OPEN_THIS_FOLDER\\TUGAS-KULIAH\\Semester 4\\webFramework\\PHP Framework - CRUD 2\\public\\index.php')
+CRITICAL - 2023-06-27 16:48:47 --> Undefined array key "id_genre"
+in APPPATH\Views\film\table.php on line 39.
+ 1 APPPATH\Views\film\table.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_genre"', 'E:\\DONT_OPEN_THIS_FOLDER\\TUGAS-KULIAH\\Semester 4\\webFramework\\PHP Framework - CRUD 2\\app\\Views\\film\\table.php', 39)
+ 2 SYSTEMPATH\View\View.php(213): include('E:\\DONT_OPEN_THIS_FOLDER\\TUGAS-KULIAH\\Semester 4\\webFramework\\PHP Framework - CRUD 2\\app\\Views\\film\\table.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('film/table', [], true)
+ 5 APPPATH\Controllers\Film.php(26): view('film/table', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\DONT_OPEN_THIS_FOLDER\\TUGAS-KULIAH\\Semester 4\\webFramework\\PHP Framework - CRUD 2\\public\\index.php')
+CRITICAL - 2023-06-27 16:48:47 --> Undefined array key "id_genre"
+in APPPATH\Views\film\table.php on line 39.
+ 1 APPPATH\Views\film\table.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_genre"', 'E:\\DONT_OPEN_THIS_FOLDER\\TUGAS-KULIAH\\Semester 4\\webFramework\\PHP Framework - CRUD 2\\app\\Views\\film\\table.php', 39)
+ 2 SYSTEMPATH\View\View.php(213): include('E:\\DONT_OPEN_THIS_FOLDER\\TUGAS-KULIAH\\Semester 4\\webFramework\\PHP Framework - CRUD 2\\app\\Views\\film\\table.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('film/table', [], true)
+ 5 APPPATH\Controllers\Film.php(26): view('film/table', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\DONT_OPEN_THIS_FOLDER\\TUGAS-KULIAH\\Semester 4\\webFramework\\PHP Framework - CRUD 2\\public\\index.php')
+CRITICAL - 2023-06-27 16:48:48 --> Undefined array key "id_genre"
+in APPPATH\Views\film\table.php on line 39.
+ 1 APPPATH\Views\film\table.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_genre"', 'E:\\DONT_OPEN_THIS_FOLDER\\TUGAS-KULIAH\\Semester 4\\webFramework\\PHP Framework - CRUD 2\\app\\Views\\film\\table.php', 39)
+ 2 SYSTEMPATH\View\View.php(213): include('E:\\DONT_OPEN_THIS_FOLDER\\TUGAS-KULIAH\\Semester 4\\webFramework\\PHP Framework - CRUD 2\\app\\Views\\film\\table.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('film/table', [], true)
+ 5 APPPATH\Controllers\Film.php(26): view('film/table', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\DONT_OPEN_THIS_FOLDER\\TUGAS-KULIAH\\Semester 4\\webFramework\\PHP Framework - CRUD 2\\public\\index.php')
+CRITICAL - 2023-06-27 16:48:48 --> Undefined array key "id_genre"
+in APPPATH\Views\film\table.php on line 39.
+ 1 APPPATH\Views\film\table.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_genre"', 'E:\\DONT_OPEN_THIS_FOLDER\\TUGAS-KULIAH\\Semester 4\\webFramework\\PHP Framework - CRUD 2\\app\\Views\\film\\table.php', 39)
+ 2 SYSTEMPATH\View\View.php(213): include('E:\\DONT_OPEN_THIS_FOLDER\\TUGAS-KULIAH\\Semester 4\\webFramework\\PHP Framework - CRUD 2\\app\\Views\\film\\table.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('film/table', [], true)
+ 5 APPPATH\Controllers\Film.php(26): view('film/table', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\DONT_OPEN_THIS_FOLDER\\TUGAS-KULIAH\\Semester 4\\webFramework\\PHP Framework - CRUD 2\\public\\index.php')
+CRITICAL - 2023-06-27 16:49:00 --> Undefined array key "id"
+in APPPATH\Views\film\table.php on line 39.
+ 1 APPPATH\Views\film\table.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'E:\\DONT_OPEN_THIS_FOLDER\\TUGAS-KULIAH\\Semester 4\\webFramework\\PHP Framework - CRUD 2\\app\\Views\\film\\table.php', 39)
+ 2 SYSTEMPATH\View\View.php(213): include('E:\\DONT_OPEN_THIS_FOLDER\\TUGAS-KULIAH\\Semester 4\\webFramework\\PHP Framework - CRUD 2\\app\\Views\\film\\table.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('film/table', [], true)
+ 5 APPPATH\Controllers\Film.php(26): view('film/table', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\DONT_OPEN_THIS_FOLDER\\TUGAS-KULIAH\\Semester 4\\webFramework\\PHP Framework - CRUD 2\\public\\index.php')
+CRITICAL - 2023-06-27 16:49:01 --> Undefined array key "id"
+in APPPATH\Views\film\table.php on line 39.
+ 1 APPPATH\Views\film\table.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'E:\\DONT_OPEN_THIS_FOLDER\\TUGAS-KULIAH\\Semester 4\\webFramework\\PHP Framework - CRUD 2\\app\\Views\\film\\table.php', 39)
+ 2 SYSTEMPATH\View\View.php(213): include('E:\\DONT_OPEN_THIS_FOLDER\\TUGAS-KULIAH\\Semester 4\\webFramework\\PHP Framework - CRUD 2\\app\\Views\\film\\table.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('film/table', [], true)
+ 5 APPPATH\Controllers\Film.php(26): view('film/table', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\DONT_OPEN_THIS_FOLDER\\TUGAS-KULIAH\\Semester 4\\webFramework\\PHP Framework - CRUD 2\\public\\index.php')
+CRITICAL - 2023-06-27 16:49:01 --> Undefined array key "id"
+in APPPATH\Views\film\table.php on line 39.
+ 1 APPPATH\Views\film\table.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'E:\\DONT_OPEN_THIS_FOLDER\\TUGAS-KULIAH\\Semester 4\\webFramework\\PHP Framework - CRUD 2\\app\\Views\\film\\table.php', 39)
+ 2 SYSTEMPATH\View\View.php(213): include('E:\\DONT_OPEN_THIS_FOLDER\\TUGAS-KULIAH\\Semester 4\\webFramework\\PHP Framework - CRUD 2\\app\\Views\\film\\table.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('film/table', [], true)
+ 5 APPPATH\Controllers\Film.php(26): view('film/table', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\DONT_OPEN_THIS_FOLDER\\TUGAS-KULIAH\\Semester 4\\webFramework\\PHP Framework - CRUD 2\\public\\index.php')
+CRITICAL - 2023-06-27 16:49:02 --> Undefined array key "id"
+in APPPATH\Views\film\table.php on line 39.
+ 1 APPPATH\Views\film\table.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'E:\\DONT_OPEN_THIS_FOLDER\\TUGAS-KULIAH\\Semester 4\\webFramework\\PHP Framework - CRUD 2\\app\\Views\\film\\table.php', 39)
+ 2 SYSTEMPATH\View\View.php(213): include('E:\\DONT_OPEN_THIS_FOLDER\\TUGAS-KULIAH\\Semester 4\\webFramework\\PHP Framework - CRUD 2\\app\\Views\\film\\table.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('film/table', [], true)
+ 5 APPPATH\Controllers\Film.php(26): view('film/table', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\DONT_OPEN_THIS_FOLDER\\TUGAS-KULIAH\\Semester 4\\webFramework\\PHP Framework - CRUD 2\\public\\index.php')
+CRITICAL - 2023-06-27 16:49:14 --> Undefined array key "id_genre"
+in APPPATH\Views\film\table.php on line 62.
+ 1 APPPATH\Views\film\table.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_genre"', 'E:\\DONT_OPEN_THIS_FOLDER\\TUGAS-KULIAH\\Semester 4\\webFramework\\PHP Framework - CRUD 2\\app\\Views\\film\\table.php', 62)
+ 2 SYSTEMPATH\View\View.php(213): include('E:\\DONT_OPEN_THIS_FOLDER\\TUGAS-KULIAH\\Semester 4\\webFramework\\PHP Framework - CRUD 2\\app\\Views\\film\\table.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('film/table', [], true)
+ 5 APPPATH\Controllers\Film.php(26): view('film/table', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\DONT_OPEN_THIS_FOLDER\\TUGAS-KULIAH\\Semester 4\\webFramework\\PHP Framework - CRUD 2\\public\\index.php')
+CRITICAL - 2023-06-27 16:49:15 --> Undefined array key "id_genre"
+in APPPATH\Views\film\table.php on line 62.
+ 1 APPPATH\Views\film\table.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_genre"', 'E:\\DONT_OPEN_THIS_FOLDER\\TUGAS-KULIAH\\Semester 4\\webFramework\\PHP Framework - CRUD 2\\app\\Views\\film\\table.php', 62)
+ 2 SYSTEMPATH\View\View.php(213): include('E:\\DONT_OPEN_THIS_FOLDER\\TUGAS-KULIAH\\Semester 4\\webFramework\\PHP Framework - CRUD 2\\app\\Views\\film\\table.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('film/table', [], true)
+ 5 APPPATH\Controllers\Film.php(26): view('film/table', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\DONT_OPEN_THIS_FOLDER\\TUGAS-KULIAH\\Semester 4\\webFramework\\PHP Framework - CRUD 2\\public\\index.php')
+CRITICAL - 2023-06-27 16:49:25 --> Undefined array key "id"
+in APPPATH\Views\film\table.php on line 62.
+ 1 APPPATH\Views\film\table.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'E:\\DONT_OPEN_THIS_FOLDER\\TUGAS-KULIAH\\Semester 4\\webFramework\\PHP Framework - CRUD 2\\app\\Views\\film\\table.php', 62)
+ 2 SYSTEMPATH\View\View.php(213): include('E:\\DONT_OPEN_THIS_FOLDER\\TUGAS-KULIAH\\Semester 4\\webFramework\\PHP Framework - CRUD 2\\app\\Views\\film\\table.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('film/table', [], true)
+ 5 APPPATH\Controllers\Film.php(26): view('film/table', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\DONT_OPEN_THIS_FOLDER\\TUGAS-KULIAH\\Semester 4\\webFramework\\PHP Framework - CRUD 2\\public\\index.php')
+CRITICAL - 2023-06-27 16:51:02 --> Undefined array key "id"
+in APPPATH\Views\film\table.php on line 62.
+ 1 APPPATH\Views\film\table.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'E:\\DONT_OPEN_THIS_FOLDER\\TUGAS-KULIAH\\Semester 4\\webFramework\\PHP Framework - CRUD 2\\app\\Views\\film\\table.php', 62)
+ 2 SYSTEMPATH\View\View.php(213): include('E:\\DONT_OPEN_THIS_FOLDER\\TUGAS-KULIAH\\Semester 4\\webFramework\\PHP Framework - CRUD 2\\app\\Views\\film\\table.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('film/table', [], true)
+ 5 APPPATH\Controllers\Film.php(26): view('film/table', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\DONT_OPEN_THIS_FOLDER\\TUGAS-KULIAH\\Semester 4\\webFramework\\PHP Framework - CRUD 2\\public\\index.php')
+INFO - 2023-06-27 16:51:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-27 16:51:58 --> Undefined variable $film
+in APPPATH\Views\film\table.php on line 52.
+ 1 APPPATH\Views\film\table.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $film', 'E:\\DONT_OPEN_THIS_FOLDER\\TUGAS-KULIAH\\Semester 4\\webFramework\\PHP Framework - CRUD 2\\app\\Views\\film\\table.php', 52)
+ 2 SYSTEMPATH\View\View.php(213): include('E:\\DONT_OPEN_THIS_FOLDER\\TUGAS-KULIAH\\Semester 4\\webFramework\\PHP Framework - CRUD 2\\app\\Views\\film\\table.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('film/table', [], true)
+ 5 APPPATH\Controllers\Film.php(26): view('film/table', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\DONT_OPEN_THIS_FOLDER\\TUGAS-KULIAH\\Semester 4\\webFramework\\PHP Framework - CRUD 2\\public\\index.php')
+CRITICAL - 2023-06-27 16:51:59 --> Undefined variable $film
+in APPPATH\Views\film\table.php on line 52.
+ 1 APPPATH\Views\film\table.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $film', 'E:\\DONT_OPEN_THIS_FOLDER\\TUGAS-KULIAH\\Semester 4\\webFramework\\PHP Framework - CRUD 2\\app\\Views\\film\\table.php', 52)
+ 2 SYSTEMPATH\View\View.php(213): include('E:\\DONT_OPEN_THIS_FOLDER\\TUGAS-KULIAH\\Semester 4\\webFramework\\PHP Framework - CRUD 2\\app\\Views\\film\\table.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('film/table', [], true)
+ 5 APPPATH\Controllers\Film.php(26): view('film/table', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\DONT_OPEN_THIS_FOLDER\\TUGAS-KULIAH\\Semester 4\\webFramework\\PHP Framework - CRUD 2\\public\\index.php')
+CRITICAL - 2023-06-27 16:52:00 --> Undefined variable $film
+in APPPATH\Views\film\table.php on line 52.
+ 1 APPPATH\Views\film\table.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $film', 'E:\\DONT_OPEN_THIS_FOLDER\\TUGAS-KULIAH\\Semester 4\\webFramework\\PHP Framework - CRUD 2\\app\\Views\\film\\table.php', 52)
+ 2 SYSTEMPATH\View\View.php(213): include('E:\\DONT_OPEN_THIS_FOLDER\\TUGAS-KULIAH\\Semester 4\\webFramework\\PHP Framework - CRUD 2\\app\\Views\\film\\table.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('film/table', [], true)
+ 5 APPPATH\Controllers\Film.php(26): view('film/table', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\DONT_OPEN_THIS_FOLDER\\TUGAS-KULIAH\\Semester 4\\webFramework\\PHP Framework - CRUD 2\\public\\index.php')
+INFO - 2023-06-27 16:52:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-27 16:52:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-27 16:52:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-27 16:52:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-27 16:52:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-27 16:52:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-27 16:53:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-27 16:53:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-27 16:53:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-27 16:53:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-27 16:53:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-27 16:54:11 --> Undefined array key "id"
+in APPPATH\Views\film\table.php on line 52.
+ 1 APPPATH\Views\film\table.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'E:\\DONT_OPEN_THIS_FOLDER\\TUGAS-KULIAH\\Semester 4\\webFramework\\PHP Framework - CRUD 2\\app\\Views\\film\\table.php', 52)
+ 2 SYSTEMPATH\View\View.php(213): include('E:\\DONT_OPEN_THIS_FOLDER\\TUGAS-KULIAH\\Semester 4\\webFramework\\PHP Framework - CRUD 2\\app\\Views\\film\\table.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('film/table', [], true)
+ 5 APPPATH\Controllers\Film.php(26): view('film/table', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\DONT_OPEN_THIS_FOLDER\\TUGAS-KULIAH\\Semester 4\\webFramework\\PHP Framework - CRUD 2\\public\\index.php')
+CRITICAL - 2023-06-27 16:56:20 --> Undefined array key "id"
+in APPPATH\Views\film\table.php on line 52.
+ 1 APPPATH\Views\film\table.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'E:\\DONT_OPEN_THIS_FOLDER\\TUGAS-KULIAH\\Semester 4\\webFramework\\PHP Framework - CRUD 2\\app\\Views\\film\\table.php', 52)
+ 2 SYSTEMPATH\View\View.php(213): include('E:\\DONT_OPEN_THIS_FOLDER\\TUGAS-KULIAH\\Semester 4\\webFramework\\PHP Framework - CRUD 2\\app\\Views\\film\\table.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('film/table', [], true)
+ 5 APPPATH\Controllers\Film.php(26): view('film/table', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\DONT_OPEN_THIS_FOLDER\\TUGAS-KULIAH\\Semester 4\\webFramework\\PHP Framework - CRUD 2\\public\\index.php')
+CRITICAL - 2023-06-27 16:56:20 --> Undefined array key "id"
+in APPPATH\Views\film\table.php on line 52.
+ 1 APPPATH\Views\film\table.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'E:\\DONT_OPEN_THIS_FOLDER\\TUGAS-KULIAH\\Semester 4\\webFramework\\PHP Framework - CRUD 2\\app\\Views\\film\\table.php', 52)
+ 2 SYSTEMPATH\View\View.php(213): include('E:\\DONT_OPEN_THIS_FOLDER\\TUGAS-KULIAH\\Semester 4\\webFramework\\PHP Framework - CRUD 2\\app\\Views\\film\\table.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('film/table', [], true)
+ 5 APPPATH\Controllers\Film.php(26): view('film/table', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\DONT_OPEN_THIS_FOLDER\\TUGAS-KULIAH\\Semester 4\\webFramework\\PHP Framework - CRUD 2\\public\\index.php')
+CRITICAL - 2023-06-27 16:56:21 --> Undefined array key "id"
+in APPPATH\Views\film\table.php on line 52.
+ 1 APPPATH\Views\film\table.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'E:\\DONT_OPEN_THIS_FOLDER\\TUGAS-KULIAH\\Semester 4\\webFramework\\PHP Framework - CRUD 2\\app\\Views\\film\\table.php', 52)
+ 2 SYSTEMPATH\View\View.php(213): include('E:\\DONT_OPEN_THIS_FOLDER\\TUGAS-KULIAH\\Semester 4\\webFramework\\PHP Framework - CRUD 2\\app\\Views\\film\\table.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('film/table', [], true)
+ 5 APPPATH\Controllers\Film.php(26): view('film/table', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\DONT_OPEN_THIS_FOLDER\\TUGAS-KULIAH\\Semester 4\\webFramework\\PHP Framework - CRUD 2\\public\\index.php')
+CRITICAL - 2023-06-27 16:56:21 --> Undefined array key "id"
+in APPPATH\Views\film\table.php on line 52.
+ 1 APPPATH\Views\film\table.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'E:\\DONT_OPEN_THIS_FOLDER\\TUGAS-KULIAH\\Semester 4\\webFramework\\PHP Framework - CRUD 2\\app\\Views\\film\\table.php', 52)
+ 2 SYSTEMPATH\View\View.php(213): include('E:\\DONT_OPEN_THIS_FOLDER\\TUGAS-KULIAH\\Semester 4\\webFramework\\PHP Framework - CRUD 2\\app\\Views\\film\\table.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('film/table', [], true)
+ 5 APPPATH\Controllers\Film.php(26): view('film/table', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\DONT_OPEN_THIS_FOLDER\\TUGAS-KULIAH\\Semester 4\\webFramework\\PHP Framework - CRUD 2\\public\\index.php')
+CRITICAL - 2023-06-27 16:56:21 --> Undefined array key "id"
+in APPPATH\Views\film\table.php on line 52.
+ 1 APPPATH\Views\film\table.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'E:\\DONT_OPEN_THIS_FOLDER\\TUGAS-KULIAH\\Semester 4\\webFramework\\PHP Framework - CRUD 2\\app\\Views\\film\\table.php', 52)
+ 2 SYSTEMPATH\View\View.php(213): include('E:\\DONT_OPEN_THIS_FOLDER\\TUGAS-KULIAH\\Semester 4\\webFramework\\PHP Framework - CRUD 2\\app\\Views\\film\\table.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('film/table', [], true)
+ 5 APPPATH\Controllers\Film.php(26): view('film/table', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\DONT_OPEN_THIS_FOLDER\\TUGAS-KULIAH\\Semester 4\\webFramework\\PHP Framework - CRUD 2\\public\\index.php')
+CRITICAL - 2023-06-27 16:56:21 --> Undefined array key "id"
+in APPPATH\Views\film\table.php on line 52.
+ 1 APPPATH\Views\film\table.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'E:\\DONT_OPEN_THIS_FOLDER\\TUGAS-KULIAH\\Semester 4\\webFramework\\PHP Framework - CRUD 2\\app\\Views\\film\\table.php', 52)
+ 2 SYSTEMPATH\View\View.php(213): include('E:\\DONT_OPEN_THIS_FOLDER\\TUGAS-KULIAH\\Semester 4\\webFramework\\PHP Framework - CRUD 2\\app\\Views\\film\\table.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('film/table', [], true)
+ 5 APPPATH\Controllers\Film.php(26): view('film/table', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\DONT_OPEN_THIS_FOLDER\\TUGAS-KULIAH\\Semester 4\\webFramework\\PHP Framework - CRUD 2\\public\\index.php')
+CRITICAL - 2023-06-27 16:56:21 --> Undefined array key "id"
+in APPPATH\Views\film\table.php on line 52.
+ 1 APPPATH\Views\film\table.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'E:\\DONT_OPEN_THIS_FOLDER\\TUGAS-KULIAH\\Semester 4\\webFramework\\PHP Framework - CRUD 2\\app\\Views\\film\\table.php', 52)
+ 2 SYSTEMPATH\View\View.php(213): include('E:\\DONT_OPEN_THIS_FOLDER\\TUGAS-KULIAH\\Semester 4\\webFramework\\PHP Framework - CRUD 2\\app\\Views\\film\\table.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('film/table', [], true)
+ 5 APPPATH\Controllers\Film.php(26): view('film/table', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\DONT_OPEN_THIS_FOLDER\\TUGAS-KULIAH\\Semester 4\\webFramework\\PHP Framework - CRUD 2\\public\\index.php')
+INFO - 2023-06-27 16:58:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-27 16:58:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-27 16:59:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-27 16:59:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-27 16:59:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-27 17:00:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-27 17:00:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-27 17:00:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-27 17:00:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-27 17:00:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-27 17:00:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-27 17:00:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-27 17:06:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-27 17:06:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-27 17:06:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-27 17:06:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-27 17:06:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-27 17:06:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
