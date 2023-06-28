@@ -69,3 +69,53 @@ INFO - 2023-06-28 05:26:43 --> Session: Class initialized using 'CodeIgniter\Ses
 INFO - 2023-06-28 05:26:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
 INFO - 2023-06-28 05:26:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
 INFO - 2023-06-28 05:26:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-06-28 13:55:44 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in E:\DONT_OPEN_THIS_FOLDER\TUGAS-KULIAH\Semester 4\web-framewordk\webFramework\PHP Framework - Keamanan URL\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:173
+Stack trace:
+#0 E:\DONT_OPEN_THIS_FOLDER\TUGAS-KULIAH\Semester 4\web-framewordk\webFramework\PHP Framework - Keamanan URL\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(173): mysqli->real_connect('127.0.0.1', 'root', Object(SensitiveParameterValue), 'db_film', 3306, '', 0)
+#1 E:\DONT_OPEN_THIS_FOLDER\TUGAS-KULIAH\Semester 4\web-framewordk\webFramework\PHP Framework - Keamanan URL\vendor\codeigniter4\framework\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 E:\DONT_OPEN_THIS_FOLDER\TUGAS-KULIAH\Semester 4\web-framewordk\webFramework\PHP Framework - Keamanan URL\vendor\codeigniter4\framework\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#3 E:\DONT_OPEN_THIS_FOLDER\TUGAS-KULIAH\Semester 4\web-framewordk\webFramework\PHP Framework - Keamanan URL\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `film`.*...', Array, false)
+#4 E:\DONT_OPEN_THIS_FOLDER\TUGAS-KULIAH\Semester 4\web-framewordk\webFramework\PHP Framework - Keamanan URL\app\Models\FilmModel.php(18): CodeIgniter\Database\BaseBuilder->get()
+#5 E:\DONT_OPEN_THIS_FOLDER\TUGAS-KULIAH\Semester 4\web-framewordk\webFramework\PHP Framework - Keamanan URL\app\Controllers\Film.php(39): App\Models\FilmModel->getAllDataJoin()
+#6 E:\DONT_OPEN_THIS_FOLDER\TUGAS-KULIAH\Semester 4\web-framewordk\webFramework\PHP Framework - Keamanan URL\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\Film->all()
+#7 E:\DONT_OPEN_THIS_FOLDER\TUGAS-KULIAH\Semester 4\web-framewordk\webFramework\PHP Framework - Keamanan URL\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+#8 E:\DONT_OPEN_THIS_FOLDER\TUGAS-KULIAH\Semester 4\web-framewordk\webFramework\PHP Framework - Keamanan URL\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 E:\DONT_OPEN_THIS_FOLDER\TUGAS-KULIAH\Semester 4\web-framewordk\webFramework\PHP Framework - Keamanan URL\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 E:\DONT_OPEN_THIS_FOLDER\TUGAS-KULIAH\Semester 4\web-framewordk\webFramework\PHP Framework - Keamanan URL\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('E:\\DONT_OPEN_TH...')
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in E:\DONT_OPEN_THIS_FOLDER\TUGAS-KULIAH\Semester 4\web-framewordk\webFramework\PHP Framework - Keamanan URL\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 E:\DONT_OPEN_THIS_FOLDER\TUGAS-KULIAH\Semester 4\web-framewordk\webFramework\PHP Framework - Keamanan URL\vendor\codeigniter4\framework\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 E:\DONT_OPEN_THIS_FOLDER\TUGAS-KULIAH\Semester 4\web-framewordk\webFramework\PHP Framework - Keamanan URL\vendor\codeigniter4\framework\system\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+#2 E:\DONT_OPEN_THIS_FOLDER\TUGAS-KULIAH\Semester 4\web-framewordk\webFramework\PHP Framework - Keamanan URL\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `film`.*...', Array, false)
+#3 E:\DONT_OPEN_THIS_FOLDER\TUGAS-KULIAH\Semester 4\web-framewordk\webFramework\PHP Framework - Keamanan URL\app\Models\FilmModel.php(18): CodeIgniter\Database\BaseBuilder->get()
+#4 E:\DONT_OPEN_THIS_FOLDER\TUGAS-KULIAH\Semester 4\web-framewordk\webFramework\PHP Framework - Keamanan URL\app\Controllers\Film.php(39): App\Models\FilmModel->getAllDataJoin()
+#5 E:\DONT_OPEN_THIS_FOLDER\TUGAS-KULIAH\Semester 4\web-framewordk\webFramework\PHP Framework - Keamanan URL\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\Film->all()
+#6 E:\DONT_OPEN_THIS_FOLDER\TUGAS-KULIAH\Semester 4\web-framewordk\webFramework\PHP Framework - Keamanan URL\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+#7 E:\DONT_OPEN_THIS_FOLDER\TUGAS-KULIAH\Semester 4\web-framewordk\webFramework\PHP Framework - Keamanan URL\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\DONT_OPEN_THIS_FOLDER\TUGAS-KULIAH\Semester 4\web-framewordk\webFramework\PHP Framework - Keamanan URL\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 E:\DONT_OPEN_THIS_FOLDER\TUGAS-KULIAH\Semester 4\web-framewordk\webFramework\PHP Framework - Keamanan URL\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('E:\\DONT_OPEN_TH...')
+#10 {main}
+CRITICAL - 2023-06-28 13:55:44 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(574): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT `film`.*, `genre`.`nama_genre`
+FROM `film`
+JOIN `genre` ON `genre`.`id_genre`  = `film`.`id_genre`', [], false)
+ 3 APPPATH\Models\FilmModel.php(18): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\Film.php(39): App\Models\FilmModel->getAllDataJoin()
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->all()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\DONT_OPEN_THIS_FOLDER\\TUGAS-KULIAH\\Semester 4\\web-framewordk\\webFramework\\PHP Framework - Keamanan URL\\public\\index.php')
+INFO - 2023-06-28 13:55:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 13:56:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 13:56:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 13:56:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 13:56:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 13:56:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 13:56:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-28 13:56:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
