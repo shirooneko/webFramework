@@ -2,8 +2,8 @@
 -- version 5.2.1
 -- https://www.phpmyadmin.net/
 --
--- Host: localhost
--- Waktu pembuatan: 19 Jun 2023 pada 03.05
+-- Host: 127.0.0.1
+-- Waktu pembuatan: 30 Jun 2023 pada 09.40
 -- Versi server: 10.4.28-MariaDB
 -- Versi PHP: 8.2.4
 
@@ -42,16 +42,16 @@ CREATE TABLE `film` (
 --
 
 INSERT INTO `film` (`id`, `nama_film`, `id_genre`, `duration`, `cover`, `created_at`, `updated_at`) VALUES
-(1, 'suzume', 4, '2 jam 4 menit', 'suzume.jpg', '2023-06-11 16:39:21', '2023-06-11 16:39:21'),
-(2, 'akhirat', 3, '2 jam 4 menit', 'akhirat.jpg', '2023-06-13 01:27:33', '2023-06-13 01:27:33'),
-(3, 'aku bukan wanita pilihan', 3, '2 jam 4 menit', 'aku bukan wanita pilihan.jpg', '2023-06-13 01:27:33', '2023-06-13 01:27:33'),
-(4, 'avanger', 1, '2 jam 4 menit', 'avanger.jpg', '2023-06-13 01:27:33', '2023-06-13 01:27:33'),
-(5, 'buya hamka', 3, '2 jam 4 menit', 'buya hamka.jpg', '2023-06-13 01:27:33', '2023-06-13 01:27:33'),
-(6, 'despicable', 2, '2 jam 4 menit', 'despicable.jpg', '2023-06-13 01:27:33', '2023-06-13 01:27:33'),
-(7, 'gatotkaca', 1, '2 jam 4 menit', 'gatotkaca.jpg', '2023-06-13 01:27:33', '2023-06-13 01:27:33'),
-(8, 'keluarga cemara', 3, '2 jam 4 menit', 'keluarga cemara.jpg', '2023-06-13 01:27:33', '2023-06-13 01:27:33'),
-(9, 'khanzab', 5, '2 jam 4 menit', 'khanzab.jpg', '2023-06-13 01:27:33', '2023-06-13 01:27:33'),
-(10, 'my stupid boss', 2, '2 jam 4 menit', 'my stupid boss.jpg', '2023-06-13 01:27:33', '2023-06-13 01:27:33');
+(57, 'The Flash', 1, ' 2 jam 24 menit', '1687963004_8dfba5d43d98172d7318.webp', '2023-06-28 14:36:44', '2023-06-28 14:36:44'),
+(58, 'Suzume', 4, ' 2 jam 7 menit', '1687963020_4f8bb6dad53ad31bf5a2.jpg', '2023-06-28 14:37:00', '2023-06-28 14:37:00'),
+(59, 'Spider-Man: Across the Spider-Verse', 1, ' 2 jam 24 menit', '1687963036_a61175012a317cbafe59.jpg', '2023-06-28 14:37:16', '2023-06-28 14:37:16'),
+(61, 'Aku bukan wanita pilihan', 3, ' 2 jam 24 menit', '1687963072_4ccf70c20c3d7e6b9a30.jpg', '2023-06-28 14:37:52', '2023-06-28 14:37:52'),
+(62, 'Akhirat', 3, ' 2 jam 24 menit', '1687963089_84719f91af23f7618df9.jpg', '2023-06-28 14:38:09', '2023-06-28 14:38:09'),
+(63, 'Avengers', 1, ' 2 jam 24 menit', '1687963105_a869eabdb2cbb7c36379.jpg', '2023-06-28 14:38:25', '2023-06-28 14:38:25'),
+(64, 'Khanzab', 5, ' 2 jam 24 menit', '1687963120_cc9db81447def04c5e78.jpg', '2023-06-28 14:38:40', '2023-06-28 14:38:40'),
+(65, 'Gatot Kaca', 1, ' 2 jam 24 menit', '1687963158_2cd5c4c91403a255ee6e.jpg', '2023-06-28 14:39:18', '2023-06-28 14:39:18'),
+(66, 'Keluarga Cemara', 3, ' 2 jam 24 menit', '1687963358_0ed8b94c91991aa92d6f.jpg', '2023-06-28 14:42:38', '2023-06-28 14:42:38'),
+(67, 'Transformers: Rise of the Beasts', 1, ' 2 jam 7 menit', '1687963388_160e76000b43a91eeb94.jpg', '2023-06-28 14:43:08', '2023-06-28 14:43:08');
 
 -- --------------------------------------------------------
 
@@ -102,7 +102,7 @@ ALTER TABLE `genre`
 -- AUTO_INCREMENT untuk tabel `film`
 --
 ALTER TABLE `film`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=11;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=68;
 
 --
 -- AUTO_INCREMENT untuk tabel `genre`
