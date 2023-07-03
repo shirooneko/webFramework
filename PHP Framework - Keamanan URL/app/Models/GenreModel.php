@@ -9,11 +9,16 @@ class GenreModel extends Model
     protected $table            = 'genre';
     protected $primaryKey       = 'id_genre';
     protected $useAutoIncrement = true;
-    protected $allowField       = [];
+    protected $allowedFields       = ['nama_genre'];
 
     //fungsi untuk menampilkan semua data dalam table
     public function getAllData()
     {
-        return $this->findAll();
+        return $this->orderBy('nama_genre', 'ASC')->findAll();
+    }
+
+    public function getDataById($id)
+    {
+        return $this->find($id);
     }
 }
