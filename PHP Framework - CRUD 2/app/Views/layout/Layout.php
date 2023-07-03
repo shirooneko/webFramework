@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -8,28 +7,6 @@
     <title>LK27</title>
     <link rel="stylesheet" href="/assets/css/bootstrap.min.css">
     <script src="/assets/js/unpkg.com_sweetalert@2.1.2_dist_sweetalert.min.js"></script>
-    <style>
-        body {
-            display: flex;
-            flex-direction: column;
-            min-height: 100vh;
-        }
-
-        .content {
-            flex: 1;
-        }
-
-        #sticky-footer {
-            background-color: #343a40;
-            color: #ffffff;
-            padding: 20px;
-            text-align: center;
-            width: 100%;
-            position: fixed;
-            bottom: 0;
-            left: 0;
-        }
-    </style>
 </head>
 
 <body>
@@ -48,6 +25,7 @@
                     <li class="nav-item">
                         <a class="nav-link <?php if (uri_string() == 'film') echo 'active'; ?>" href="/film">Semua Film</a>
                     </li>
+
                     <li class="nav-item">
                         <a class="nav-link <?php if (uri_string() == 'genre') echo 'active'; ?>" href="/genre">Kategori Film</a>
                     </li>
@@ -59,16 +37,14 @@
         </div>
     </nav>
 
-    <div class="content">
+    <div class="container">
         <?= $this->renderSection('content') ?>
     </div>
 
-    <footer id="sticky-footer">
-        <div class="container">
-            &copy; <script>
-                document.write(new Date().getFullYear())
-            </script> Muhammad Apriyansyah
-        </div>
+    <footer id="sticky-footer" class="bg-dark text-center text-white p-3 mt-5">
+        &copy <script>
+            document.write(new Date().getFullYear())
+        </script> Muhammad Apriyansyah
     </footer>
 
     <script src="/assets/js/bootstrap.min.js"></script>
@@ -82,6 +58,7 @@
                 button: "OK",
             });
         </script>
+
     <?php endif; ?>
 </body>
 
