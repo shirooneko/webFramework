@@ -54,11 +54,11 @@ class Genre extends BaseController
 
     public function update($id)
     {
-        $data["genre"] = $this->genre->getAllData();
         $data["errors"] = session('errors');
         $data["genre"] = $this->genre->getDataByID($id);
         return view("genre/edit", $data);
     }
+
 
     public function edit()
     {
@@ -73,23 +73,22 @@ class Genre extends BaseController
 
         if (!$validation) {
             $errors = \Config\Services::validation()->getErrors();
-
             return redirect()->back()->withInput()->with('errors', $errors);
         }
 
-
-        // taambah request id
+        $id_genre = $this->request->getPost('id');
         $data = [
-            'id_genre' => $this->request->getPost('id_genre'),
             'nama_genre' => $this->request->getPost('nama_genre'),
         ];
 
+        $this->genre->update($id_genre, $data);
 
-        $this->genre->save($data);
-        //ubah pesannya
         session()->setFlashdata('success', 'Data berhasil diupdate.');
         return redirect()->to("/genre");
     }
+
+
+
     public function destroy($id)
     {
         $this->genre->delete($id);
