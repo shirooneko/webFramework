@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Waktu pembuatan: 30 Jun 2023 pada 09.40
+-- Waktu pembuatan: 03 Jul 2023 pada 18.48
 -- Versi server: 10.4.28-MariaDB
 -- Versi PHP: 8.2.4
 
@@ -42,16 +42,16 @@ CREATE TABLE `film` (
 --
 
 INSERT INTO `film` (`id`, `nama_film`, `id_genre`, `duration`, `cover`, `created_at`, `updated_at`) VALUES
-(57, 'The Flash', 1, ' 2 jam 24 menit', '1687963004_8dfba5d43d98172d7318.webp', '2023-06-28 14:36:44', '2023-06-28 14:36:44'),
-(58, 'Suzume', 4, ' 2 jam 7 menit', '1687963020_4f8bb6dad53ad31bf5a2.jpg', '2023-06-28 14:37:00', '2023-06-28 14:37:00'),
-(59, 'Spider-Man: Across the Spider-Verse', 1, ' 2 jam 24 menit', '1687963036_a61175012a317cbafe59.jpg', '2023-06-28 14:37:16', '2023-06-28 14:37:16'),
-(61, 'Aku bukan wanita pilihan', 3, ' 2 jam 24 menit', '1687963072_4ccf70c20c3d7e6b9a30.jpg', '2023-06-28 14:37:52', '2023-06-28 14:37:52'),
-(62, 'Akhirat', 3, ' 2 jam 24 menit', '1687963089_84719f91af23f7618df9.jpg', '2023-06-28 14:38:09', '2023-06-28 14:38:09'),
-(63, 'Avengers', 1, ' 2 jam 24 menit', '1687963105_a869eabdb2cbb7c36379.jpg', '2023-06-28 14:38:25', '2023-06-28 14:38:25'),
-(64, 'Khanzab', 5, ' 2 jam 24 menit', '1687963120_cc9db81447def04c5e78.jpg', '2023-06-28 14:38:40', '2023-06-28 14:38:40'),
-(65, 'Gatot Kaca', 1, ' 2 jam 24 menit', '1687963158_2cd5c4c91403a255ee6e.jpg', '2023-06-28 14:39:18', '2023-06-28 14:39:18'),
-(66, 'Keluarga Cemara', 3, ' 2 jam 24 menit', '1687963358_0ed8b94c91991aa92d6f.jpg', '2023-06-28 14:42:38', '2023-06-28 14:42:38'),
-(67, 'Transformers: Rise of the Beasts', 1, ' 2 jam 7 menit', '1687963388_160e76000b43a91eeb94.jpg', '2023-06-28 14:43:08', '2023-06-28 14:43:08');
+(69, 'Spider-Man: Across the Spider-Verse', 1, ' 2 jam 24 menit', '1688394711_21930a666b1a9e5b975e.jpg', '2023-07-03 14:31:51', '2023-07-03 14:31:51'),
+(70, 'The Flash', 1, ' 2 jam 24 menit', '1688394883_30143824c065989c1d11.webp', '2023-07-03 14:34:43', '2023-07-03 14:34:43'),
+(71, 'Avengers', 1, ' 2 jam 24 menit', '1688394943_9042bb838ca5ea4ac69c.jpg', '2023-07-03 14:35:43', '2023-07-03 14:35:43'),
+(72, 'Akhirat', 3, ' 2 jam 24 menit', '1688394965_28518f0f2702c15a506f.jpg', '2023-07-03 14:36:05', '2023-07-03 14:36:05'),
+(73, 'Suzume', 4, ' 2 jam 24 menit', '1688394982_d598321ba31b7089174c.jpg', '2023-07-03 14:36:22', '2023-07-03 14:36:22'),
+(74, 'Khanzab', 5, ' 2 jam 24 menit', '1688395006_7a75e61c0ca813989e61.jpg', '2023-07-03 14:36:46', '2023-07-03 14:36:46'),
+(75, 'Keluarga Cemara', 3, ' 2 jam 10 menit', '1688395056_642507f5c9eead12f191.jpg', '2023-07-03 14:37:36', '2023-07-03 14:37:36'),
+(76, 'Gatot Kaca', 1, ' 2 jam 20 menit', '1688395070_aa040d8e5832fd8e5ece.jpg', '2023-07-03 14:37:50', '2023-07-03 14:37:50'),
+(77, 'Transformers: Rise of the Beasts', 1, ' 2 jam 7 menit', '1688395217_240160c5df97b84e49a0.jpg', '2023-07-03 14:40:17', '2023-07-03 14:40:17'),
+(78, 'Aku bukan wanita pilihan', 3, ' 2 jam 24 menit', '1688395317_89c7ef8ec65f0049f9c0.jpg', '2023-07-03 14:41:57', '2023-07-03 14:41:57');
 
 -- --------------------------------------------------------
 
@@ -71,11 +71,13 @@ CREATE TABLE `genre` (
 --
 
 INSERT INTO `genre` (`id_genre`, `nama_genre`, `created_at`, `updated_at`) VALUES
-(1, 'action', '2023-06-13 10:43:59', '2023-06-13 10:43:59'),
-(2, 'comedy', '2023-06-13 10:43:59', '2023-06-13 10:43:59'),
-(3, 'romance', '2023-06-13 10:43:59', '2023-06-13 10:43:59'),
-(4, 'fantacy', '2023-06-13 10:43:59', '2023-06-13 10:43:59'),
-(5, 'horror', '2023-06-13 10:43:59', '2023-06-13 10:43:59');
+(1, 'Action', '2023-06-13 10:43:59', '2023-06-13 10:43:59'),
+(2, 'Comedy', '2023-06-13 10:43:59', '2023-06-13 10:43:59'),
+(3, 'Romance', '2023-06-13 10:43:59', '2023-06-13 10:43:59'),
+(4, 'Fantacy', '2023-06-13 10:43:59', '2023-06-13 10:43:59'),
+(5, 'Horror', '2023-06-13 10:43:59', '2023-06-13 10:43:59'),
+(6, 'Drama', '2023-07-03 14:55:26', '2023-07-03 14:55:26'),
+(7, 'Sci-Fi', '2023-07-03 14:56:19', '2023-07-03 14:56:19');
 
 --
 -- Indexes for dumped tables
@@ -102,13 +104,13 @@ ALTER TABLE `genre`
 -- AUTO_INCREMENT untuk tabel `film`
 --
 ALTER TABLE `film`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=68;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=79;
 
 --
 -- AUTO_INCREMENT untuk tabel `genre`
 --
 ALTER TABLE `genre`
-  MODIFY `id_genre` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
+  MODIFY `id_genre` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=15;
 
 --
 -- Ketidakleluasaan untuk tabel pelimpahan (Dumped Tables)
