@@ -29,7 +29,7 @@
                                 <td><?= $i++ ?></td>
                                 <td><?= $row["nama_genre"] ?></td>
                                 <td>
-                                    <a href="" class="btn btn-success">Update</a>
+                                    <a href="/genre/update/<?= $row["id_genre"] ?>" class="btn btn-success">Update</a>
                                     <a href="" class="btn btn-danger">Delete</a>
                                 </td>
                             </tr>

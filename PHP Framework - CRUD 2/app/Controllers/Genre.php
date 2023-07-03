@@ -56,7 +56,44 @@ class Genre extends BaseController
     {
         $data["genre"] = $this->genre->getAllData();
         $data["errors"] = session('errors');
-        $data["dataFilm"] = $this->genre->getDataByID($id);
+        $data["genre"] = $this->genre->getDataByID($id);
         return view("genre/edit", $data);
+    }
+
+    public function edit()
+    {
+        $validation = $this->validate([
+            'nama_genre' => [
+                'rules' => 'required',
+                'errors' => [
+                    'required' => 'Kolom Nama Genre harus diisi'
+                ]
+            ]
+        ]);
+
+        if (!$validation) {
+            $errors = \Config\Services::validation()->getErrors();
+
+            return redirect()->back()->withInput()->with('errors', $errors);
+        }
+
+
+        // taambah request id
+        $data = [
+            'id_genre' => $this->request->getPost('id_genre'),
+            'nama_genre' => $this->request->getPost('nama_genre'),
+        ];
+
+
+        $this->genre->save($data);
+        //ubah pesannya
+        session()->setFlashdata('success', 'Data berhasil diupdate.');
+        return redirect()->to("/genre");
+    }
+    public function destroy($id)
+    {
+        $this->genre->delete($id);
+        session()->setFlashdata('success', 'Data berhasil dihapus');
+        return redirect()->to('/genre');
     }
 }
