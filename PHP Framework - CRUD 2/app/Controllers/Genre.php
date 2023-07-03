@@ -88,7 +88,6 @@ class Genre extends BaseController
     }
 
 
-
     public function destroy($id)
     {
         $this->genre->delete($id);
