@@ -51,4 +51,12 @@ class Genre extends BaseController
         session()->setFlashdata('success', 'Data berhasil disimpan.');
         return redirect()->to("/genre");
     }
+
+    public function update($id)
+    {
+        $data["genre"] = $this->genre->getAllData();
+        $data["errors"] = session('errors');
+        $data["dataFilm"] = $this->genre->getDataByID($id);
+        return view("genre/edit", $data);
+    }
 }

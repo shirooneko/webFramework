@@ -16,4 +16,9 @@ class GenreModel extends Model
     {
         return $this->orderBy('nama_genre', 'ASC')->findAll();
     }
+
+    public function getDataById($id)
+    {
+        return $this->find($id);
+    }
 }
