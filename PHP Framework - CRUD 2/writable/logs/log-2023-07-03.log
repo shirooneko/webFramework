@@ -172,3 +172,66 @@ INFO - 2023-07-03 15:20:42 --> Session: Class initialized using 'CodeIgniter\Ses
 INFO - 2023-07-03 15:20:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
 INFO - 2023-07-03 15:20:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
 INFO - 2023-07-03 15:20:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-03 15:23:28 --> Undefined array key "id"
+in APPPATH\Views\genre\index.php on line 33.
+ 1 APPPATH\Views\genre\index.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'E:\\DONT_OPEN_THIS_FOLDER\\TUGAS-KULIAH\\Semester 4\\web-framewordk\\webFramework\\PHP Framework - CRUD 2\\app\\Views\\genre\\index.php', 33)
+ 2 SYSTEMPATH\View\View.php(213): include('E:\\DONT_OPEN_THIS_FOLDER\\TUGAS-KULIAH\\Semester 4\\web-framewordk\\webFramework\\PHP Framework - CRUD 2\\app\\Views\\genre\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('genre/index', [], true)
+ 5 APPPATH\Controllers\Genre.php(21): view('genre/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Genre->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Genre))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\DONT_OPEN_THIS_FOLDER\\TUGAS-KULIAH\\Semester 4\\web-framewordk\\webFramework\\PHP Framework - CRUD 2\\public\\index.php')
+INFO - 2023-07-03 15:24:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-07-03 15:24:15 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`db_film`.`film`, CONSTRAINT `film_ibfk_1` FOREIGN KEY (`id_genre`) REFERENCES `genre` (`id_genre`)) in E:\DONT_OPEN_THIS_FOLDER\TUGAS-KULIAH\Semester 4\web-framewordk\webFramework\PHP Framework - CRUD 2\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 E:\DONT_OPEN_THIS_FOLDER\TUGAS-KULIAH\Semester 4\web-framewordk\webFramework\PHP Framework - CRUD 2\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('DELETE FROM `ge...', 0)
+#1 E:\DONT_OPEN_THIS_FOLDER\TUGAS-KULIAH\Semester 4\web-framewordk\webFramework\PHP Framework - CRUD 2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `ge...')
+#2 E:\DONT_OPEN_THIS_FOLDER\TUGAS-KULIAH\Semester 4\web-framewordk\webFramework\PHP Framework - CRUD 2\vendor\codeigniter4\framework\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `ge...')
+#3 E:\DONT_OPEN_THIS_FOLDER\TUGAS-KULIAH\Semester 4\web-framewordk\webFramework\PHP Framework - CRUD 2\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2791): CodeIgniter\Database\BaseConnection->query('DELETE FROM `ge...', Array, false)
+#4 E:\DONT_OPEN_THIS_FOLDER\TUGAS-KULIAH\Semester 4\web-framewordk\webFramework\PHP Framework - CRUD 2\vendor\codeigniter4\framework\system\Model.php(456): CodeIgniter\Database\BaseBuilder->delete()
+#5 E:\DONT_OPEN_THIS_FOLDER\TUGAS-KULIAH\Semester 4\web-framewordk\webFramework\PHP Framework - CRUD 2\vendor\codeigniter4\framework\system\BaseModel.php(1065): CodeIgniter\Model->doDelete(Array, false)
+#6 E:\DONT_OPEN_THIS_FOLDER\TUGAS-KULIAH\Semester 4\web-framewordk\webFramework\PHP Framework - CRUD 2\app\Controllers\Genre.php(95): CodeIgniter\BaseModel->delete(Array)
+#7 E:\DONT_OPEN_THIS_FOLDER\TUGAS-KULIAH\Semester 4\web-framewordk\webFramework\PHP Framework - CRUD 2\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\Genre->destroy('1')
+#8 E:\DONT_OPEN_THIS_FOLDER\TUGAS-KULIAH\Semester 4\web-framewordk\webFramework\PHP Framework - CRUD 2\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Genre))
+#9 E:\DONT_OPEN_THIS_FOLDER\TUGAS-KULIAH\Semester 4\web-framewordk\webFramework\PHP Framework - CRUD 2\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 E:\DONT_OPEN_THIS_FOLDER\TUGAS-KULIAH\Semester 4\web-framewordk\webFramework\PHP Framework - CRUD 2\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 E:\DONT_OPEN_THIS_FOLDER\TUGAS-KULIAH\Semester 4\web-framewordk\webFramework\PHP Framework - CRUD 2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('E:\\DONT_OPEN_TH...')
+#12 {main}
+CRITICAL - 2023-07-03 15:24:15 --> Cannot delete or update a parent row: a foreign key constraint fails (`db_film`.`film`, CONSTRAINT `film_ibfk_1` FOREIGN KEY (`id_genre`) REFERENCES `genre` (`id_genre`))
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('DELETE FROM `genre`
+WHERE `id_genre` IN (\'1\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `genre`
+WHERE `id_genre` IN (\'1\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `genre`
+WHERE `id_genre` IN (\'1\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2791): CodeIgniter\Database\BaseConnection->query('DELETE FROM `genre`
+WHERE `id_genre` IN :id_genre:', [...], false)
+ 5 SYSTEMPATH\Model.php(456): CodeIgniter\Database\BaseBuilder->delete()
+ 6 SYSTEMPATH\BaseModel.php(1065): CodeIgniter\Model->doDelete([...], false)
+ 7 APPPATH\Controllers\Genre.php(95): CodeIgniter\BaseModel->delete([...])
+ 8 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Genre->destroy('1')
+ 9 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Genre))
+10 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\DONT_OPEN_THIS_FOLDER\\TUGAS-KULIAH\\Semester 4\\web-framewordk\\webFramework\\PHP Framework - CRUD 2\\public\\index.php')
+INFO - 2023-07-03 15:24:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 15:24:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 15:24:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 15:24:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 15:24:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 15:24:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 15:24:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 15:24:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 15:24:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 15:26:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 15:26:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 15:26:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 15:26:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 15:26:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 15:26:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 15:27:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 15:27:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

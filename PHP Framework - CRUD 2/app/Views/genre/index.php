@@ -30,7 +30,7 @@
                                 <td><?= $row["nama_genre"] ?></td>
                                 <td>
                                     <a href="/genre/update/<?= $row["id_genre"] ?>" class="btn btn-success">Update</a>
-                                    <a href="" class="btn btn-danger">Delete</a>
+                                    <a class="btn btn-danger" onclick="confirmDelete('<?= $row["id_genre"] ?>')">Delete</a>
                                 </td>
                             </tr>
                         <?php endforeach ?>
@@ -40,5 +40,26 @@
         </div>
     </div>
 </div>
+
+<script>
+    function confirmDelete(id) {
+        swal({
+                title: "Apakah Anda yakin?",
+                text: "setelah dihapus! data anda akan benar-benar hilang!",
+                icon: "warning",
+                buttons: true,
+                dangerMode: true,
+            })
+            .then((willDelete) => {
+                if (willDelete) {
+
+                    window.location.href = "/genre/destroy/" + id;
+
+                } else {
+                    swal("Data tidak jadi dihapus!");
+                }
+            });
+    }
+</script>
 
 <?= $this->endSection() ?>
