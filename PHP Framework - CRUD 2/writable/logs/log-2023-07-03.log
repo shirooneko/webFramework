@@ -116,3 +116,13 @@ INFO - 2023-07-03 14:56:11 --> Session: Class initialized using 'CodeIgniter\Ses
 INFO - 2023-07-03 14:56:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
 INFO - 2023-07-03 14:56:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
 INFO - 2023-07-03 14:56:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-03 15:02:41 --> Too few arguments to function App\Models\GenreModel::getAllData(), 0 passed in E:\DONT_OPEN_THIS_FOLDER\TUGAS-KULIAH\Semester 4\web-framewordk\webFramework\PHP Framework - CRUD 2\app\Controllers\Genre.php on line 20 and exactly 1 expected
+in APPPATH\Models\GenreModel.php on line 15.
+ 1 APPPATH\Controllers\Genre.php(20): App\Models\GenreModel->getAllData()
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Genre->index()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Genre))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\DONT_OPEN_THIS_FOLDER\\TUGAS-KULIAH\\Semester 4\\web-framewordk\\webFramework\\PHP Framework - CRUD 2\\public\\index.php')
+INFO - 2023-07-03 15:03:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-03 15:04:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

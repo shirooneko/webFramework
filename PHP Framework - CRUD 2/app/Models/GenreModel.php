@@ -14,6 +14,6 @@ class GenreModel extends Model
     //fungsi untuk menampilkan semua data dalam table
     public function getAllData()
     {
-        return $this->findAll();
+        return $this->orderBy('nama_genre', 'ASC')->findAll();
     }
 }
