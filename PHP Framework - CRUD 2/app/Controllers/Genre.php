@@ -20,4 +20,35 @@ class Genre extends BaseController
         $data['genre'] = $this->genre->getAllData();
         return view("genre/index", $data);
     }
+
+    public function add()
+    {
+        $data['genre'] = $this->genre->getAllData();
+        $data['errors'] = session('errors');
+        return view("genre/add", $data);
+    }
+
+    public function store()
+    {
+        $validation = $this->validate([
+            'nama_genre' => [
+                'rules' => 'required',
+                'errors' => [
+                    'required' => 'Kolom Nama Genre harus diisi'
+                ]
+            ]
+        ]);
+
+        if (!$validation) {
+            $errors = \Config\Services::validation()->getErrors();
+
+            return redirect()->back()->withInput()->with('errors', $errors);
+        }
+
+
+        $data = ['nama_genre' => $this->request->getPost('nama_genre')];
+        $this->genre->save($data);
+        session()->setFlashdata('success', 'Data berhasil disimpan.');
+        return redirect()->to("/genre");
+    }
 }
