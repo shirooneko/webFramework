@@ -23,4 +23,25 @@
 </div>
 
 
+<script>
+  function confirmDelete(id) {
+    swal({
+        title: "Apakah Anda yakin?",
+        text: "setelah dihapus! data anda akan benar-benar hilang!",
+        icon: "warning",
+        buttons: true,
+        dangerMode: true,
+      })
+      .then((willDelete) => {
+        if (willDelete) {
+
+          window.location.href = "/film/destroy/" + id;
+
+        } else {
+          swal("Data tidak jadi dihapus!");
+        }
+      });
+  }
+</script>
+
 <?= $this->endSection() ?>
