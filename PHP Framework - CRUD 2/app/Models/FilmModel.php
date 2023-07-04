@@ -11,17 +11,19 @@ class FilmModel extends Model
     protected $useAutoIncrement = true;
     protected $allowedFields      = ['nama_film', 'id_genre', 'duration', 'cover'];
 
-    public function getAllDataJoin(){
+    public function getAllDataJoin()
+    {
         $query = $this->db->table("film")
-                ->select("film.*, genre.nama_genre")
-                ->join("genre","genre.id_genre  = film.id_genre");
-                return $query->get()->getResultArray();
+            ->select("film.*, genre.nama_genre")
+            ->join("genre", "genre.id_genre  = film.id_genre")
+            ->orderBy("film.nama_film", "ASC");
+        return $query->get()->getResultArray();
     }
 
     //fungsi untuk menampilkan semua data dalam table
     public function getAllData()
     {
-        return $this->findAll();
+        return $this->orderBy('nama_film', 'ASC')->findAll();
     }
 
     //fungsi menampilkan data table berdasarkan id
