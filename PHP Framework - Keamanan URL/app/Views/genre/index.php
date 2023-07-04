@@ -29,8 +29,8 @@
                                 <td><?= $i++ ?></td>
                                 <td><?= $row["nama_genre"] ?></td>
                                 <td>
-                                    <a href="/genre/update/<?= $row["id_genre"] ?>" class="btn btn-success">Update</a>
-                                    <a class="btn btn-danger" onclick="confirmDelete('<?= $row["id_genre"] ?>')">Delete</a>
+                                    <a href="/genre/update/<?= encryptUrl($row["id_genre"]); ?>" class="btn btn-success">Update</a>
+                                    <a class="btn btn-danger" onclick="confirmDelete('<?= encryptUrl($row["id_genre"]); ?>')">Delete</a>
                                 </td>
                             </tr>
                         <?php endforeach ?>

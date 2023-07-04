@@ -54,8 +54,9 @@ class Genre extends BaseController
 
     public function update($id)
     {
+        $decryptedId = decryptUrl($id);
         $data["errors"] = session('errors');
-        $data["genre"] = $this->genre->getDataByID($id);
+        $data["genre"] = $this->genre->getDataByID($decryptedId);
         return view("genre/edit", $data);
     }
 
@@ -89,7 +90,8 @@ class Genre extends BaseController
 
     public function destroy($id)
     {
-        $this->genre->delete($id);
+        $decryptedId = decryptUrl($id);
+        $this->genre->delete($decryptedId);
         session()->setFlashdata('success', 'Data berhasil dihapus');
         return redirect()->to('/genre');
     }
