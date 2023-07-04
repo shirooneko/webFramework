@@ -1,0 +1,354 @@
+INFO - 2023-07-04 03:07:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-04 03:07:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-04 03:07:55 --> openssl_decrypt(): IV passed is only 9 bytes long, cipher expects an IV of precisely 16 bytes, padding with \0
+in APPPATH\Helpers\url_helper.php on line 17.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'openssl_decrypt(): IV passed is only 9 bytes long, cipher expects an IV of precisely 16 bytes, padding with \\0', 'E:\\DONT_OPEN_THIS_FOLDER\\TUGAS-KULIAH\\Semester 4\\web-framewordk\\webFramework\\PHP Framework - Keamanan URL\\app\\Helpers\\url_helper.php', 17)
+ 2 APPPATH\Helpers\url_helper.php(17): openssl_decrypt('', 'AES-256-CBC', Object(SensitiveParameterValue), 0, 'Ý·&çU' . "\0" . 'èÂÒ')
+ 3 APPPATH\Controllers\Film.php(110): decryptUrl('3bcm51UA6MLSS')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->update('3bcm51UA6MLSS', 'zpafDUpUJXRHJwVk91cDhURTM1VXcwdDY0emc9PQ==')
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\DONT_OPEN_THIS_FOLDER\\TUGAS-KULIAH\\Semester 4\\web-framewordk\\webFramework\\PHP Framework - Keamanan URL\\public\\index.php')
+INFO - 2023-07-04 03:08:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-04 03:08:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-04 03:08:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-04 03:08:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-04 03:08:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-04 03:08:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-04 03:09:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-04 03:09:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-04 03:09:03 --> openssl_decrypt(): IV passed is only 6 bytes long, cipher expects an IV of precisely 16 bytes, padding with \0
+in APPPATH\Helpers\url_helper.php on line 17.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'openssl_decrypt(): IV passed is only 6 bytes long, cipher expects an IV of precisely 16 bytes, padding with \\0', 'E:\\DONT_OPEN_THIS_FOLDER\\TUGAS-KULIAH\\Semester 4\\web-framewordk\\webFramework\\PHP Framework - Keamanan URL\\app\\Helpers\\url_helper.php', 17)
+ 2 APPPATH\Helpers\url_helper.php(17): openssl_decrypt('', 'AES-256-CBC', Object(SensitiveParameterValue), 0, ' -•q')
+ 3 APPPATH\Controllers\Film.php(110): decryptUrl('oC0WlQhx')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->update('oC0WlQhx', 'T7+SnJd2r', '28XdZWllXUjFPc0VIRGtpSGlKTkY5eVE9PQ==')
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\DONT_OPEN_THIS_FOLDER\\TUGAS-KULIAH\\Semester 4\\web-framewordk\\webFramework\\PHP Framework - Keamanan URL\\public\\index.php')
+CRITICAL - 2023-07-04 03:12:39 --> openssl_decrypt(): IV passed is only 6 bytes long, cipher expects an IV of precisely 16 bytes, padding with \0
+in APPPATH\Helpers\url_helper.php on line 20.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'openssl_decrypt(): IV passed is only 6 bytes long, cipher expects an IV of precisely 16 bytes, padding with \\0', 'E:\\DONT_OPEN_THIS_FOLDER\\TUGAS-KULIAH\\Semester 4\\web-framewordk\\webFramework\\PHP Framework - Keamanan URL\\app\\Helpers\\url_helper.php', 20)
+ 2 APPPATH\Helpers\url_helper.php(20): openssl_decrypt('', 'AES-256-CBC', Object(SensitiveParameterValue), 0, ' -•q')
+ 3 APPPATH\Controllers\Film.php(110): decryptUrl('oC0WlQhx')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->update('oC0WlQhx', 'T7+SnJd2r', '28XdZWllXUjFPc0VIRGtpSGlKTkY5eVE9PQ==')
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\DONT_OPEN_THIS_FOLDER\\TUGAS-KULIAH\\Semester 4\\web-framewordk\\webFramework\\PHP Framework - Keamanan URL\\public\\index.php')
+CRITICAL - 2023-07-04 03:12:41 --> openssl_decrypt(): IV passed is only 6 bytes long, cipher expects an IV of precisely 16 bytes, padding with \0
+in APPPATH\Helpers\url_helper.php on line 20.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'openssl_decrypt(): IV passed is only 6 bytes long, cipher expects an IV of precisely 16 bytes, padding with \\0', 'E:\\DONT_OPEN_THIS_FOLDER\\TUGAS-KULIAH\\Semester 4\\web-framewordk\\webFramework\\PHP Framework - Keamanan URL\\app\\Helpers\\url_helper.php', 20)
+ 2 APPPATH\Helpers\url_helper.php(20): openssl_decrypt('', 'AES-256-CBC', Object(SensitiveParameterValue), 0, ' -•q')
+ 3 APPPATH\Controllers\Film.php(110): decryptUrl('oC0WlQhx')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->update('oC0WlQhx', 'T7+SnJd2r', '28XdZWllXUjFPc0VIRGtpSGlKTkY5eVE9PQ==')
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\DONT_OPEN_THIS_FOLDER\\TUGAS-KULIAH\\Semester 4\\web-framewordk\\webFramework\\PHP Framework - Keamanan URL\\public\\index.php')
+INFO - 2023-07-04 03:12:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-04 03:12:45 --> openssl_decrypt(): IV passed is only 1 bytes long, cipher expects an IV of precisely 16 bytes, padding with \0
+in APPPATH\Helpers\url_helper.php on line 20.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'openssl_decrypt(): IV passed is only 1 bytes long, cipher expects an IV of precisely 16 bytes, padding with \\0', 'E:\\DONT_OPEN_THIS_FOLDER\\TUGAS-KULIAH\\Semester 4\\web-framewordk\\webFramework\\PHP Framework - Keamanan URL\\app\\Helpers\\url_helper.php', 20)
+ 2 APPPATH\Helpers\url_helper.php(20): openssl_decrypt('', 'AES-256-CBC', Object(SensitiveParameterValue), 0, '¾')
+ 3 APPPATH\Controllers\Film.php(110): decryptUrl('vo')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->update('vo', 'iqde5k2CM9mA5ZQbeAw==-aGFUOHNtQmNqOGdwVmk5eEVBR1lOZz09')
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\DONT_OPEN_THIS_FOLDER\\TUGAS-KULIAH\\Semester 4\\web-framewordk\\webFramework\\PHP Framework - Keamanan URL\\public\\index.php')
+CRITICAL - 2023-07-04 03:19:35 --> openssl_decrypt(): IV passed is only 1 bytes long, cipher expects an IV of precisely 16 bytes, padding with \0
+in APPPATH\Helpers\url_helper.php on line 16.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'openssl_decrypt(): IV passed is only 1 bytes long, cipher expects an IV of precisely 16 bytes, padding with \\0', 'E:\\DONT_OPEN_THIS_FOLDER\\TUGAS-KULIAH\\Semester 4\\web-framewordk\\webFramework\\PHP Framework - Keamanan URL\\app\\Helpers\\url_helper.php', 16)
+ 2 APPPATH\Helpers\url_helper.php(16): openssl_decrypt('', 'AES-256-CBC', Object(SensitiveParameterValue), 0, '¾')
+ 3 APPPATH\Controllers\Film.php(110): decryptUrl('vo')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->update('vo', 'iqde5k2CM9mA5ZQbeAw==-aGFUOHNtQmNqOGdwVmk5eEVBR1lOZz09')
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\DONT_OPEN_THIS_FOLDER\\TUGAS-KULIAH\\Semester 4\\web-framewordk\\webFramework\\PHP Framework - Keamanan URL\\public\\index.php')
+CRITICAL - 2023-07-04 03:19:36 --> openssl_decrypt(): IV passed is only 1 bytes long, cipher expects an IV of precisely 16 bytes, padding with \0
+in APPPATH\Helpers\url_helper.php on line 16.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'openssl_decrypt(): IV passed is only 1 bytes long, cipher expects an IV of precisely 16 bytes, padding with \\0', 'E:\\DONT_OPEN_THIS_FOLDER\\TUGAS-KULIAH\\Semester 4\\web-framewordk\\webFramework\\PHP Framework - Keamanan URL\\app\\Helpers\\url_helper.php', 16)
+ 2 APPPATH\Helpers\url_helper.php(16): openssl_decrypt('', 'AES-256-CBC', Object(SensitiveParameterValue), 0, '¾')
+ 3 APPPATH\Controllers\Film.php(110): decryptUrl('vo')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->update('vo', 'iqde5k2CM9mA5ZQbeAw==-aGFUOHNtQmNqOGdwVmk5eEVBR1lOZz09')
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\DONT_OPEN_THIS_FOLDER\\TUGAS-KULIAH\\Semester 4\\web-framewordk\\webFramework\\PHP Framework - Keamanan URL\\public\\index.php')
+CRITICAL - 2023-07-04 03:19:37 --> openssl_decrypt(): IV passed is only 1 bytes long, cipher expects an IV of precisely 16 bytes, padding with \0
+in APPPATH\Helpers\url_helper.php on line 16.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'openssl_decrypt(): IV passed is only 1 bytes long, cipher expects an IV of precisely 16 bytes, padding with \\0', 'E:\\DONT_OPEN_THIS_FOLDER\\TUGAS-KULIAH\\Semester 4\\web-framewordk\\webFramework\\PHP Framework - Keamanan URL\\app\\Helpers\\url_helper.php', 16)
+ 2 APPPATH\Helpers\url_helper.php(16): openssl_decrypt('', 'AES-256-CBC', Object(SensitiveParameterValue), 0, '¾')
+ 3 APPPATH\Controllers\Film.php(110): decryptUrl('vo')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->update('vo', 'iqde5k2CM9mA5ZQbeAw==-aGFUOHNtQmNqOGdwVmk5eEVBR1lOZz09')
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\DONT_OPEN_THIS_FOLDER\\TUGAS-KULIAH\\Semester 4\\web-framewordk\\webFramework\\PHP Framework - Keamanan URL\\public\\index.php')
+INFO - 2023-07-04 03:19:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-04 03:19:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-04 03:19:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-04 03:19:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-04 03:19:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-04 03:19:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-04 03:19:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-04 03:19:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-04 03:19:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-04 03:19:59 --> openssl_decrypt(): IV passed is only 8 bytes long, cipher expects an IV of precisely 16 bytes, padding with \0
+in APPPATH\Helpers\url_helper.php on line 16.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'openssl_decrypt(): IV passed is only 8 bytes long, cipher expects an IV of precisely 16 bytes, padding with \\0', 'E:\\DONT_OPEN_THIS_FOLDER\\TUGAS-KULIAH\\Semester 4\\web-framewordk\\webFramework\\PHP Framework - Keamanan URL\\app\\Helpers\\url_helper.php', 16)
+ 2 APPPATH\Helpers\url_helper.php(16): openssl_decrypt('', 'AES-256-CBC', Object(SensitiveParameterValue), 0, 'ÔbMñnW;')
+ 3 APPPATH\Controllers\Film.php(110): decryptUrl('1GJN8W5XOww')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->update('1GJN8W5XOww', 'Ouol+Z1z5TExcTNkc0QweUt1QS9mUEdWRUZXYWc9PQ==')
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\DONT_OPEN_THIS_FOLDER\\TUGAS-KULIAH\\Semester 4\\web-framewordk\\webFramework\\PHP Framework - Keamanan URL\\public\\index.php')
+INFO - 2023-07-04 03:20:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-04 03:20:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-04 03:20:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-04 03:20:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-04 03:20:12 --> openssl_decrypt(): IV passed is only 7 bytes long, cipher expects an IV of precisely 16 bytes, padding with \0
+in APPPATH\Helpers\url_helper.php on line 16.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'openssl_decrypt(): IV passed is only 7 bytes long, cipher expects an IV of precisely 16 bytes, padding with \\0', 'E:\\DONT_OPEN_THIS_FOLDER\\TUGAS-KULIAH\\Semester 4\\web-framewordk\\webFramework\\PHP Framework - Keamanan URL\\app\\Helpers\\url_helper.php', 16)
+ 2 APPPATH\Helpers\url_helper.php(16): openssl_decrypt('', 'AES-256-CBC', Object(SensitiveParameterValue), 0, '²8£B%ä')
+ 3 APPPATH\Controllers\Film.php(110): decryptUrl('shY4o0Il5I')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->update('shY4o0Il5I', 'i1emFtiqEI1l2SEh3QUU0Yk1VZkI4dEoxRG0wVVE9PQ==')
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\DONT_OPEN_THIS_FOLDER\\TUGAS-KULIAH\\Semester 4\\web-framewordk\\webFramework\\PHP Framework - Keamanan URL\\public\\index.php')
+CRITICAL - 2023-07-04 03:20:16 --> openssl_decrypt(): IV passed is only 7 bytes long, cipher expects an IV of precisely 16 bytes, padding with \0
+in APPPATH\Helpers\url_helper.php on line 16.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'openssl_decrypt(): IV passed is only 7 bytes long, cipher expects an IV of precisely 16 bytes, padding with \\0', 'E:\\DONT_OPEN_THIS_FOLDER\\TUGAS-KULIAH\\Semester 4\\web-framewordk\\webFramework\\PHP Framework - Keamanan URL\\app\\Helpers\\url_helper.php', 16)
+ 2 APPPATH\Helpers\url_helper.php(16): openssl_decrypt('', 'AES-256-CBC', Object(SensitiveParameterValue), 0, '²8£B%ä')
+ 3 APPPATH\Controllers\Film.php(110): decryptUrl('shY4o0Il5I')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->update('shY4o0Il5I', 'i1emFtiqEI1l2SEh3QUU0Yk1VZkI4dEoxRG0wVVE9PQ==')
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\DONT_OPEN_THIS_FOLDER\\TUGAS-KULIAH\\Semester 4\\web-framewordk\\webFramework\\PHP Framework - Keamanan URL\\public\\index.php')
+CRITICAL - 2023-07-04 03:20:16 --> openssl_decrypt(): IV passed is only 7 bytes long, cipher expects an IV of precisely 16 bytes, padding with \0
+in APPPATH\Helpers\url_helper.php on line 16.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'openssl_decrypt(): IV passed is only 7 bytes long, cipher expects an IV of precisely 16 bytes, padding with \\0', 'E:\\DONT_OPEN_THIS_FOLDER\\TUGAS-KULIAH\\Semester 4\\web-framewordk\\webFramework\\PHP Framework - Keamanan URL\\app\\Helpers\\url_helper.php', 16)
+ 2 APPPATH\Helpers\url_helper.php(16): openssl_decrypt('', 'AES-256-CBC', Object(SensitiveParameterValue), 0, '²8£B%ä')
+ 3 APPPATH\Controllers\Film.php(110): decryptUrl('shY4o0Il5I')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->update('shY4o0Il5I', 'i1emFtiqEI1l2SEh3QUU0Yk1VZkI4dEoxRG0wVVE9PQ==')
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\DONT_OPEN_THIS_FOLDER\\TUGAS-KULIAH\\Semester 4\\web-framewordk\\webFramework\\PHP Framework - Keamanan URL\\public\\index.php')
+CRITICAL - 2023-07-04 03:21:13 --> openssl_decrypt(): IV passed is only 7 bytes long, cipher expects an IV of precisely 16 bytes, padding with \0
+in APPPATH\Helpers\url_helper.php on line 16.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'openssl_decrypt(): IV passed is only 7 bytes long, cipher expects an IV of precisely 16 bytes, padding with \\0', 'E:\\DONT_OPEN_THIS_FOLDER\\TUGAS-KULIAH\\Semester 4\\web-framewordk\\webFramework\\PHP Framework - Keamanan URL\\app\\Helpers\\url_helper.php', 16)
+ 2 APPPATH\Helpers\url_helper.php(16): openssl_decrypt('', 'AES-256-CBC', Object(SensitiveParameterValue), 0, '²8£B%ä')
+ 3 APPPATH\Controllers\Film.php(110): decryptUrl('shY4o0Il5I')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->update('shY4o0Il5I', 'i1emFtiqEI1l2SEh3QUU0Yk1VZkI4dEoxRG0wVVE9PQ==')
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\DONT_OPEN_THIS_FOLDER\\TUGAS-KULIAH\\Semester 4\\web-framewordk\\webFramework\\PHP Framework - Keamanan URL\\public\\index.php')
+CRITICAL - 2023-07-04 03:21:13 --> openssl_decrypt(): IV passed is only 7 bytes long, cipher expects an IV of precisely 16 bytes, padding with \0
+in APPPATH\Helpers\url_helper.php on line 16.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'openssl_decrypt(): IV passed is only 7 bytes long, cipher expects an IV of precisely 16 bytes, padding with \\0', 'E:\\DONT_OPEN_THIS_FOLDER\\TUGAS-KULIAH\\Semester 4\\web-framewordk\\webFramework\\PHP Framework - Keamanan URL\\app\\Helpers\\url_helper.php', 16)
+ 2 APPPATH\Helpers\url_helper.php(16): openssl_decrypt('', 'AES-256-CBC', Object(SensitiveParameterValue), 0, '²8£B%ä')
+ 3 APPPATH\Controllers\Film.php(110): decryptUrl('shY4o0Il5I')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->update('shY4o0Il5I', 'i1emFtiqEI1l2SEh3QUU0Yk1VZkI4dEoxRG0wVVE9PQ==')
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\DONT_OPEN_THIS_FOLDER\\TUGAS-KULIAH\\Semester 4\\web-framewordk\\webFramework\\PHP Framework - Keamanan URL\\public\\index.php')
+CRITICAL - 2023-07-04 03:21:14 --> openssl_decrypt(): IV passed is only 7 bytes long, cipher expects an IV of precisely 16 bytes, padding with \0
+in APPPATH\Helpers\url_helper.php on line 16.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'openssl_decrypt(): IV passed is only 7 bytes long, cipher expects an IV of precisely 16 bytes, padding with \\0', 'E:\\DONT_OPEN_THIS_FOLDER\\TUGAS-KULIAH\\Semester 4\\web-framewordk\\webFramework\\PHP Framework - Keamanan URL\\app\\Helpers\\url_helper.php', 16)
+ 2 APPPATH\Helpers\url_helper.php(16): openssl_decrypt('', 'AES-256-CBC', Object(SensitiveParameterValue), 0, '²8£B%ä')
+ 3 APPPATH\Controllers\Film.php(110): decryptUrl('shY4o0Il5I')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->update('shY4o0Il5I', 'i1emFtiqEI1l2SEh3QUU0Yk1VZkI4dEoxRG0wVVE9PQ==')
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\DONT_OPEN_THIS_FOLDER\\TUGAS-KULIAH\\Semester 4\\web-framewordk\\webFramework\\PHP Framework - Keamanan URL\\public\\index.php')
+INFO - 2023-07-04 03:21:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-04 03:21:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-04 03:21:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-04 03:21:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-04 03:21:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-04 03:21:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-04 03:21:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-04 03:21:24 --> openssl_decrypt(): IV passed is only 3 bytes long, cipher expects an IV of precisely 16 bytes, padding with \0
+in APPPATH\Helpers\url_helper.php on line 16.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'openssl_decrypt(): IV passed is only 3 bytes long, cipher expects an IV of precisely 16 bytes, padding with \\0', 'E:\\DONT_OPEN_THIS_FOLDER\\TUGAS-KULIAH\\Semester 4\\web-framewordk\\webFramework\\PHP Framework - Keamanan URL\\app\\Helpers\\url_helper.php', 16)
+ 2 APPPATH\Helpers\url_helper.php(16): openssl_decrypt('', 'AES-256-CBC', Object(SensitiveParameterValue), 0, 'r÷±')
+ 3 APPPATH\Controllers\Film.php(110): decryptUrl('cvex')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->update('cvex', 'pkVtsvktFtL0v3xyXY5SnQ1cDRSdHQ4WVF5UlkwNnVCaUE9PQ==')
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\DONT_OPEN_THIS_FOLDER\\TUGAS-KULIAH\\Semester 4\\web-framewordk\\webFramework\\PHP Framework - Keamanan URL\\public\\index.php')
+INFO - 2023-07-04 03:21:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-04 03:21:28 --> openssl_decrypt(): IV passed is only 3 bytes long, cipher expects an IV of precisely 16 bytes, padding with \0
+in APPPATH\Helpers\url_helper.php on line 16.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'openssl_decrypt(): IV passed is only 3 bytes long, cipher expects an IV of precisely 16 bytes, padding with \\0', 'E:\\DONT_OPEN_THIS_FOLDER\\TUGAS-KULIAH\\Semester 4\\web-framewordk\\webFramework\\PHP Framework - Keamanan URL\\app\\Helpers\\url_helper.php', 16)
+ 2 APPPATH\Helpers\url_helper.php(16): openssl_decrypt('', 'AES-256-CBC', Object(SensitiveParameterValue), 0, 'i³º')
+ 3 APPPATH\Controllers\Film.php(110): decryptUrl('abO6')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->update('abO6', 'dctkY6lt5xhaU7OMlZQeHlURVBHYm1kZzNiNG5iK1JweEE9PQ==')
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\DONT_OPEN_THIS_FOLDER\\TUGAS-KULIAH\\Semester 4\\web-framewordk\\webFramework\\PHP Framework - Keamanan URL\\public\\index.php')
+INFO - 2023-07-04 03:21:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-04 03:21:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-04 03:21:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-04 03:21:37 --> openssl_decrypt(): IV passed is only 10 bytes long, cipher expects an IV of precisely 16 bytes, padding with \0
+in APPPATH\Helpers\url_helper.php on line 16.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'openssl_decrypt(): IV passed is only 10 bytes long, cipher expects an IV of precisely 16 bytes, padding with \\0', 'E:\\DONT_OPEN_THIS_FOLDER\\TUGAS-KULIAH\\Semester 4\\web-framewordk\\webFramework\\PHP Framework - Keamanan URL\\app\\Helpers\\url_helper.php', 16)
+ 2 APPPATH\Helpers\url_helper.php(16): openssl_decrypt('', 'AES-256-CBC', Object(SensitiveParameterValue), 0, '\\\\j	ÂÖTö')
+ 3 APPPATH\Controllers\Film.php(110): decryptUrl('XB4CXGoJwtZU9j')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->update('XB4CXGoJwtZU9j', 'gugh+XkorTFVtaUV4dVdsUy94NGxCYmZsYWc9PQ==')
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\DONT_OPEN_THIS_FOLDER\\TUGAS-KULIAH\\Semester 4\\web-framewordk\\webFramework\\PHP Framework - Keamanan URL\\public\\index.php')
+INFO - 2023-07-04 03:21:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-04 03:21:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-04 03:21:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-04 03:21:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-04 03:21:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-04 03:21:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-04 03:21:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-04 03:21:51 --> openssl_decrypt(): IV passed is only 3 bytes long, cipher expects an IV of precisely 16 bytes, padding with \0
+in APPPATH\Helpers\url_helper.php on line 16.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'openssl_decrypt(): IV passed is only 3 bytes long, cipher expects an IV of precisely 16 bytes, padding with \\0', 'E:\\DONT_OPEN_THIS_FOLDER\\TUGAS-KULIAH\\Semester 4\\web-framewordk\\webFramework\\PHP Framework - Keamanan URL\\app\\Helpers\\url_helper.php', 16)
+ 2 APPPATH\Helpers\url_helper.php(16): openssl_decrypt('', 'AES-256-CBC', Object(SensitiveParameterValue), 0, '©ë')
+ 3 APPPATH\Controllers\Film.php(110): decryptUrl('qesb')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->update('qesb', 'TBEdz0tNHvgQo6SOGIzMStzSXN0UlBOME0zakJuWnhlNGc9PQ==')
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\DONT_OPEN_THIS_FOLDER\\TUGAS-KULIAH\\Semester 4\\web-framewordk\\webFramework\\PHP Framework - Keamanan URL\\public\\index.php')
+CRITICAL - 2023-07-04 03:22:28 --> openssl_decrypt(): IV passed is only 3 bytes long, cipher expects an IV of precisely 16 bytes, padding with \0
+in APPPATH\Helpers\url_helper.php on line 17.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'openssl_decrypt(): IV passed is only 3 bytes long, cipher expects an IV of precisely 16 bytes, padding with \\0', 'E:\\DONT_OPEN_THIS_FOLDER\\TUGAS-KULIAH\\Semester 4\\web-framewordk\\webFramework\\PHP Framework - Keamanan URL\\app\\Helpers\\url_helper.php', 17)
+ 2 APPPATH\Helpers\url_helper.php(17): openssl_decrypt('', 'AES-256-CBC', Object(SensitiveParameterValue), 0, '©ë')
+ 3 APPPATH\Controllers\Film.php(110): decryptUrl('qesb')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->update('qesb', 'TBEdz0tNHvgQo6SOGIzMStzSXN0UlBOME0zakJuWnhlNGc9PQ==')
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\DONT_OPEN_THIS_FOLDER\\TUGAS-KULIAH\\Semester 4\\web-framewordk\\webFramework\\PHP Framework - Keamanan URL\\public\\index.php')
+INFO - 2023-07-04 03:22:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-04 03:22:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-04 03:22:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-04 03:22:33 --> openssl_decrypt(): IV passed is only 4 bytes long, cipher expects an IV of precisely 16 bytes, padding with \0
+in APPPATH\Helpers\url_helper.php on line 17.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'openssl_decrypt(): IV passed is only 4 bytes long, cipher expects an IV of precisely 16 bytes, padding with \\0', 'E:\\DONT_OPEN_THIS_FOLDER\\TUGAS-KULIAH\\Semester 4\\web-framewordk\\webFramework\\PHP Framework - Keamanan URL\\app\\Helpers\\url_helper.php', 17)
+ 2 APPPATH\Helpers\url_helper.php(17): openssl_decrypt('', 'AES-256-CBC', Object(SensitiveParameterValue), 0, 'Ü¨áU')
+ 3 APPPATH\Controllers\Film.php(110): decryptUrl('3KjhVa')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->update('3KjhVa', '0db3BpYsdh+g0IUI5UTUwMUx3b2hTMGM5RW0ySXYxaFE9PQ==')
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\DONT_OPEN_THIS_FOLDER\\TUGAS-KULIAH\\Semester 4\\web-framewordk\\webFramework\\PHP Framework - Keamanan URL\\public\\index.php')
+INFO - 2023-07-04 03:22:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-04 03:22:38 --> openssl_decrypt(): IV passed is only 11 bytes long, cipher expects an IV of precisely 16 bytes, padding with \0
+in APPPATH\Helpers\url_helper.php on line 17.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'openssl_decrypt(): IV passed is only 11 bytes long, cipher expects an IV of precisely 16 bytes, padding with \\0', 'E:\\DONT_OPEN_THIS_FOLDER\\TUGAS-KULIAH\\Semester 4\\web-framewordk\\webFramework\\PHP Framework - Keamanan URL\\app\\Helpers\\url_helper.php', 17)
+ 2 APPPATH\Helpers\url_helper.php(17): openssl_decrypt('', 'AES-256-CBC', Object(SensitiveParameterValue), 0, '¼LiùÊê(éõ²C')
+ 3 APPPATH\Controllers\Film.php(110): decryptUrl('vExp+crqKOn1skP')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->update('vExp+crqKOn1skP', 'EPg7hVVJVFY5bmd2ODlGYXpEQkpCT3JEeEE9PQ==')
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\DONT_OPEN_THIS_FOLDER\\TUGAS-KULIAH\\Semester 4\\web-framewordk\\webFramework\\PHP Framework - Keamanan URL\\public\\index.php')
+INFO - 2023-07-04 03:22:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-04 03:22:40 --> openssl_decrypt(): IV passed is only 5 bytes long, cipher expects an IV of precisely 16 bytes, padding with \0
+in APPPATH\Helpers\url_helper.php on line 17.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'openssl_decrypt(): IV passed is only 5 bytes long, cipher expects an IV of precisely 16 bytes, padding with \\0', 'E:\\DONT_OPEN_THIS_FOLDER\\TUGAS-KULIAH\\Semester 4\\web-framewordk\\webFramework\\PHP Framework - Keamanan URL\\app\\Helpers\\url_helper.php', 17)
+ 2 APPPATH\Helpers\url_helper.php(17): openssl_decrypt('', 'AES-256-CBC', Object(SensitiveParameterValue), 0, 'ó”¨' . "\0" . 'Ú')
+ 3 APPPATH\Controllers\Film.php(110): decryptUrl('85SoANr')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->update('85SoANr', 'BaOhj2YF8gvgfFlrVXBiSHFGOFY1M0lWWng0S3ZtdXc9PQ==')
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\DONT_OPEN_THIS_FOLDER\\TUGAS-KULIAH\\Semester 4\\web-framewordk\\webFramework\\PHP Framework - Keamanan URL\\public\\index.php')
+INFO - 2023-07-04 03:22:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-04 03:22:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-04 03:22:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-04 03:22:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-04 03:23:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-04 03:23:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-04 03:23:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-04 03:23:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-04 03:23:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-07-04 03:23:46 --> openssl_decrypt(): IV passed is only 11 bytes long, cipher expects an IV of precisely 16 bytes, padding with \0
+in APPPATH\Helpers\url_helper.php on line 16.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'openssl_decrypt(): IV passed is only 11 bytes long, cipher expects an IV of precisely 16 bytes, padding with \\0', 'E:\\DONT_OPEN_THIS_FOLDER\\TUGAS-KULIAH\\Semester 4\\web-framewordk\\webFramework\\PHP Framework - Keamanan URL\\app\\Helpers\\url_helper.php', 16)
+ 2 APPPATH\Helpers\url_helper.php(16): openssl_decrypt('', 'AES-256-CBC', Object(SensitiveParameterValue), 0, '7ÈVYÄ
+ûøO')
+ 3 APPPATH\Controllers\Film.php(191): decryptUrl('N8gBVlnECvv4T48')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Film->destroy('N8gBVlnECvv4T48', '5WPwiHRhcUEzOTRmWGlUdGJKMDZZMHlHUXc9PQ==')
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Film))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('E:\\DONT_OPEN_THIS_FOLDER\\TUGAS-KULIAH\\Semester 4\\web-framewordk\\webFramework\\PHP Framework - Keamanan URL\\public\\index.php')
+INFO - 2023-07-04 03:23:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-04 03:23:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-04 03:23:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-04 03:24:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-04 03:24:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-04 03:24:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-04 03:24:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-04 03:24:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-04 03:24:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-04 03:24:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-04 03:24:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-04 03:24:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-04 03:24:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-04 03:24:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-04 03:24:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-04 03:25:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-04 03:25:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-04 03:25:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-04 03:25:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-04 03:25:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-04 03:25:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-04 03:25:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-04 03:25:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-04 03:25:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-04 03:25:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-04 03:25:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-04 03:25:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-04 03:25:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-04 03:25:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-04 03:25:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-04 03:25:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-04 03:25:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-04 03:25:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-04 03:25:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-04 03:25:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-04 03:25:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-04 03:25:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-04 03:26:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-04 03:26:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-04 03:26:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-04 03:27:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-04 03:27:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-04 03:27:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-04 03:28:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-04 03:28:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-04 03:28:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-04 03:28:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-04 03:29:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-04 03:29:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-04 03:29:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-04 03:29:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-04 03:29:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-04 03:30:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-04 03:30:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-04 03:30:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-04 03:30:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-07-04 03:30:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
