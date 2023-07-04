@@ -4,7 +4,8 @@ function encryptUrl($data)
     $key = 'MYs3cR3tK3y#2023';
     $iv = openssl_random_pseudo_bytes(16);
     $encrypted = openssl_encrypt($data, 'AES-256-CBC', $key, 0, $iv);
-    return rawurlencode(base64_encode($iv . $encrypted));
+    $encodedData = base64_encode($iv . $encrypted);
+    return rawurlencode($encodedData);
 }
 
 function decryptUrl($encryptedData)
