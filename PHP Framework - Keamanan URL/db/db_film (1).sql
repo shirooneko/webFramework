@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Waktu pembuatan: 04 Jul 2023 pada 05.48
+-- Waktu pembuatan: 04 Jul 2023 pada 13.51
 -- Versi server: 10.4.28-MariaDB
 -- Versi PHP: 8.2.4
 
@@ -42,18 +42,21 @@ CREATE TABLE `film` (
 --
 
 INSERT INTO `film` (`id`, `nama_film`, `id_genre`, `duration`, `cover`, `created_at`, `updated_at`) VALUES
-(79, 'Spider-Man: Across the Spider-Verse', 1, ' 2 jam 24 menit', '1688441051_5e7162c8760071441edd.jpg', '2023-07-04 03:24:11', '2023-07-04 03:24:11'),
 (80, 'The Flash', 1, ' 2 jam 20 menit', '1688441070_d26fbfae916f03eaf4e9.webp', '2023-07-04 03:24:30', '2023-07-04 03:24:30'),
 (81, 'Akhirat', 1, ' 2 jam 7 menit', '1688441087_2a6478ecfcfd7722b676.jpg', '2023-07-04 03:24:47', '2023-07-04 03:24:47'),
-(82, 'Suzume', 4, ' 2 jam 2 menit', '1688441106_cd65b75c6ed014584197.jpg', '2023-07-04 03:25:06', '2023-07-04 03:25:06'),
-(83, 'Avengers', 1, ' 2 jam 24 menit', '1688441125_d9e7606dd885a6f73b7c.jpg', '2023-07-04 03:25:25', '2023-07-04 03:25:25'),
+(82, 'Suzumee', 4, ' 2 jam 2 menit', '1688441106_cd65b75c6ed014584197.jpg', '2023-07-04 03:25:06', '2023-07-04 03:25:06'),
 (84, 'Khanzab', 5, '   2 jam 10 menit', '1688441166_1046835d2fd92c66fb0a.jpg', '2023-07-04 03:26:06', '2023-07-04 03:26:06'),
-(85, 'Wanita Tanah Jahanam', 5, ' 1 jam 46 menit', '1688441253_4eb99511eb3cf6f053bf.jpg', '2023-07-04 03:27:33', '2023-07-04 03:27:33'),
-(86, 'Kalian Pantas Mati', 5, ' 2 jam 20 menit', '1688441444_dd595ee9023ced369aa0.jpeg', '2023-07-04 03:29:02', '2023-07-04 03:29:02'),
 (87, 'Terminator Genesys', 1, ' 2 jam 6 menit', '1688441657_cb01277ae98ea93074fe.jpg', '2023-07-04 03:34:17', '2023-07-04 03:34:17'),
-(88, 'Viva JKT48', 6, ' 2 jam 24 menit', '1688441806_aa420754f3ffe989e2c8.jpg', '2023-07-04 03:36:46', '2023-07-04 03:36:46'),
 (89, 'Interstellar', 7, ' 2 jam 49 menit', '1688441901_eabadae8f62c7d96b3c4.webp', '2023-07-04 03:38:21', '2023-07-04 03:38:21'),
-(90, 'Oppenheimer', 6, ' 3 jam', '1688442026_4b017aeb6c478f8fe8e2.jpg', '2023-07-04 03:40:26', '2023-07-04 03:40:26');
+(90, 'Oppenheimer', 6, ' 3 jam', '1688442026_4b017aeb6c478f8fe8e2.jpg', '2023-07-04 03:40:26', '2023-07-04 03:40:26'),
+(91, 'Viva JKT48', 6, ' 2 jam 10 menit', '1688443902_501ec8635275849bfdbd.jpg', '2023-07-04 04:11:42', '2023-07-04 04:11:42'),
+(92, 'Kalian Pantas Mati', 5, ' 2 jam 24 menit', '1688443969_b6728247ce53b06ad4bd.jpeg', '2023-07-04 04:12:49', '2023-07-04 04:12:49'),
+(93, 'Wanita Tanah Jahanam', 5, ' 2 jam 20 menit', '1688444005_975b6ef5f69acd3bbaac.jpg', '2023-07-04 04:13:25', '2023-07-04 04:13:25'),
+(94, 'Avengers', 1, ' 2 jam 20 menit', '1688444081_8b81e8f9999874e2a0e9.jpg', '2023-07-04 04:14:41', '2023-07-04 04:14:41'),
+(95, 'Spider-Man: Across the Spider-Verse', 1, ' 2 jam 24 menit', '1688444111_111415983b775eebab23.jpg', '2023-07-04 04:15:11', '2023-07-04 04:15:11'),
+(96, 'Inception', 7, ' 2 jam 28 menit', '1688470816_a7ff3866c34c0ea057a6.jpg', '2023-07-04 11:40:16', '2023-07-04 11:40:16'),
+(97, 'Jujutsu Kaisen 0', 4, ' 1 jam 45 menit', '1688470934_ea920c86ceaf464d572f.jpg', '2023-07-04 11:42:14', '2023-07-04 11:42:14'),
+(98, 'Kimi No Nawa', 4, ' 1 jam 52 menit', '1688471091_b8b4d0db95a44d9baf69.png', '2023-07-04 11:44:51', '2023-07-04 11:44:51');
 
 -- --------------------------------------------------------
 
@@ -106,7 +109,7 @@ ALTER TABLE `genre`
 -- AUTO_INCREMENT untuk tabel `film`
 --
 ALTER TABLE `film`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=91;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=99;
 
 --
 -- AUTO_INCREMENT untuk tabel `genre`
